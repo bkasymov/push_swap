@@ -34,7 +34,7 @@ $(NAME): $(OBJ)
 	@ranlib $(NAME)
 
 %.o: %.c
-		@gcc -Wall -Wextra -Werror -c $< -o $@ -I includes -I ft_printf -I ftoa 
+		@gcc -c $< -o $@ -I includes -I ft_printf -I ftoa 
 
 clean:
 	@rm -f $(OBJ)
