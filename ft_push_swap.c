@@ -96,18 +96,35 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 	return (0);
 }
 
+
+/*
+** checking all arguments than be just digits;
+** allocating memory for stacks;
+** filling with arguments from argv to stack A;
+*/
+
 int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 {
 	int		i;
-	int		j;
 	int		res;
+	int		j;
 
-	res = 0;
 	j = 0;
+	res = 0;
 	i = 1;
-	while(argc > i++)
-		if ((res = ft_check_string(argv[i])) == 1)
+	while(argc > i)
+		if ((res = ft_check_string(argv[i++])) == 1)
 			return(1);
+	vars->a = (int *)malloc(sizeof(int) * argc);
+	vars->b = (int *)malloc(sizeof(int) * argc);
+	while (argc > 0)
+	{
+		vars->a[res] = ft_atoi(argv[res]);
+		res++;
+		argc--;
+		printf("%d", vars->a[res]);
+	}
+	
 	return (0);
 }
 
