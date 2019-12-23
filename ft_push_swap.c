@@ -69,7 +69,9 @@ int		ft_check_string(char *str)
 /*
 ** At first checking string if it have something except digits;
 ** splitting to array all elements of string between spaces;
-** Initialize variables for record all digits;
+** Finding count of values in string through num_word  function;
+** allocating memmory for stack variables;
+** converting all separate digits to integer and filling stack a;
 */
 
 int		ft_args_in_1_string(char *str, t_stacks *vars)
@@ -91,11 +93,21 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 		vars->a[i] = ft_atoi(split[i]);
 		i++;
 	}
-	while (res--)
-	{
-		printf("%d", vars->a[i]);
-		i++;
-	}
+	return (0);
+}
+
+int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
+{
+	int		i;
+	int		j;
+	int		res;
+
+	res = 0;
+	j = 0;
+	i = 1;
+	while(argc > i++)
+		if ((res = ft_check_string(argv[i])) == 1)
+			return(1);
 	return (0);
 }
 
@@ -123,7 +135,7 @@ int		main(int argc, char **argv)
 		return(ft_args_in_1_string(argv[1], &vars));
 	else if (argc == 1)
 		return(0);
-//	else
-		//return(ft_args_in_&_string(argv, argc, &vars));
+	else
+		return(ft_args_in_other_strings(argv, argc, &vars));
 	return(0);
 }
