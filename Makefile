@@ -1,16 +1,16 @@
 NAME = push_swap
 
-COMPILE = gcc
+COMPILE = gcc -g
 
-SRC = push_swap.c
+SRC = ft_push_swap.c
 
-INC = -I ./includes
+INC = -I ./includes -I ./libft/ft_printf -I ./libft/ftoa
 
 all: $(NAME)
 
 $(NAME):
 	make -C libft
-	$(COMPILE) $(SRC) $(INC)
+	$(COMPILE) $(SRC) $(INC) -L ./libft -lft
 
 clean:
 	rm -f ./libft/*.o
@@ -19,5 +19,5 @@ clean:
 
 fclean: clean
 	rm -f $(NAME)
-	rm -f libft/printf/libftprintf.a
+	rm -f libft/printf/libft.a
 	

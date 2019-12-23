@@ -54,7 +54,7 @@ int					ft_isdigit(int c);
 int					ft_isascii(int c);
 int					ft_isalpha(int c);
 int					ft_isalnum(int c);
-
+int					num_word(char const *s, char c);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);
 char				*ft_strnew(size_t size);

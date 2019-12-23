@@ -1,4 +1,4 @@
-NAME = libftprintf.a
+NAME = libft.a
 
 D_PR = ./ft_printf
 

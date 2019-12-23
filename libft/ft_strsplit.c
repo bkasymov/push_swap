@@ -27,7 +27,7 @@ static char			*ft_free(char **for_free, size_t count)
 	return (NULL);
 }
 
-static	int			num_word(char const *s, char c)
+int			num_word(char const *s, char c)
 {
 	int				i;
 	int				num;
