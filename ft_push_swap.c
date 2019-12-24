@@ -57,7 +57,7 @@ int		ft_first_check(char *str)
 	i = 0;
 	while(str[i] != '\0')
 	{
-		if (ft_isdigit(str[i] == 1) || str[i] == ' ' || (str[i] == '-')) //&& (str[i + 1] >= '0' && str[i + 1] <= '9'))))
+		if (ft_isdigit(str[i] == 1) || str[i] == ' ' || str[i] == '-') //&& (str[i + 1] >= '0' && str[i + 1] <= '9'))))
 			i++;
 		else
 			return(1);
