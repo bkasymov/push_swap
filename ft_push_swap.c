@@ -39,8 +39,10 @@ int             ft_isdigit(int c)
 ** function which print Error message;
 */
 
-void	error_print(void)
+void	error_print(t_stacks *vars)
 {
+		free(vars->a);
+		free(vars->b);
 		ft_printf("Error\n");
 }
 
@@ -48,20 +50,17 @@ void	error_print(void)
 ** It's first checking of numbers. If something except numbers - error; 
 */
 
-int		ft_check_string(char *str)
+int		ft_first_check(char *str)
 {
 	int		i;
 
 	i = 0;
-	while(*str)
+	while(str[i] != '\0')
 	{
-		if (ft_isdigit(*str) == 1 || *str == ' ' || *str == '-')
-			*str++;
+		if (ft_isdigit(str[i] == 1) || str[i] == ' ' || (str[i] == '-')) //&& (str[i + 1] >= '0' && str[i + 1] <= '9'))))
+			i++;
 		else
-		{
-			error_print();
 			return(1);
-		}
 	}
 	return(0);
 }
@@ -70,7 +69,7 @@ int		ft_check_string(char *str)
 ** At first checking string if it have something except digits;
 ** splitting to array all elements of string between spaces;
 ** Finding count of values in string through num_word  function;
-** allocating memmory for stack variables;
+** allocating memory for stack variables;
 ** converting all separate digits to integer and filling stack a;
 */
 
@@ -79,10 +78,12 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 	int		res;
 	int		i;
 	char	**split;
+	int		j;
 
+	j = 0;
 	res = 0;
 	i = 0;
-	if ((res = ft_check_string(str)) == 1)
+	if ((res = ft_first_check(str)) == 1)
 		return(1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
@@ -92,6 +93,8 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 	{
 		vars->a[i] = ft_atoi(split[i]);
 		i++;
+		printf("%d\n", vars->a[j]);
+		j++;
 	}
 	return (0);
 }
@@ -101,6 +104,7 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 ** checking all arguments than be just digits;
 ** allocating memory for stacks;
 ** filling with arguments from argv to stack A;
+** 
 */
 
 int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
@@ -108,23 +112,22 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 	int		i;
 	int		res;
 	int		j;
+	int		*g;
 
 	j = 0;
 	res = 0;
 	i = 1;
 	while(argc > i)
-		if ((res = ft_check_string(argv[i++])) == 1)
+		if ((res = ft_first_check(argv[i++])) == 1)
 			return(1);
 	vars->a = (int *)malloc(sizeof(int) * argc);
 	vars->b = (int *)malloc(sizeof(int) * argc);
-	while (argc > 0)
+	i = 1;
+	while (argc > i)
 	{
-		vars->a[res] = ft_atoi(argv[res]);
-		res++;
-		argc--;
-		printf("%d", vars->a[res]);
+			vars->a[i - 1] = ft_atoi(argv[i]);
+			++i;
 	}
-	
 	return (0);
 }
 
@@ -153,6 +156,7 @@ int		main(int argc, char **argv)
 	else if (argc == 1)
 		return(0);
 	else
-		return(ft_args_in_other_strings(argv, argc, &vars));
+		if ((ft_args_in_other_strings(argv, argc, &vars) == 1))
+			error_print(&vars);
 	return(0);
 }
