@@ -27,14 +27,6 @@ typedef		struct stacks
 	int			res;
 }				t_stacks;
 
-int             ft_isdigit(int c)
-{
-    if (c >= '0' && c <= '9')
-        return (1);
-    else
-        return (0);
-}
-
 /*
 ** function which print Error message;
 */
@@ -48,7 +40,7 @@ void	error_print(t_stacks *vars)
 
 /*
 ** It's first checking of numbers. If something except numbers - error; 
-*/
+*///&& (str[i + 1] >= '0' && str[i + 1] <= '9'))))
 
 int		ft_first_check(char *str)
 {
@@ -57,7 +49,7 @@ int		ft_first_check(char *str)
 	i = 0;
 	while(str[i] != '\0')
 	{
-		if (ft_isdigit(str[i] == 1) || str[i] == ' ' || str[i] == '-') //&& (str[i + 1] >= '0' && str[i + 1] <= '9'))))
+		if ((ft_isdigit(str[i])) == 1 || (str[i] == ' ') || (str[i] == '-'))
 			i++;
 		else
 			return(1);
@@ -87,8 +79,8 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 		return(1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
-	vars->a = (int *)malloc(sizeof(int) * res);
-	vars->b = (int *)malloc(sizeof(int) * res);
+	if (!(vars->a = ft_memalloc(res)) && !(vars->b = ft_memalloc(res)))
+		return(1);
 	while (res > i)
 	{
 		vars->a[i] = ft_atoi(split[i]);
@@ -118,15 +110,18 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 	res = 0;
 	i = 1;
 	while(argc > i)
-		if ((res = ft_first_check(argv[i++])) == 1)
-			return(1);
-	vars->a = (int *)malloc(sizeof(int) * argc);
-	vars->b = (int *)malloc(sizeof(int) * argc);
+			if ((ft_first_check(argv[i++])) == 1)
+				return(1);
+	if (!(vars->a = ft_memalloc(argc)) && !(vars->b = ft_memalloc(argc)))
+		return(1); 
 	i = 1;
 	while (argc > i)
 	{
-			vars->a[i - 1] = ft_atoi(argv[i]);
+			if (!(vars->a[i - 1] = ft_atoi(argv[i])))
+				return(1);
 			++i;
+			printf("%d\n", vars->a[j]);
+			j++;
 	}
 	return (0);
 }
@@ -152,9 +147,14 @@ int		main(int argc, char **argv)
 	t_stacks	vars;
 
 	if (argc == 2)
-		return(ft_args_in_1_string(argv[1], &vars));
+	{
+		if (ft_args_in_1_string(argv[1], &vars) == 1)
+		{
+			return(1);
+		}
+	}
 	else if (argc == 1)
-		return(0);
+		return(1);
 	else
 		if ((ft_args_in_other_strings(argv, argc, &vars) == 1))
 			error_print(&vars);

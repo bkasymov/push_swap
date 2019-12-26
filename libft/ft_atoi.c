@@ -19,7 +19,7 @@ int					ft_atoi(const char *str)
 {
 	size_t					i;
 	int						sym;
-	unsigned long long int	res;
+	int	res;
 
 	i = 0;
 	sym = 1;
@@ -35,10 +35,8 @@ int					ft_atoi(const char *str)
 	{
 		res = res * 10 + (str[i] - 48);
 		i++;
-	}
-	if (i > 10 || res >= INT_MAX)
-	{
-		return(-1);
+		if (i > 10 || (res * sym) < INT_MIN || (res * sym) > INT_MAX)
+			ft_printf("Error");
 	}
 	return (res * sym);
 }
