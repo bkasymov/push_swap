@@ -29,6 +29,8 @@ typedef		struct stacks
 
 /*
 ** function which print Error message;
+** free stacks variables;
+** write "Error";
 */
 
 void	error_print(t_stacks *vars)
@@ -38,6 +40,13 @@ void	error_print(t_stacks *vars)
 	write(2, "Error\n", 7);
 	exit(1);
 }
+
+/*
+ ** performed copy of ft_atoi
+ ** but specification of it that:
+ ** 1. miss all 0 symbols before number;
+ ** 2. if strings number more than int - calling error_print
+ */
 
 int					ft_atoips(t_stacks *vars, const char *str)
 {
