@@ -10,7 +10,7 @@ all: $(NAME)
 
 $(NAME):
 	make -C libft
-	$(COMPILE) -Wall -Wextra -Werror $(SRC) $(INC) -L ./libft -lft
+	$(COMPILE) $(SRC) $(INC) -L ./libft -lft
 
 clean:
 	rm -f ./libft/*.o

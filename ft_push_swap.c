@@ -76,9 +76,29 @@ int					ft_atoips(t_stacks *vars, const char *str)
 	return (res * sym);
 }
 
+int     ft_check_duplicates(t_stacks *vars, int argc)
+{
+	int     i;
+	int     j;
+
+	i = 0;
+	j = 1;
+	while (vars->a[i])
+	{
+		while (vars->b[j]++)
+		{
+			if (vars->a[i] == vars->a[j])
+				error_print(vars);
+			j++;
+		}
+		i++;
+	}
+}
+
 /*
 ** It's first checking of numbers. If something except numbers - error; 
-*///&& (str[i + 1] >= '0' && str[i + 1] <= '9'))))
+** && (str[i + 1] >= '0' && str[i + 1] <= '9'))))
+*/
 
 int		ft_first_check(char *str)
 {
@@ -126,6 +146,8 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 		printf("%d\n", vars->a[j]);
 		j++;
 	}
+	 if (ft_check_duplicates(vars, res) == 1)
+	 	error_print(vars);
 	return (0);
 }
 
@@ -160,6 +182,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 			printf("%d\n", vars->a[j]);
 			j++;
 	}
+	ft_check_dublicates(vars, argc);
 	return (0);
 }
 
