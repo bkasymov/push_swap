@@ -37,8 +37,6 @@ int					ft_atoi(const char *str)
 	{
 		res = res * 10 + (str[i] - 48);
 		i++;
-		if (i > 10 || (res * sym) < INT_MIN || (res * sym) > INT_MAX)
-			ft_printf("Error");
 	}
 	return (res * sym);
 }

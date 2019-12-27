@@ -13,418 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e580de7b-5d6e-472d-b9b5-a2efbe860888" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out.dSYM/Contents/Resources/DWARF/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out.dSYM/Contents/Resources/DWARF/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.idea/chuzhak.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/benchmark.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/checker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/Progress/77" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/Progress/79" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_arrindex.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_atoi.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_bzero.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isalnum.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isalpha.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isascii.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isblank.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isdigit.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isdigit_base.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isint.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_islower.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isnum.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isprefix.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isprint.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isspace.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_isupper.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_itoa.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstadd.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstaddback.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstdel.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstdelone.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstiter.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstmap.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_lstnew.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memalloc.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memccpy.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memchr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memcmp.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memcpy.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memdel.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memmove.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_memset.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_percent.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_pow_int.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putchar.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putchar_fd.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putendl.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putendl_fd.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putnbr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putnbr_fd.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putstr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_putstr_fd.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_signedlen.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strcat.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strchr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strchrs.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strclr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strcmp.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strcpy.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strdel.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strdup.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strequ.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_striter.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_striteri.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strjoin.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strlcat.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strlen.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strlwr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strmap.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strmapi.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strncat.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strncmp.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strncpy.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strndup.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strnequ.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strnew.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strnlen.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strnstr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strrchr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strrev.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strsplit.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strsplit_free.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strsplit_len.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strstr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strsub.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strsubchr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strtrim.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_strupr.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_tolower.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_toupper.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_unsignedlen.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_wchar_size.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/ft_wcslen.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/libft/sources/get_next_line.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/minilibx_macos/font.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/minilibx_macos/mlx_init_loop.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/minilibx_macos/mlx_int_str_to_wordtab.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/minilibx_macos/mlx_new_image.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/minilibx_macos/mlx_new_window.m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/minilibx_macos/mlx_shaders.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/checker.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/command.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/direction.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/draw.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/draw_utils.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/free.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/index.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/init.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/markup.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/parse.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/print.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/push.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/push_swap.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/reverse_rotate.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/rotate.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/solve.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/solve_a.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/solve_b.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/stack.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/swap.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/utils.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/validate.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/chuzhak.dir/sources/visualizer.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/chuzhak.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/includes/error_message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/includes/push_swap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/includes/visualizer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/author" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/includes/get_next_line.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/includes/libft.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/libft.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_arrindex.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_atoi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_bzero.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isalnum.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isalpha.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isascii.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isblank.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isdigit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isdigit_base.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isint.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_islower.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isnum.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isprefix.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isprint.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isspace.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_isupper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_itoa.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstadd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstaddback.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstdel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstdelone.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstiter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstmap.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_lstnew.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memalloc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memccpy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memcmp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memcpy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memdel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memmove.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_memset.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_percent.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_pow_int.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putchar.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putchar_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putendl.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putendl_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putnbr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putnbr_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putstr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_putstr_fd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_signedlen.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strcat.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strchrs.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strclr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strcmp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strcpy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strdel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strdup.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strequ.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_striter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_striteri.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strjoin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strlcat.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strlen.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strlwr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strmap.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strmapi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strncat.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strncmp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strncpy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strndup.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strnequ.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strnew.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strnlen.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strnstr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strrchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strrev.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strsplit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strsplit_free.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strsplit_len.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strstr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strsub.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strsubchr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strtrim.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_strupr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_tolower.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_toupper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_unsignedlen.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_wchar_size.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/ft_wcslen.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/objects/get_next_line.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_arrindex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_atoi.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_bzero.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isalnum.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isalpha.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isascii.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isblank.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isdigit.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isdigit_base.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isint.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_islower.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isnum.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isprefix.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isprint.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isspace.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_isupper.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_itoa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstadd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstaddback.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstdel.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstdelone.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstiter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstmap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_lstnew.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memalloc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memccpy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memchr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memcmp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memcpy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memdel.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memmove.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_memset.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_percent.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_pow_int.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putchar.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putchar_fd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putendl.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putendl_fd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putnbr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putnbr_fd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putstr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_putstr_fd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_signedlen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strcat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strchr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strchrs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strclr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strcmp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strcpy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strdel.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strdup.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strequ.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_striter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_striteri.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strjoin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strlcat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strlen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strlwr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strmap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strmapi.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strncat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strncmp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strncpy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strndup.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strnequ.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strnew.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strnlen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strnstr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strrchr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strrev.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strsplit.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strsplit_free.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strsplit_len.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strstr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strsub.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strsubchr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strtrim.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_strupr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_tolower.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_toupper.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_unsignedlen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_wchar_size.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/ft_wcslen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/libft/sources/get_next_line.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/_README_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/font.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/font.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man1/mlx.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man1/mlx_loop.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man1/mlx_new_image.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man1/mlx_new_window.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man1/mlx_pixel_put.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man3/mlx.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man3/mlx_loop.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man3/mlx_new_image.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man3/mlx_new_window.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/man/man3/mlx_pixel_put.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_init_loop.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_int.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_int_str_to_wordtab.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_new_image.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_new_window.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_new_window.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_rgb.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_shaders.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/minilibx_macos/mlx_xpm.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/checker.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/command.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/direction.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/draw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/draw_utils.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/free.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/index.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/init.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/markup.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/parse.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/print.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/push.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/push_swap.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/reverse_rotate.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/rotate.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/solve.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/solve_a.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/solve_b.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/stack.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/swap.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/utils.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/validate.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/objects/visualizer.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/push_swap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/push_swap.en.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/checker.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/command.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/direction.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/draw.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/draw_utils.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/free.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/index.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/init.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/markup.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/parse.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/print.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/push.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/push_swap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/reverse_rotate.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/rotate.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/solve.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/solve_a.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/solve_b.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/stack.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/swap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/utils.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/validate.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/sources/visualizer.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuzhak/visualizer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_push_swap.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_push_swap.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_atoi.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/ft_atoi.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_atoi.o" afterDir="false" />
@@ -499,7 +89,7 @@
       <workItem from="1576675233503" duration="2634000" />
       <workItem from="1577107871132" duration="275000" />
       <workItem from="1577457609202" duration="709000" />
-      <workItem from="1577458489446" duration="143000" />
+      <workItem from="1577458489446" duration="1124000" />
     </task>
     <servers />
   </component>
@@ -515,6 +105,38 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1204" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1577458632445" />
+    <state width="2518" height="469" key="GridCell.Tab.0.bottom" timestamp="1577458769187">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769187" />
+    <state width="2518" height="469" key="GridCell.Tab.0.center" timestamp="1577458769186">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769186" />
+    <state width="2518" height="469" key="GridCell.Tab.0.left" timestamp="1577458769186">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769186" />
+    <state width="2518" height="469" key="GridCell.Tab.0.right" timestamp="1577458769187">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769187" />
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1577458769188">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769188" />
+    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1577458769188">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769188" />
+    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1577458769187">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769187" />
+    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1577458769188">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1577458769188" />
     <state x="194" y="214" key="SettingsEditor" timestamp="1576675067608">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

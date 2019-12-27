@@ -12,7 +12,7 @@
 
 #include "unistd.h"
 #include "push_swap.h"
-
+#include "limits.h"
 
 /*
 ** it's structure of data which keeping all variables;
@@ -33,9 +33,38 @@ typedef		struct stacks
 
 void	error_print(t_stacks *vars)
 {
-		free(vars->a);
-		free(vars->b);
-		ft_printf("Error\n");
+	free(vars->a);
+	free(vars->b);
+	write(2, "Error\n", 7);
+	exit(1);
+}
+
+int					ft_atoips(t_stacks *vars, const char *str)
+{
+	size_t					i;
+	int						sym;
+	int	res;
+
+	i = 0;
+	sym = 1;
+	res = 0;
+	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t'
+	       || str[i] == '\r' || str[i] == '\f' || str[i] == '\v')
+		i++;
+	if (str[i] == '-')
+		sym = -1;
+	if (str[i] == '-' || str[i] == '+')
+		i++;
+	while (str[i] == 0)
+		i++;
+	while (str[i] >= '0' && str[i] <= '9')
+	{
+		res = res * 10 + (str[i] - 48);
+		i++;
+		if (i > 10 || (res * sym) < INT_MIN || (res * sym) > INT_MAX)
+			error_print(vars);
+	}
+	return (res * sym);
 }
 
 /*
@@ -83,7 +112,7 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 		return(1);
 	while (res > i)
 	{
-		vars->a[i] = ft_atoi(split[i]);
+		vars->a[i] = ft_atoips(vars, split[i]);
 		i++;
 		printf("%d\n", vars->a[j]);
 		j++;
