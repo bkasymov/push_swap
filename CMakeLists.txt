@@ -3,12 +3,14 @@ project(push_swap C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(.)
+include_directories(includes)
 include_directories(libft/ft_printf)
 include_directories(libft/ftoa)
 include_directories(libft/includes)
 
 add_executable(push_swap
+
+        includes/push_swap.h
         libft/ft_printf/apply_spec.c
         libft/ft_printf/apply_spec.h
         libft/ft_printf/apply_spec2.c
@@ -117,7 +119,4 @@ add_executable(push_swap
         libft/ft_toupper.c
         libft/get_next_line.c
         src/ft_checker.c
-        main.c
-        push_swap.c
-        push_swap.h
-        test.c)
+        ft_push_swap.c)

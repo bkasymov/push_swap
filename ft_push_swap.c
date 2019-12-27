@@ -104,7 +104,6 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 	int		i;
 	int		res;
 	int		j;
-	int		*g;
 
 	j = 0;
 	res = 0;
