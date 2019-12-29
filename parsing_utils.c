@@ -62,6 +62,19 @@ void    ft_quick_sort_ps(int *array, int start, int end)
  ** argc - 1 because it's name of programms
  */
 
+int		*ft_intcpy(int *dst, const int *src, int count)
+{
+	size_t	i;
+
+	i = 0;
+	while (i < count)
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	return (dst);
+}
+
 int     ft_check_duplicates(t_stacks *vars, int argc)
 {
 	int     i;
@@ -70,10 +83,12 @@ int     ft_check_duplicates(t_stacks *vars, int argc)
 
 	i = 0;
 	j = 0;
-	argc -= 1;
-	dupl = ft_memcpy(&dupl, vars->a, argc);
-	ft_quick_sort_ps(dupl, 0, argc);
-	while (argc > i)
+	//argc -= 2;
+	dupl = (int *)malloc(sizeof(int) * (argc - 1));
+	printf("%lu", sizeof(dupl));
+	dupl = ft_intcpy(dupl, vars->a, argc - 1);
+	ft_quick_sort_ps(dupl, 0, argc - 2);
+	while (argc > i - 2)
 	{
 		if (dupl[i] == dupl[i + 1])
 			error_print(vars);
