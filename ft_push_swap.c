@@ -79,7 +79,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 			printf("%d\n", vars->a[j]);
 			j++;
 	}
-//	ft_check_duplicates(vars, argc);
+	ft_check_duplicates(vars, argc);
 	return (0);
 }
 

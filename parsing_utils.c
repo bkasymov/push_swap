@@ -20,33 +20,66 @@ int		ft_first_check(char *str)
 	return(0);
 }
 
+int     ft_parting_array(int *array, int start, int end)
+{
+	int i;
+	int temp;
+	int j;
+	int pivot;
+
+	pivot = array[end];
+	i = start - 1;
+	j = start;
+	while (j < end)
+	{
+		if (array[j] <= pivot) {
+			i++;
+			temp = array[i];
+			array[i] = array[j];
+			array[j] = temp;
+		}
+		j++;
+	}
+	temp = array[i + 1];
+	array[i + 1] = array[end];
+	array[end] = temp;
+	return (i + 1);
+}
+
+void    ft_quick_sort_ps(int *array, int start, int end)
+{
+	int     q;
+
+	if (start < end)
+	{
+		q = ft_parting_array(array, start, end);
+		ft_quick_sort_ps(array, start, q - 1);
+		ft_quick_sort_ps(array, q + 1, end);
+	}
+}
+
 /*
- ** argc - 1 because it's name of programm
+ ** argc - 1 because it's name of programms
  */
 
 int     ft_check_duplicates(t_stacks *vars, int argc)
 {
 	int     i;
 	int     j;
-	int     z;
+	int     *dupl;
 
 	i = 0;
 	j = 0;
-	z = 0;
 	argc -= 1;
+	dupl = ft_memcpy(&dupl, vars->a, argc);
+	ft_quick_sort_ps(dupl, 0, argc);
 	while (argc > i)
 	{
-		while (argc > j)
-		{
-			if (vars->a[i] == vars->a[j])
-				z += 1;
-			j++;
-		}
-		j = 0;
+		if (dupl[i] == dupl[i + 1])
+			error_print(vars);
 		i++;
 	}
-	if (z == 2)
-		error_print(vars);
+	free(dupl);
 	return (0);
 }
 
@@ -61,7 +94,7 @@ int					ft_atoips(t_stacks *vars, const char *str)
 {
 	size_t					i;
 	int						sym;
-	int	res;
+	int	                    res;
 
 	i = 0;
 	sym = 1;
