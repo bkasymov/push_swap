@@ -43,8 +43,8 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 		printf("%d\n", vars->a[j]);
 		j++;
 	}
-	 if (ft_check_duplicates(vars, res) == 1)
-	 	error_print(vars);
+//	 if (ft_check_duplicates(vars, res) == 1)
+//	 	error_print(vars);
 	return (0);
 }
 
@@ -79,7 +79,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 			printf("%d\n", vars->a[j]);
 			j++;
 	}
-	ft_check_duplicates(vars, argc);
+//	ft_check_duplicates(vars, argc);
 	return (0);
 }
 
