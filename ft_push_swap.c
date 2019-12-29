@@ -83,9 +83,9 @@ int     ft_check_duplicates(t_stacks *vars, int argc)
 
 	i = 0;
 	j = 1;
-	while (vars->a[i])
+	while (argc > i)
 	{
-		while (vars->b[j]++)
+		while (argc > j)
 		{
 			if (vars->a[i] == vars->a[j])
 				error_print(vars);
@@ -93,6 +93,7 @@ int     ft_check_duplicates(t_stacks *vars, int argc)
 		}
 		i++;
 	}
+	return (0);
 }
 
 /*
@@ -182,7 +183,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 			printf("%d\n", vars->a[j]);
 			j++;
 	}
-	ft_check_dublicates(vars, argc);
+	ft_check_duplicates(vars, argc);
 	return (0);
 }
 
