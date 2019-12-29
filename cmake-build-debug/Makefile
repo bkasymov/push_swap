@@ -2823,6 +2823,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+parsing_utils.o: parsing_utils.c.o
+
+.PHONY : parsing_utils.o
+
+# target to build an object file
+parsing_utils.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/parsing_utils.c.o
+.PHONY : parsing_utils.c.o
+
+parsing_utils.i: parsing_utils.c.i
+
+.PHONY : parsing_utils.i
+
+# target to preprocess a source file
+parsing_utils.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/parsing_utils.c.i
+.PHONY : parsing_utils.c.i
+
+parsing_utils.s: parsing_utils.c.s
+
+.PHONY : parsing_utils.s
+
+# target to generate assembly for a file
+parsing_utils.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/parsing_utils.c.s
+.PHONY : parsing_utils.c.s
+
 src/ft_checker.o: src/ft_checker.c.o
 
 .PHONY : src/ft_checker.o
@@ -3159,6 +3186,9 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... parsing_utils.o"
+	@echo "... parsing_utils.i"
+	@echo "... parsing_utils.s"
 	@echo "... src/ft_checker.o"
 	@echo "... src/ft_checker.i"
 	@echo "... src/ft_checker.s"

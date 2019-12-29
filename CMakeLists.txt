@@ -119,4 +119,4 @@ add_executable(push_swap
         libft/ft_toupper.c
         libft/get_next_line.c
         src/ft_checker.c
-        ft_push_swap.c)
+        ft_push_swap.c parsing_utils.c)

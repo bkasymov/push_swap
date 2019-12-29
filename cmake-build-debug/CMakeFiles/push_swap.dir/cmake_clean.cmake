@@ -99,6 +99,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o"
   "CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
+  "CMakeFiles/push_swap.dir/parsing_utils.c.o"
   "CMakeFiles/push_swap.dir/src/ft_checker.c.o"
   "push_swap"
   "push_swap.pdb"

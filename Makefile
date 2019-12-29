@@ -2,7 +2,7 @@ NAME = push_swap
 
 COMPILE = gcc -g
 
-SRC = ft_push_swap.c
+SRC = ft_push_swap.c parsing_utils.c
 
 INC = -I ./includes -I ./libft/ft_printf -I ./libft/ftoa
 

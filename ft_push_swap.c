@@ -10,111 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "unistd.h"
 #include "push_swap.h"
-#include "limits.h"
-
-/*
-** it's structure of data which keeping all variables;
-*/
-
-typedef		struct stacks
-{
-	int			*a;
-	int			*b;
-	int			i;
-	int			j;
-	int			res;
-}				t_stacks;
-
-/*
-** function which print Error message;
-** free stacks variables;
-** write "Error";
-*/
-
-void	error_print(t_stacks *vars)
-{
-	free(vars->a);
-	free(vars->b);
-	write(2, "Error\n", 7);
-	exit(1);
-}
-
-/*
- ** performed copy of ft_atoi
- ** but specification of it that:
- ** 1. miss all 0 symbols before number;
- ** 2. if strings number more than int - calling error_print
- */
-
-int					ft_atoips(t_stacks *vars, const char *str)
-{
-	size_t					i;
-	int						sym;
-	int	res;
-
-	i = 0;
-	sym = 1;
-	res = 0;
-	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t'
-	       || str[i] == '\r' || str[i] == '\f' || str[i] == '\v')
-		i++;
-	if (str[i] == '-')
-		sym = -1;
-	if (str[i] == '-' || str[i] == '+')
-		i++;
-	while (str[i] == 0)
-		i++;
-	while (str[i] >= '0' && str[i] <= '9')
-	{
-		res = res * 10 + (str[i] - 48);
-		i++;
-		if (i > 10 || (res * sym) < INT_MIN || (res * sym) > INT_MAX)
-			error_print(vars);
-	}
-	return (res * sym);
-}
-
-int     ft_check_duplicates(t_stacks *vars, int argc)
-{
-	int     i;
-	int     j;
-
-	i = 0;
-	j = 1;
-	while (argc > i)
-	{
-		while (argc > j)
-		{
-			if (vars->a[i] == vars->a[j])
-				error_print(vars);
-			j++;
-		}
-		i++;
-	}
-	return (0);
-}
-
-/*
-** It's first checking of numbers. If something except numbers - error; 
-** && (str[i + 1] >= '0' && str[i + 1] <= '9'))))
-*/
-
-int		ft_first_check(char *str)
-{
-	int		i;
-
-	i = 0;
-	while(str[i] != '\0')
-	{
-		if ((ft_isdigit(str[i])) == 1 || (str[i] == ' ') || (str[i] == '-'))
-			i++;
-		else
-			return(1);
-	}
-	return(0);
-}
 
 /*
 ** At first checking string if it have something except digits;
@@ -177,7 +73,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 	i = 1;
 	while (argc > i)
 	{
-			if (!(vars->a[i - 1] = ft_atoi(argv[i])))
+			if(!(vars->a[i - 1] = ft_atoips(vars ,argv[i])))
 				return(1);
 			++i;
 			printf("%d\n", vars->a[j]);
