@@ -75,7 +75,7 @@ int		*ft_intcpy(int *dst, const int *src, int count)
 	return (dst);
 }
 
-int     ft_check_duplicates(t_stacks *vars, int argc)
+int     ft_check_duplicates(t_stacks *vars, int count)
 {
 	int     i;
 	int     j;
@@ -83,18 +83,30 @@ int     ft_check_duplicates(t_stacks *vars, int argc)
 
 	i = 0;
 	j = 0;
-	//argc -= 2;
-	dupl = (int *)malloc(sizeof(int) * (argc - 1));
-	printf("%lu", sizeof(dupl));
-	dupl = ft_intcpy(dupl, vars->a, argc - 1);
-	ft_quick_sort_ps(dupl, 0, argc - 2);
-	while (argc > i - 2)
-	{
-		if (dupl[i] == dupl[i + 1])
-			error_print(vars);
-		i++;
-	}
-	free(dupl);
+	vars->count = count;
+	dupl = (int *)malloc(sizeof(int) * (count));
+	//printf("%lu", sizeof(dupl));
+	dupl = ft_intcpy(dupl, vars->a, count);
+    while (4 > i)
+    {
+        printf("Дубликаты скопированы %d\n", dupl[i]);
+        i++;
+    }
+	ft_quick_sort_ps(dupl, 0, count);
+    i = 0;
+    //ft_intcpy working good, but quick sort have problems;
+    while (4 > i)
+    {
+        printf("Дубликаты отсортированы %d\n", dupl[i]);
+        i++;
+    }
+//	while(count >= j)
+//    {
+//	    if (dupl[j] == dupl[j + 1])
+//	        error_print(vars);
+//        printf("Duplicate %d\n", dupl[j]);
+//        j++;
+//    }
 	return (0);
 }
 

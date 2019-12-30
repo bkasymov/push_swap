@@ -40,11 +40,11 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 	{
 		vars->a[i] = ft_atoips(vars, split[i]);
 		i++;
-		printf("%d\n", vars->a[j]);
-		j++;
+//		printf("%d\n", vars->a[j]);
+//		j++;
 	}
-//	 if (ft_check_duplicates(vars, res) == 1)
-//	 	error_print(vars);
+    printf("In several argc %d count\n", res);
+	ft_check_duplicates(vars, res);
 	return (0);
 }
 
@@ -76,9 +76,10 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 			if(!(vars->a[i - 1] = ft_atoips(vars ,argv[i])))
 				return(1);
 			++i;
-			printf("%d\n", vars->a[j]);
-			j++;
+//			printf("%d\n", vars->a[j]);
+//			j++;
 	}
+	printf("In several argc %d count\n", argc - 1);
 	ft_check_duplicates(vars, argc);
 	return (0);
 }

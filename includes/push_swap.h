@@ -12,7 +12,7 @@ typedef		struct stacks
 {
 	int			*a;
 	int			*b;
-	int			i;
+	int         count;
 	int			j;
 	int			res;
 }				t_stacks;
