@@ -2904,6 +2904,33 @@ src/parser/parsing_utils2.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s
 .PHONY : src/parser/parsing_utils2.c.s
 
+src/rules/rules_pp.o: src/rules/rules_pp.c.o
+
+.PHONY : src/rules/rules_pp.o
+
+# target to build an object file
+src/rules/rules_pp.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o
+.PHONY : src/rules/rules_pp.c.o
+
+src/rules/rules_pp.i: src/rules/rules_pp.c.i
+
+.PHONY : src/rules/rules_pp.i
+
+# target to preprocess a source file
+src/rules/rules_pp.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.i
+.PHONY : src/rules/rules_pp.c.i
+
+src/rules/rules_pp.s: src/rules/rules_pp.c.s
+
+.PHONY : src/rules/rules_pp.s
+
+# target to generate assembly for a file
+src/rules/rules_pp.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.s
+.PHONY : src/rules/rules_pp.c.s
+
 src/rules/rules_ss.o: src/rules/rules_ss.c.o
 
 .PHONY : src/rules/rules_ss.o
@@ -3249,6 +3276,9 @@ help:
 	@echo "... src/parser/parsing_utils2.o"
 	@echo "... src/parser/parsing_utils2.i"
 	@echo "... src/parser/parsing_utils2.s"
+	@echo "... src/rules/rules_pp.o"
+	@echo "... src/rules/rules_pp.i"
+	@echo "... src/rules/rules_pp.s"
 	@echo "... src/rules/rules_ss.o"
 	@echo "... src/rules/rules_ss.i"
 	@echo "... src/rules/rules_ss.s"

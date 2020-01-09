@@ -2,7 +2,8 @@ NAME = push_swap
 
 COMPILE = gcc -g
 
-SRC = ./src/ft_push_swap.c ./src/parser/parsing_utils.c ./src/parser/parsing_utils2.c ./src/parser/ft_check_duplicates.c ./src/rules/rules_ss.c
+SRC = ./src/ft_push_swap.c ./src/parser/parsing_utils.c ./src/parser/parsing_utils2.c ./src/parser/ft_check_duplicates.c ./src/rules/rules_ss.c \
+		./src/rules/rules_pp.c
 
 INC = -I ./includes -I ./libft/ft_printf -I ./libft/ftoa -I ./src/rules/rules.h
 

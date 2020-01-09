@@ -36,7 +36,7 @@ int		ft_partition(int *array, int start, int end);
 void	ft_quick_sort(int *array, int start, int end);
 
 /*
- * Performing rules of subject;
+ * Performing rule swap two first elements;
  */
 
 void    ft_rule_swap(int *array, int quant);
@@ -44,6 +44,11 @@ void    ft_rule_swap_a(t_vars *psv);
 void    ft_rule_swap_b(t_vars *psv);
 void    ft_rule_ss(t_vars *psv);
 
+/*
+ *  Performing rule pp of take on element of one stack and put to the top of other one stack
+ */
+
+void        ft_pb(t_vars *psv);
 
 
 #endif

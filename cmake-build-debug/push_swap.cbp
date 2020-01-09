@@ -424,6 +424,9 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/rules/rules_pp.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c">
 			<Option target="push_swap"/>
 		</Unit>

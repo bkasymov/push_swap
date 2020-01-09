@@ -107,6 +107,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dpenney/Desktop/push_swap/src/parser/ft_check_duplicates.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/rules/rules_pp.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o"
   "/Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

@@ -102,6 +102,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o"
   "CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
+  "CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o"
   "CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
   "push_swap"
   "push_swap.pdb"

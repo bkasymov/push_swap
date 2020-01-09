@@ -120,4 +120,4 @@ add_executable(push_swap
         src/parser/ft_check_duplicates.c
         src/parser/parsing_utils.c
         src/parser/parsing_utils2.c
-        src/ft_push_swap.c src/rules/rules_ss.c)
+        src/ft_push_swap.c src/rules/rules_ss.c src/rules/rules_pp.c)
