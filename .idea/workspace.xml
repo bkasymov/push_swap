@@ -12,24 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e580de7b-5d6e-472d-b9b5-a2efbe860888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rules/rules_pp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a.out.dSYM/Contents/Resources/DWARF/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out.dSYM/Contents/Resources/DWARF/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_push_swap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_push_swap.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/push_swap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ft_push_swap.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ft_push_swap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rules/rules_pp.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/rules/rules_pp.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,7 @@
       <workItem from="1577640376116" duration="634000" />
       <workItem from="1577644249374" duration="6778000" />
       <workItem from="1577665909014" duration="7407000" />
-      <workItem from="1578549152519" duration="1117000" />
+      <workItem from="1578549152519" duration="1933000" />
     </task>
     <servers />
   </component>
@@ -126,54 +118,54 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1204" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1577653629818" />
-    <state x="1522" y="393" width="642" height="527" key="#push_swap" timestamp="1578550683299">
+    <state x="1522" y="393" width="642" height="527" key="#push_swap" timestamp="1578551202865">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1522" y="393" key="#push_swap/0.23.2560.1337@0.23.2560.1337" timestamp="1578550683299" />
+    <state x="1522" y="393" key="#push_swap/0.23.2560.1337@0.23.2560.1337" timestamp="1578551202865" />
     <state x="714" y="232" width="642" height="527" key="#push_swap/67.27.1299.741@67.27.1299.741" timestamp="1577673716407" />
     <state x="464" y="148" key="#xdebugger.evaluate" timestamp="1577666156141">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="464" y="148" key="#xdebugger.evaluate/67.27.1299.741@67.27.1299.741" timestamp="1577666156141" />
-    <state width="1009" height="402" key="GridCell.Tab.0.bottom" timestamp="1578550683730">
+    <state width="1009" height="180" key="GridCell.Tab.0.bottom" timestamp="1578551257170">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1009" height="402" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578550683730" />
+    <state width="1009" height="180" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578551257170" />
     <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577673717490" />
-    <state width="1009" height="402" key="GridCell.Tab.0.center" timestamp="1578550683730">
+    <state width="1009" height="180" key="GridCell.Tab.0.center" timestamp="1578551257169">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1009" height="402" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578550683730" />
+    <state width="1009" height="180" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578551257169" />
     <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577673717489" />
-    <state width="1009" height="402" key="GridCell.Tab.0.left" timestamp="1578550683729">
+    <state width="1009" height="180" key="GridCell.Tab.0.left" timestamp="1578551257168">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1009" height="402" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578550683729" />
+    <state width="1009" height="180" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578551257168" />
     <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577673717489" />
-    <state width="1009" height="402" key="GridCell.Tab.0.right" timestamp="1578550683730">
+    <state width="1009" height="180" key="GridCell.Tab.0.right" timestamp="1578551257169">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1009" height="402" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578550683730" />
+    <state width="1009" height="180" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578551257169" />
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577673717490" />
-    <state width="2518" height="466" key="GridCell.Tab.1.bottom" timestamp="1578550063364">
+    <state width="1009" height="332" key="GridCell.Tab.1.bottom" timestamp="1578551146848">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="466" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578550063364" />
+    <state width="1009" height="332" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578551146848" />
     <state width="1253" height="188" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
-    <state width="2518" height="466" key="GridCell.Tab.1.center" timestamp="1578550063364">
+    <state width="1009" height="332" key="GridCell.Tab.1.center" timestamp="1578551146847">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="466" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578550063364" />
+    <state width="1009" height="332" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578551146847" />
     <state width="1253" height="188" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
-    <state width="2518" height="466" key="GridCell.Tab.1.left" timestamp="1578550063363">
+    <state width="1009" height="332" key="GridCell.Tab.1.left" timestamp="1578551146847">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="466" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578550063363" />
+    <state width="1009" height="332" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578551146847" />
     <state width="1253" height="188" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1577673571090" />
-    <state width="2518" height="466" key="GridCell.Tab.1.right" timestamp="1578550063364">
+    <state width="1009" height="332" key="GridCell.Tab.1.right" timestamp="1578551146848">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="466" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578550063364" />
+    <state width="1009" height="332" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578551146848" />
     <state width="1253" height="188" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
     <state x="194" y="214" key="SettingsEditor" timestamp="1576675067608">
       <screen x="0" y="23" width="2560" height="1337" />
@@ -199,26 +191,16 @@
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/ft_push_swap.c</url>
           <line>69</line>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="a" language="ObjectiveC" />
-        <watch expression="vars-&gt;a[0]" language="ObjectiveC" />
-        <watch expression="vars-&gt;a[1]" language="ObjectiveC" />
-        <watch expression="vars-&gt;a[3]" language="ObjectiveC" />
-        <watch expression="vars-&gt;a[2]" language="ObjectiveC" />
-        <watch expression="dupl[0]" language="ObjectiveC" />
-        <watch expression="dupl[1]" language="ObjectiveC" />
-        <watch expression="dupl[2]" language="ObjectiveC" />
-        <watch expression="dupl[3]" language="ObjectiveC" />
-        <watch expression="vars-&gt;a[6]" language="ObjectiveC" />
-        <watch expression="vars-&gt;a[5]" language="ObjectiveC" />
-        <watch expression="dupl[1]" language="ObjectiveC" />
-        <watch expression="dupl[2]" language="ObjectiveC" />
-        <watch expression="dupl[3]" language="ObjectiveC" />
+        <watch expression="psv-&gt;b[0]" language="ObjectiveC" />
+        <watch expression="psv-&gt;a[0]" language="ObjectiveC" />
+        <watch expression="psv-&gt;a[1]" language="ObjectiveC" />
+        <watch expression="psv-&gt;a[2]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
