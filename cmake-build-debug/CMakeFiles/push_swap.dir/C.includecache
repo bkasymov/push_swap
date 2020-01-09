@@ -6,6 +6,21 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+../includes/push_swap.h
+../libft/includes/libft.h
+../libft/includes/libft.h
+../src/rules/rules.h
+../src/rules/rules.h
+stdio.h
+../includes/stdio.h
+stdlib.h
+../includes/stdlib.h
+unistd.h
+../includes/unistd.h
+../libft/ft_printf/printf.h
+../libft/ft_printf/printf.h
+=======
 /home/dpenney/Desktop/push_swap/includes/push_swap.h
 ../libft/includes/libft.h
 /home/dpenney/Desktop/push_swap/libft/includes/libft.h
@@ -17,9 +32,23 @@ unistd.h
 /home/dpenney/Desktop/push_swap/includes/unistd.h
 ../libft/ft_printf/printf.h
 /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17
 limits.h
+../includes/limits.h
+
+<<<<<<< HEAD
+../libft/ft_printf/printf.h
+../includes/libft.h
+../libft/includes/libft.h
+stdarg.h
 -
 
+../libft/includes/bbtree_utils.h
+stdlib.h
+-
+
+../libft/includes/libft.h
+=======
 /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 ../includes/libft.h
 /home/dpenney/Desktop/push_swap/libft/includes/libft.h
@@ -31,6 +60,7 @@ stdlib.h
 -
 
 /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17
 string.h
 -
 stdlib.h
@@ -38,9 +68,25 @@ stdlib.h
 unistd.h
 -
 bbtree_utils.h
+<<<<<<< HEAD
+../libft/includes/bbtree_utils.h
+
+../src/rules/rules.h
+../includes/push_swap.h
+../src/includes/push_swap.h
+
+/Users/dpenney/Desktop/push_swap/src/rules/rules.h
+../includes/push_swap.h
+/Users/dpenney/Desktop/push_swap/src/includes/push_swap.h
+
+/Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c
+rules.h
+/Users/dpenney/Desktop/push_swap/src/rules/rules.h
+=======
 /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
 /home/dpenney/Desktop/push_swap/parsing_utils.c
 ./includes/push_swap.h
 /home/dpenney/Desktop/push_swap/includes/push_swap.h
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17
 

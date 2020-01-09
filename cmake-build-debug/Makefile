@@ -123,33 +123,6 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-ft_push_swap.o: ft_push_swap.c.o
-
-.PHONY : ft_push_swap.o
-
-# target to build an object file
-ft_push_swap.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_push_swap.c.o
-.PHONY : ft_push_swap.c.o
-
-ft_push_swap.i: ft_push_swap.c.i
-
-.PHONY : ft_push_swap.i
-
-# target to preprocess a source file
-ft_push_swap.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_push_swap.c.i
-.PHONY : ft_push_swap.c.i
-
-ft_push_swap.s: ft_push_swap.c.s
-
-.PHONY : ft_push_swap.s
-
-# target to generate assembly for a file
-ft_push_swap.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_push_swap.c.s
-.PHONY : ft_push_swap.c.s
-
 libft/ft_array_subtract.o: libft/ft_array_subtract.c.o
 
 .PHONY : libft/ft_array_subtract.o
@@ -2823,59 +2796,140 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-parsing_utils.o: parsing_utils.c.o
+src/ft_push_swap.o: src/ft_push_swap.c.o
 
-.PHONY : parsing_utils.o
-
-# target to build an object file
-parsing_utils.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/parsing_utils.c.o
-.PHONY : parsing_utils.c.o
-
-parsing_utils.i: parsing_utils.c.i
-
-.PHONY : parsing_utils.i
-
-# target to preprocess a source file
-parsing_utils.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/parsing_utils.c.i
-.PHONY : parsing_utils.c.i
-
-parsing_utils.s: parsing_utils.c.s
-
-.PHONY : parsing_utils.s
-
-# target to generate assembly for a file
-parsing_utils.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/parsing_utils.c.s
-.PHONY : parsing_utils.c.s
-
-src/ft_checker.o: src/ft_checker.c.o
-
-.PHONY : src/ft_checker.o
+.PHONY : src/ft_push_swap.o
 
 # target to build an object file
-src/ft_checker.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_checker.c.o
-.PHONY : src/ft_checker.c.o
+src/ft_push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_push_swap.c.o
+.PHONY : src/ft_push_swap.c.o
 
-src/ft_checker.i: src/ft_checker.c.i
+src/ft_push_swap.i: src/ft_push_swap.c.i
 
-.PHONY : src/ft_checker.i
+.PHONY : src/ft_push_swap.i
 
 # target to preprocess a source file
-src/ft_checker.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_checker.c.i
-.PHONY : src/ft_checker.c.i
+src/ft_push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_push_swap.c.i
+.PHONY : src/ft_push_swap.c.i
 
-src/ft_checker.s: src/ft_checker.c.s
+src/ft_push_swap.s: src/ft_push_swap.c.s
 
-.PHONY : src/ft_checker.s
+.PHONY : src/ft_push_swap.s
 
 # target to generate assembly for a file
-src/ft_checker.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_checker.c.s
-.PHONY : src/ft_checker.c.s
+src/ft_push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_push_swap.c.s
+.PHONY : src/ft_push_swap.c.s
+
+src/parser/ft_check_duplicates.o: src/parser/ft_check_duplicates.c.o
+
+.PHONY : src/parser/ft_check_duplicates.o
+
+# target to build an object file
+src/parser/ft_check_duplicates.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o
+.PHONY : src/parser/ft_check_duplicates.c.o
+
+src/parser/ft_check_duplicates.i: src/parser/ft_check_duplicates.c.i
+
+.PHONY : src/parser/ft_check_duplicates.i
+
+# target to preprocess a source file
+src/parser/ft_check_duplicates.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.i
+.PHONY : src/parser/ft_check_duplicates.c.i
+
+src/parser/ft_check_duplicates.s: src/parser/ft_check_duplicates.c.s
+
+.PHONY : src/parser/ft_check_duplicates.s
+
+# target to generate assembly for a file
+src/parser/ft_check_duplicates.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.s
+.PHONY : src/parser/ft_check_duplicates.c.s
+
+src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
+
+.PHONY : src/parser/parsing_utils.o
+
+# target to build an object file
+src/parser/parsing_utils.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
+.PHONY : src/parser/parsing_utils.c.o
+
+src/parser/parsing_utils.i: src/parser/parsing_utils.c.i
+
+.PHONY : src/parser/parsing_utils.i
+
+# target to preprocess a source file
+src/parser/parsing_utils.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.i
+.PHONY : src/parser/parsing_utils.c.i
+
+src/parser/parsing_utils.s: src/parser/parsing_utils.c.s
+
+.PHONY : src/parser/parsing_utils.s
+
+# target to generate assembly for a file
+src/parser/parsing_utils.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.s
+.PHONY : src/parser/parsing_utils.c.s
+
+src/parser/parsing_utils2.o: src/parser/parsing_utils2.c.o
+
+.PHONY : src/parser/parsing_utils2.o
+
+# target to build an object file
+src/parser/parsing_utils2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o
+.PHONY : src/parser/parsing_utils2.c.o
+
+src/parser/parsing_utils2.i: src/parser/parsing_utils2.c.i
+
+.PHONY : src/parser/parsing_utils2.i
+
+# target to preprocess a source file
+src/parser/parsing_utils2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.i
+.PHONY : src/parser/parsing_utils2.c.i
+
+src/parser/parsing_utils2.s: src/parser/parsing_utils2.c.s
+
+.PHONY : src/parser/parsing_utils2.s
+
+# target to generate assembly for a file
+src/parser/parsing_utils2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s
+.PHONY : src/parser/parsing_utils2.c.s
+
+src/rules/rules_ss.o: src/rules/rules_ss.c.o
+
+.PHONY : src/rules/rules_ss.o
+
+# target to build an object file
+src/rules/rules_ss.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
+.PHONY : src/rules/rules_ss.c.o
+
+src/rules/rules_ss.i: src/rules/rules_ss.c.i
+
+.PHONY : src/rules/rules_ss.i
+
+# target to preprocess a source file
+src/rules/rules_ss.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i
+.PHONY : src/rules/rules_ss.c.i
+
+src/rules/rules_ss.s: src/rules/rules_ss.c.s
+
+.PHONY : src/rules/rules_ss.s
+
+# target to generate assembly for a file
+src/rules/rules_ss.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s
+.PHONY : src/rules/rules_ss.c.s
 
 # Help Target
 help:
@@ -2885,10 +2939,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
+<<<<<<< HEAD
+=======
 	@echo "... edit_cache"
 	@echo "... ft_push_swap.o"
 	@echo "... ft_push_swap.i"
 	@echo "... ft_push_swap.s"
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17
 	@echo "... libft/ft_array_subtract.o"
 	@echo "... libft/ft_array_subtract.i"
 	@echo "... libft/ft_array_subtract.s"
@@ -3186,12 +3243,21 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... parsing_utils.o"
-	@echo "... parsing_utils.i"
-	@echo "... parsing_utils.s"
-	@echo "... src/ft_checker.o"
-	@echo "... src/ft_checker.i"
-	@echo "... src/ft_checker.s"
+	@echo "... src/ft_push_swap.o"
+	@echo "... src/ft_push_swap.i"
+	@echo "... src/ft_push_swap.s"
+	@echo "... src/parser/ft_check_duplicates.o"
+	@echo "... src/parser/ft_check_duplicates.i"
+	@echo "... src/parser/ft_check_duplicates.s"
+	@echo "... src/parser/parsing_utils.o"
+	@echo "... src/parser/parsing_utils.i"
+	@echo "... src/parser/parsing_utils.s"
+	@echo "... src/parser/parsing_utils2.o"
+	@echo "... src/parser/parsing_utils2.i"
+	@echo "... src/parser/parsing_utils2.s"
+	@echo "... src/rules/rules_ss.o"
+	@echo "... src/rules/rules_ss.i"
+	@echo "... src/rules/rules_ss.s"
 .PHONY : help
 
 

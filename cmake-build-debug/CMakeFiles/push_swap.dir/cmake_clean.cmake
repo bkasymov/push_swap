@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/push_swap.dir/ft_push_swap.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_array_subtract.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_bbtree_utils.c.o"
@@ -99,8 +98,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o"
   "CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
-  "CMakeFiles/push_swap.dir/parsing_utils.c.o"
-  "CMakeFiles/push_swap.dir/src/ft_checker.c.o"
+  "CMakeFiles/push_swap.dir/src/ft_push_swap.c.o"
+  "CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o"
+  "CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
+  "CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
+  "CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
   "push_swap"
   "push_swap.pdb"
 )

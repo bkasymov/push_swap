@@ -12,32 +12,22 @@
 
 #include "push_swap.h"
 
-/*
-** At first checking string if it have something except digits;
-** splitting to array all elements of string between spaces;
-** Finding count of values in string through num_word  function;
-** allocating memory for stack variables;
-** converting all separate digits to integer and filling stack a;
-*/
-
-int		ft_args_in_1_string(char *str, t_stacks *vars)
+int     ft_general_parser(int argc, char **argv, t_vars *psv)
 {
-	int		res;
-	int		i;
-	char	**split;
-	int		j;
-
-	j = 0;
-	res = 0;
-	i = 0;
-	if ((res = ft_first_check(str)) == 1)
-		return(1);
-	split = ft_strsplit(str, ' ');
-	res = num_word(str, ' ');
-	if (!(vars->a = ft_memalloc(res)) && !(vars->b = ft_memalloc(res)))
-		return(1);
-	while (res > i)
+	if (argc == 2)
 	{
+<<<<<<< HEAD:src/ft_push_swap.c
+		if (ft_args_in_1_string(argv[1], psv) == 1)
+		{
+			return(1);
+		}
+	}
+	else if (argc == 1)
+		return(1);
+	else
+	if ((ft_args_in_other_strings(argv, argc, psv) == 1))
+		error_print(psv);
+=======
 		vars->a[i] = ft_atoips(vars, split[i]);
 		i++;
 //		printf("%d\n", vars->a[j]);
@@ -45,34 +35,23 @@ int		ft_args_in_1_string(char *str, t_stacks *vars)
 	}
     printf("In several argc %d count\n", res);
 	ft_check_duplicates(vars, res);
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17:ft_push_swap.c
 	return (0);
 }
 
-
-/*
-** checking all arguments than be just digits;
-** allocating memory for stacks;
-** filling with arguments from argv to stack A;
-** 
-*/
-
-int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
+void        ft_print_array_ps(int *array, int quant)
 {
-	int		i;
-	int		res;
-	int		j;
+	int     i;
 
-	j = 0;
-	res = 0;
-	i = 1;
-	while(argc > i)
-			if ((ft_first_check(argv[i++])) == 1)
-				return(1);
-	if (!(vars->a = ft_memalloc(argc)) && !(vars->b = ft_memalloc(argc)))
-		return(1); 
-	i = 1;
-	while (argc > i)
+	i = 0;
+	printf("\nAfter rules aplly\n");
+	while (quant >= i)
 	{
+<<<<<<< HEAD:src/ft_push_swap.c
+		printf("%d\n", array[i]);
+		i++;
+	}
+=======
 			if(!(vars->a[i - 1] = ft_atoips(vars ,argv[i])))
 				return(1);
 			++i;
@@ -82,6 +61,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 	printf("In several argc %d count\n", argc - 1);
 	ft_check_duplicates(vars, argc);
 	return (0);
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17:ft_push_swap.c
 }
 
 /*
@@ -102,19 +82,14 @@ int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars)
 
 int		main(int argc, char **argv)
 {
-	t_stacks	vars;
+//	t_vars	*psv;
+//	psv = (t_vars *)malloc(sizeof(t_vars));
+	t_vars  psv;
 
-	if (argc == 2)
-	{
-		if (ft_args_in_1_string(argv[1], &vars) == 1)
-		{
-			return(1);
-		}
-	}
-	else if (argc == 1)
-		return(1);
-	else
-		if ((ft_args_in_other_strings(argv, argc, &vars) == 1))
-			error_print(&vars);
+	if (((ft_general_parser(argc, argv, &psv)) == 1))
+		return (1);
+	printf("It's quantity %d\n", psv.qa);
+	ft_rule_swap_a(&psv);
+	ft_print_array_ps(psv.a, psv.qa);
 	return(0);
 }

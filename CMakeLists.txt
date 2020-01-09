@@ -9,7 +9,6 @@ include_directories(libft/ftoa)
 include_directories(libft/includes)
 
 add_executable(push_swap
-
         includes/push_swap.h
         libft/ft_printf/apply_spec.c
         libft/ft_printf/apply_spec.h
@@ -118,5 +117,7 @@ add_executable(push_swap
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/get_next_line.c
-        src/ft_checker.c
-        ft_push_swap.c parsing_utils.c)
+        src/parser/ft_check_duplicates.c
+        src/parser/parsing_utils.c
+        src/parser/parsing_utils2.c
+        src/ft_push_swap.c src/rules/rules_ss.c)

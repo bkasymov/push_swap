@@ -1344,6 +1344,72 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/get_next_line.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/libft/get_next_line.c -o CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 
+<<<<<<< HEAD
+CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../src/parser/ft_check_duplicates.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o   -c /Users/dpenney/Desktop/push_swap/src/parser/ft_check_duplicates.c
+
+CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/parser/ft_check_duplicates.c > CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.i
+
+CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/parser/ft_check_duplicates.c -o CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.s
+
+CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../src/parser/parsing_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o   -c /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
+
+CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c > CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.i
+
+CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c -o CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.s
+
+CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../src/parser/parsing_utils2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o   -c /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c
+
+CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c > CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.i
+
+CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c -o CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s
+
+CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../src/ft_push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/push_swap.dir/src/ft_push_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/ft_push_swap.c.o   -c /Users/dpenney/Desktop/push_swap/src/ft_push_swap.c
+
+CMakeFiles/push_swap.dir/src/ft_push_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/ft_push_swap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/ft_push_swap.c > CMakeFiles/push_swap.dir/src/ft_push_swap.c.i
+
+CMakeFiles/push_swap.dir/src/ft_push_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/ft_push_swap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/ft_push_swap.c -o CMakeFiles/push_swap.dir/src/ft_push_swap.c.s
+
+CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules_ss.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o   -c /Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c
+
+CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c > CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i
+
+CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c -o CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s
+=======
 CMakeFiles/push_swap.dir/src/ft_checker.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/ft_checker.c.o: ../src/ft_checker.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/push_swap.dir/src/ft_checker.c.o"
@@ -1382,6 +1448,7 @@ CMakeFiles/push_swap.dir/parsing_utils.c.i: cmake_force
 CMakeFiles/push_swap.dir/parsing_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/parsing_utils.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/parsing_utils.c -o CMakeFiles/push_swap.dir/parsing_utils.c.s
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -1484,9 +1551,11 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/push_swap.dir/libft/get_next_line.c.o" \
-"CMakeFiles/push_swap.dir/src/ft_checker.c.o" \
-"CMakeFiles/push_swap.dir/ft_push_swap.c.o" \
-"CMakeFiles/push_swap.dir/parsing_utils.c.o"
+"CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o" \
+"CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o" \
+"CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o" \
+"CMakeFiles/push_swap.dir/src/ft_push_swap.c.o" \
+"CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -1590,12 +1659,18 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_swapint.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_tolower.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_toupper.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/get_next_line.c.o
-push_swap: CMakeFiles/push_swap.dir/src/ft_checker.c.o
-push_swap: CMakeFiles/push_swap.dir/ft_push_swap.c.o
-push_swap: CMakeFiles/push_swap.dir/parsing_utils.c.o
+push_swap: CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o
+push_swap: CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
+push_swap: CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o
+push_swap: CMakeFiles/push_swap.dir/src/ft_push_swap.c.o
+push_swap: CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
+<<<<<<< HEAD
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Linking C executable push_swap"
+=======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Linking C executable push_swap"
+>>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

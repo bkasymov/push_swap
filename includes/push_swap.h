@@ -2,11 +2,13 @@
 # define PUSH_SWAP
 
 # include "../libft/includes/libft.h"
+# include "../src/rules/rules.h"
 # include "stdio.h" //Delete it!
 # include "stdlib.h"
 # include "unistd.h"
 # include "../libft/ft_printf/printf.h"
-# include <limits.h>
+# include "limits.h"
+
 
 typedef		struct stacks
 {
@@ -15,14 +17,32 @@ typedef		struct stacks
 	int         count;
 	int			j;
 	int			res;
-}				t_stacks;
+	int         qa;
+	int         qb;
+}				t_vars;
 
-void	error_print(t_stacks *vars);
-int		ft_atoips(t_stacks *vars, const char *str);
-int     ft_check_duplicates(t_stacks *vars, int argc);
-int		ft_first_check(char *str);
-int		ft_args_in_1_string(char *str, t_stacks *vars);
-int		ft_args_in_other_strings(char **argv, int argc, t_stacks *vars);
+void	error_print(t_vars *psv);
+int		ft_atoips(t_vars *psv, const char *str);
+int		ft_check_sym(char *str);
+int		ft_args_in_1_string(char *str, t_vars *psv);
+int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
+
+/*
+ * How to check duplicate?
+ */
+int		*ft_intcpy(int *dst, const int *src, int count);
+int     ft_check_duplicates(t_vars *psv, int count);
+int		ft_partition(int *array, int start, int end);
+void	ft_quick_sort(int *array, int start, int end);
+
+/*
+ * Performing rules of subject;
+ */
+
+void    ft_rule_swap(int *array, int quant);
+void    ft_rule_swap_a(t_vars *psv);
+void    ft_rule_swap_b(t_vars *psv);
+void    ft_rule_ss(t_vars *psv);
 
 
 
