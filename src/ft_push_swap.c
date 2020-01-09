@@ -16,7 +16,6 @@ int     ft_general_parser(int argc, char **argv, t_vars *psv)
 {
 	if (argc == 2)
 	{
-<<<<<<< HEAD:src/ft_push_swap.c
 		if (ft_args_in_1_string(argv[1], psv) == 1)
 		{
 			return(1);
@@ -27,15 +26,6 @@ int     ft_general_parser(int argc, char **argv, t_vars *psv)
 	else
 	if ((ft_args_in_other_strings(argv, argc, psv) == 1))
 		error_print(psv);
-=======
-		vars->a[i] = ft_atoips(vars, split[i]);
-		i++;
-//		printf("%d\n", vars->a[j]);
-//		j++;
-	}
-    printf("In several argc %d count\n", res);
-	ft_check_duplicates(vars, res);
->>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17:ft_push_swap.c
 	return (0);
 }
 
@@ -47,21 +37,9 @@ void        ft_print_array_ps(int *array, int quant)
 	printf("\nAfter rules aplly\n");
 	while (quant >= i)
 	{
-<<<<<<< HEAD:src/ft_push_swap.c
 		printf("%d\n", array[i]);
 		i++;
 	}
-=======
-			if(!(vars->a[i - 1] = ft_atoips(vars ,argv[i])))
-				return(1);
-			++i;
-//			printf("%d\n", vars->a[j]);
-//			j++;
-	}
-	printf("In several argc %d count\n", argc - 1);
-	ft_check_duplicates(vars, argc);
-	return (0);
->>>>>>> e936345e93acf2f22995d40e7270d306cea3aa17:ft_push_swap.c
 }
 
 /*
@@ -88,7 +66,6 @@ int		main(int argc, char **argv)
 
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
-	printf("It's quantity %d\n", psv.qa);
 	ft_rule_swap_a(&psv);
 	ft_print_array_ps(psv.a, psv.qa);
 	return(0);

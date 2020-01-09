@@ -6,7 +6,7 @@ void     ft_rule_swap(int *array, int qa)
 	int     tmp;
 
 	i = qa;
-	if (qa < 2)
+	if (qa < 1)
 		return ;
 	tmp = array[0];
 	array[0] = array[1];
@@ -15,7 +15,6 @@ void     ft_rule_swap(int *array, int qa)
 
 void    ft_rule_swap_a(t_vars *psv)
 {
-	printf("Find this %d\n", psv->qa);
 	ft_rule_swap(psv->a, psv->qa);
 }
 
