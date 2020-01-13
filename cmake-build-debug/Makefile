@@ -2796,6 +2796,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+src/ft_check_dupl.o: src/ft_check_dupl.c.o
+
+.PHONY : src/ft_check_dupl.o
+
+# target to build an object file
+src/ft_check_dupl.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o
+.PHONY : src/ft_check_dupl.c.o
+
+src/ft_check_dupl.i: src/ft_check_dupl.c.i
+
+.PHONY : src/ft_check_dupl.i
+
+# target to preprocess a source file
+src/ft_check_dupl.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.i
+.PHONY : src/ft_check_dupl.c.i
+
+src/ft_check_dupl.s: src/ft_check_dupl.c.s
+
+.PHONY : src/ft_check_dupl.s
+
+# target to generate assembly for a file
+src/ft_check_dupl.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.s
+.PHONY : src/ft_check_dupl.c.s
+
 src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
 
 .PHONY : src/parser/parsing_utils.o
@@ -3237,6 +3264,9 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... src/ft_check_dupl.o"
+	@echo "... src/ft_check_dupl.i"
+	@echo "... src/ft_check_dupl.s"
 	@echo "... src/parser/parsing_utils.o"
 	@echo "... src/parser/parsing_utils.i"
 	@echo "... src/parser/parsing_utils.s"

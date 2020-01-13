@@ -118,8 +118,10 @@ add_executable(push_swap
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/get_next_line.c
+        src/ft_check_dupl.c
         src/parser/parsing_utils.c
         src/parser/parsing_utils2.c
+        src/ft_check_dupl.c
         src/push_swap.c
         src/rules.h
         src/rules_pp.c

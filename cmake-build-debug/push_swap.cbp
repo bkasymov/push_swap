@@ -414,6 +414,9 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/includes/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/ft_check_dupl.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c">
 			<Option target="push_swap"/>
 		</Unit>

@@ -398,6 +398,13 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/get_next_lin
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 
+CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../src/ft_check_dupl.c
+CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../src/rules.h
+
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/includes/bbtree_utils.h

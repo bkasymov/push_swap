@@ -98,7 +98,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 		printf("%d\n", psv->a[j]);
 		j++;
 	}
-	psv->qa = argc - 2;
+	psv->qa = argc - 1;
 	//ft_check_duplicates(psv, argc - 1);
 	return (0);
 }

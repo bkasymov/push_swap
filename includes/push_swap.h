@@ -30,10 +30,12 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
 /*
  * How to check duplicate?
  */
-int		*ft_intcpy(int *dst, const int *src, int count);
-int     ft_check_duplicates(t_vars *psv, int count);
-int		ft_partition(int *array, int start, int end);
-void	ft_quick_sort(int *array, int start, int end);
+
+void		ft_check_dupl(t_vars *psv);
+//int		*ft_intcpy(int *dst, const int *src, int count);
+//int     ft_check_duplicates(t_vars *psv, int count);
+//int		ft_partition(int *array, int start, int end);
+//void	ft_quick_sort(int *array, int start, int end);
 
 /*
  * Performing rule swap two first elements;
