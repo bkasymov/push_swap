@@ -2,7 +2,7 @@
 # define PUSH_SWAP
 
 # include "../libft/includes/libft.h"
-# include "../src/rules/rules.h"
+# include "../src/rules.h"
 # include "stdio.h" //Delete it!
 # include "stdlib.h"
 # include "unistd.h"

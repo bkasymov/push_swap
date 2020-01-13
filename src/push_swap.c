@@ -6,11 +6,11 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:40:39 by dpenney           #+#    #+#             */
-/*   Updated: 2019/12/23 15:40:42 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/01/13 15:03:30 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "./../includes/push_swap.h"
 
 int     ft_general_parser(int argc, char **argv, t_vars *psv)
 {

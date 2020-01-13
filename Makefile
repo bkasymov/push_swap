@@ -1,24 +1,43 @@
-NAME = push_swap
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dpenney <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/13 14:41:08 by dpenney           #+#    #+#              #
+#    Updated: 2020/01/13 15:06:34 by dpenney          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
 
-COMPILE = gcc -g
+NAME_1 = push_swap
 
-SRC = ./src/ft_push_swap.c ./src/parser/parsing_utils.c ./src/parser/parsing_utils2.c ./src/parser/ft_check_duplicates.c ./src/rules/rules_ss.c \
-		./src/rules/rules_pp.c
+SRC = ./src/push_swap.c \
+	  ./src/parser/parsing_utils.c \
+	  ./src/parser/parsing_utils2.c \
+	  ./src/parser/ft_check_duplicates.c \
+	  ./src/rules_ss.c \
+		./src/rules_pp.c
 
-INC = -I ./includes -I ./libft/ft_printf -I ./libft/ftoa -I ./src/rules/rules.h
+OBJ = $(SRC:.c=.o)
 
-all: $(NAME)
+HEAD = -I ./includes/push_swap.h  ./libft/ft_printf  ./libft/ftoa  ./src/rules/rules.h
 
-$(NAME):
-	make -C libft
-	$(COMPILE) $(SRC) $(INC) -L ./libft -lft
+FLAGS = -Wall -Wextra -Werror
+
+LIBINC = -I libft/include/libft.h -L ./libft -lft
+
+all: $(NAME_1)
+
+$(NAME_1): $(OBJ)
+	make -C libft/
+	gcc  $(OBJ) -I ./includes/ -o  $(NAME_1) $(LIBINC)
 
 clean:
 	rm -f ./libft/*.o
 	rm -f ./libft/printf/*.o
 	rm -f ./libft/ftoa/*.o
-	rm -f ./src/parser/*.o
-	rm -f ./src/rules/*.o
+	rm -f $(OBJ)
 
 fclean: clean
 	rm -f $(NAME)
