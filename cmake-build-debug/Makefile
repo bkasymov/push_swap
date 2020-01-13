@@ -2796,60 +2796,6 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-src/ft_push_swap.o: src/ft_push_swap.c.o
-
-.PHONY : src/ft_push_swap.o
-
-# target to build an object file
-src/ft_push_swap.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_push_swap.c.o
-.PHONY : src/ft_push_swap.c.o
-
-src/ft_push_swap.i: src/ft_push_swap.c.i
-
-.PHONY : src/ft_push_swap.i
-
-# target to preprocess a source file
-src/ft_push_swap.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_push_swap.c.i
-.PHONY : src/ft_push_swap.c.i
-
-src/ft_push_swap.s: src/ft_push_swap.c.s
-
-.PHONY : src/ft_push_swap.s
-
-# target to generate assembly for a file
-src/ft_push_swap.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_push_swap.c.s
-.PHONY : src/ft_push_swap.c.s
-
-src/parser/ft_check_duplicates.o: src/parser/ft_check_duplicates.c.o
-
-.PHONY : src/parser/ft_check_duplicates.o
-
-# target to build an object file
-src/parser/ft_check_duplicates.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o
-.PHONY : src/parser/ft_check_duplicates.c.o
-
-src/parser/ft_check_duplicates.i: src/parser/ft_check_duplicates.c.i
-
-.PHONY : src/parser/ft_check_duplicates.i
-
-# target to preprocess a source file
-src/parser/ft_check_duplicates.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.i
-.PHONY : src/parser/ft_check_duplicates.c.i
-
-src/parser/ft_check_duplicates.s: src/parser/ft_check_duplicates.c.s
-
-.PHONY : src/parser/ft_check_duplicates.s
-
-# target to generate assembly for a file
-src/parser/ft_check_duplicates.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.s
-.PHONY : src/parser/ft_check_duplicates.c.s
-
 src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
 
 .PHONY : src/parser/parsing_utils.o
@@ -2904,59 +2850,86 @@ src/parser/parsing_utils2.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s
 .PHONY : src/parser/parsing_utils2.c.s
 
-src/rules/rules_pp.o: src/rules/rules_pp.c.o
+src/push_swap.o: src/push_swap.c.o
 
-.PHONY : src/rules/rules_pp.o
-
-# target to build an object file
-src/rules/rules_pp.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o
-.PHONY : src/rules/rules_pp.c.o
-
-src/rules/rules_pp.i: src/rules/rules_pp.c.i
-
-.PHONY : src/rules/rules_pp.i
-
-# target to preprocess a source file
-src/rules/rules_pp.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.i
-.PHONY : src/rules/rules_pp.c.i
-
-src/rules/rules_pp.s: src/rules/rules_pp.c.s
-
-.PHONY : src/rules/rules_pp.s
-
-# target to generate assembly for a file
-src/rules/rules_pp.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.s
-.PHONY : src/rules/rules_pp.c.s
-
-src/rules/rules_ss.o: src/rules/rules_ss.c.o
-
-.PHONY : src/rules/rules_ss.o
+.PHONY : src/push_swap.o
 
 # target to build an object file
-src/rules/rules_ss.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
-.PHONY : src/rules/rules_ss.c.o
+src/push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.o
+.PHONY : src/push_swap.c.o
 
-src/rules/rules_ss.i: src/rules/rules_ss.c.i
+src/push_swap.i: src/push_swap.c.i
 
-.PHONY : src/rules/rules_ss.i
+.PHONY : src/push_swap.i
 
 # target to preprocess a source file
-src/rules/rules_ss.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i
-.PHONY : src/rules/rules_ss.c.i
+src/push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.i
+.PHONY : src/push_swap.c.i
 
-src/rules/rules_ss.s: src/rules/rules_ss.c.s
+src/push_swap.s: src/push_swap.c.s
 
-.PHONY : src/rules/rules_ss.s
+.PHONY : src/push_swap.s
 
 # target to generate assembly for a file
-src/rules/rules_ss.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s
-.PHONY : src/rules/rules_ss.c.s
+src/push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.s
+.PHONY : src/push_swap.c.s
+
+src/rules_pp.o: src/rules_pp.c.o
+
+.PHONY : src/rules_pp.o
+
+# target to build an object file
+src/rules_pp.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_pp.c.o
+.PHONY : src/rules_pp.c.o
+
+src/rules_pp.i: src/rules_pp.c.i
+
+.PHONY : src/rules_pp.i
+
+# target to preprocess a source file
+src/rules_pp.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_pp.c.i
+.PHONY : src/rules_pp.c.i
+
+src/rules_pp.s: src/rules_pp.c.s
+
+.PHONY : src/rules_pp.s
+
+# target to generate assembly for a file
+src/rules_pp.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_pp.c.s
+.PHONY : src/rules_pp.c.s
+
+src/rules_ss.o: src/rules_ss.c.o
+
+.PHONY : src/rules_ss.o
+
+# target to build an object file
+src/rules_ss.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_ss.c.o
+.PHONY : src/rules_ss.c.o
+
+src/rules_ss.i: src/rules_ss.c.i
+
+.PHONY : src/rules_ss.i
+
+# target to preprocess a source file
+src/rules_ss.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_ss.c.i
+.PHONY : src/rules_ss.c.i
+
+src/rules_ss.s: src/rules_ss.c.s
+
+.PHONY : src/rules_ss.s
+
+# target to generate assembly for a file
+src/rules_ss.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_ss.c.s
+.PHONY : src/rules_ss.c.s
 
 # Help Target
 help:
@@ -3264,24 +3237,21 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... src/ft_push_swap.o"
-	@echo "... src/ft_push_swap.i"
-	@echo "... src/ft_push_swap.s"
-	@echo "... src/parser/ft_check_duplicates.o"
-	@echo "... src/parser/ft_check_duplicates.i"
-	@echo "... src/parser/ft_check_duplicates.s"
 	@echo "... src/parser/parsing_utils.o"
 	@echo "... src/parser/parsing_utils.i"
 	@echo "... src/parser/parsing_utils.s"
 	@echo "... src/parser/parsing_utils2.o"
 	@echo "... src/parser/parsing_utils2.i"
 	@echo "... src/parser/parsing_utils2.s"
-	@echo "... src/rules/rules_pp.o"
-	@echo "... src/rules/rules_pp.i"
-	@echo "... src/rules/rules_pp.s"
-	@echo "... src/rules/rules_ss.o"
-	@echo "... src/rules/rules_ss.i"
-	@echo "... src/rules/rules_ss.s"
+	@echo "... src/push_swap.o"
+	@echo "... src/push_swap.i"
+	@echo "... src/push_swap.s"
+	@echo "... src/rules_pp.o"
+	@echo "... src/rules_pp.i"
+	@echo "... src/rules_pp.s"
+	@echo "... src/rules_ss.o"
+	@echo "... src/rules_ss.i"
+	@echo "... src/rules_ss.s"
 .PHONY : help
 
 

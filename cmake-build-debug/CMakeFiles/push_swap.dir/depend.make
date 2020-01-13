@@ -398,50 +398,38 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/get_next_lin
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 
-CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../includes/push_swap.h
-CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../libft/ft_printf/printf.h
-CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../libft/includes/bbtree_utils.h
-CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../libft/includes/libft.h
-CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../src/rules/rules.h
-CMakeFiles/push_swap.dir/src/ft_push_swap.c.o: ../src/ft_push_swap.c
-
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../includes/push_swap.h
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../includes/push_swap.h
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../libft/ft_printf/printf.h
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../libft/includes/bbtree_utils.h
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../libft/includes/libft.h
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../src/parser/ft_check_duplicates.c
-CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o: ../src/rules/rules.h
-
-CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/includes/bbtree_utils.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../src/parser/parsing_utils.c
-CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../src/rules/rules.h
+CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../src/rules.h
 
-CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../libft/includes/bbtree_utils.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../src/parser/parsing_utils2.c
-CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../src/rules/rules.h
+CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../src/rules.h
 
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../includes/push_swap.h
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../libft/ft_printf/printf.h
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../libft/includes/bbtree_utils.h
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../libft/includes/libft.h
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../src/rules/rules.h
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../src/rules/rules.h
-CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../src/rules/rules_pp.c
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../src/push_swap.c
+CMakeFiles/push_swap.dir/src/push_swap.c.o: ../src/rules.h
 
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../includes/push_swap.h
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../libft/ft_printf/printf.h
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../libft/includes/bbtree_utils.h
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../libft/includes/libft.h
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules.h
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules.h
-CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules_ss.c
+CMakeFiles/push_swap.dir/src/rules_pp.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/rules_pp.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/rules_pp.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/rules_pp.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/rules_pp.c.o: ../src/rules.h
+CMakeFiles/push_swap.dir/src/rules_pp.c.o: ../src/rules_pp.c
+
+CMakeFiles/push_swap.dir/src/rules_ss.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/rules_ss.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/rules_ss.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/rules_ss.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/rules_ss.c.o: ../src/rules.h
+CMakeFiles/push_swap.dir/src/rules_ss.c.o: ../src/rules_ss.c
 

@@ -67,10 +67,10 @@ int		main(int argc, char **argv)
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
 	// ft_rule_swap_a(&psv);
-	ft_pb(&psv);
-	printf("\nStack A");
-	ft_print_array_ps(psv.a, psv.qa);
-	printf("\nStack B");
-	ft_print_array_ps(psv.b, psv.qb);
+//	ft_pb(&psv);
+//	printf("\nStack A");
+//	ft_print_array_ps(psv.a, psv.qa);
+//	printf("\nStack B");
+//	ft_print_array_ps(psv.b, psv.qb);
 	return(0);
 }

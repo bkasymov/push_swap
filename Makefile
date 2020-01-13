@@ -15,7 +15,6 @@ NAME_1 = push_swap
 SRC = ./src/push_swap.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
-	  ./src/parser/ft_check_duplicates.c \
 	  ./src/rules_ss.c \
 		./src/rules_pp.c
 

@@ -103,12 +103,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o"
   "/Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "/Users/dpenney/Desktop/push_swap/libft/get_next_line.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
-  "/Users/dpenney/Desktop/push_swap/src/ft_push_swap.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_push_swap.c.o"
-  "/Users/dpenney/Desktop/push_swap/src/parser/ft_check_duplicates.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_duplicates.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
-  "/Users/dpenney/Desktop/push_swap/src/rules/rules_pp.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o"
-  "/Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/push_swap.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/rules_pp.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_pp.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/rules_ss.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_ss.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -118,6 +117,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../libft/ft_printf"
   "../libft/ftoa"
   "../libft/includes"
+  "../src"
   )
 
 # Targets to which this target links.
