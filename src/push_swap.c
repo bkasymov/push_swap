@@ -34,8 +34,7 @@ void        ft_print_array_ps(int *array, int quant)
 	int     i;
 
 	i = 0;
-	printf("\nAfter rules aplly\n");
-	while (quant >= i)
+	while (quant > i)
 	{
 		printf("%d\n", array[i]);
 		i++;
@@ -67,11 +66,12 @@ int		main(int argc, char **argv)
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
 	ft_check_dupl(&psv);
-	// ft_rule_swap_a(&psv);
-//	ft_pb(&psv);
-//	printf("\nStack A");
-//	ft_print_array_ps(psv.a, psv.qa);
-//	printf("\nStack B");
-//	ft_print_array_ps(psv.b, psv.qb);
+//	    ft_rule_swap_a(&psv);
+	ft_pb(&psv);
+    printf("\nApply ft_pb");
+    printf("\nStack A");
+	ft_print_array_ps(psv.a, psv.qa);
+	printf("\nStack B\n");
+	ft_print_array_ps(psv.b, psv.qb);
 	return(0);
 }
