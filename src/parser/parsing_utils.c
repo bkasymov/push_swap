@@ -51,14 +51,15 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 	if (!(psv->a = ft_memalloc(res)) && !(psv->b = ft_memalloc(res)))
 		return(1);
 	ft_printf("\nHas parsed next numbers\n");
-	while (res > i)
+	res--;
+	while (res >= 0)
 	{
-		psv->a[i] = ft_atoips(psv, split[i]);
+		psv->a[res] = ft_atoips(psv, split[res]);
+		res--;
 		i++;
-		printf("%d\n", psv->a[j]);
-		j++;
 	}
-	psv->qa = res - 1;
+	psv->qa = i;
+	j = 0;
 	//ft_check_duplicates(psv, res);
 	return (0);
 
@@ -94,11 +95,16 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 	{
 		if(!(psv->a[i - 1] = ft_atoips(psv ,argv[i])))
 			return(1);
-		++i;
-		printf("%d\n", psv->a[j]);
+		i++;
 		j++;
 	}
-	psv->qa = argc - 1;
+	psv->qa = i - 1;
+	j = 0;
+	while (i > j)
+    {
+	    printf("%d\n", psv->a[j]);
+	    j++;
+    }
 	//ft_check_duplicates(psv, argc - 1);
 	return (0);
 }
