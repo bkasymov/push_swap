@@ -59,8 +59,12 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 		i++;
 	}
 	psv->qa = i;
+    while (i > j)
+    {
+        printf("%d\n", psv->a[j]);
+        j++;
+    }
 	j = 0;
-	//ft_check_duplicates(psv, res);
 	return (0);
 
 }
@@ -89,17 +93,16 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 		exit(1);
 	if (!(psv->b = (int *)malloc(sizeof(int) * (argc - 1))))
 		exit(1);
-	i = 1;
+	i = 0;
 	ft_printf("\nHas parsed next numbers\n");
-	while (argc > i)
+	while (argc > 1)
 	{
 		if(!(psv->a[i] = ft_atoips(psv ,argv[argc - 1]))) //не записывает пятёрку.
 			return(1);
-		i++;
 		argc--;
+		i++;
 	}
-	psv->qa = i - 1;
-	i--;
+	psv->qa = i;
 	while (i > j)
     {
 	    printf("%d\n", psv->a[j]);

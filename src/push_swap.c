@@ -57,6 +57,14 @@ void        ft_print_array_ps(int *array, int quant)
 ** and free result of ft_strsplit
 */
 
+void    ft_initial(t_vars *psv)
+{
+    psv->res = 0;
+    psv->qb = 0;
+    psv->j = 0;
+    psv->count = 0;
+}
+
 int		main(int argc, char **argv)
 {
 //	t_vars	*psv;
@@ -67,9 +75,10 @@ int		main(int argc, char **argv)
 		return (1);
 	ft_check_dupl(&psv);
 //	    ft_rule_swap_a(&psv);
+    ft_initial(&psv);
 	ft_pb(&psv);
     printf("\nApply ft_pb");
-    printf("\nStack A");
+    printf("\nStack A\n");
 	ft_print_array_ps(psv.a, psv.qa);
 	printf("\nStack B\n");
 	ft_print_array_ps(psv.b, psv.qb);

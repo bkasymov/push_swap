@@ -7,10 +7,7 @@
 
 void        ft_pb(t_vars *psv)
 {
-	int     i;
-
-	i = 0;
-	psv->b[i] = psv->a[0];
-	psv->qa -= 1;
-	psv->qb += 1;
+	psv->b[0] = psv->a[0];
+	psv->qa--;
+	psv->qb++;
 }
