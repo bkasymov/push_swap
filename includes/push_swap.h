@@ -12,6 +12,14 @@
 
 typedef		struct stacks
 {
+	struct stacks	*next;
+	int				*data;
+}					t_stack;
+
+typedef		struct variables_ps
+{
+	t_stack		*stack_a;
+	t_stack		*stack_b;
 	int			*a;
 	int			*b;
 	int         count;
