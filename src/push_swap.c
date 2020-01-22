@@ -76,7 +76,7 @@ int		main(int argc, char **argv)
 	ft_check_dupl(&psv);
 //	    ft_rule_swap_a(&psv);
     ft_initial(&psv);
-	ft_pb(&psv);
+//	ft_pb(&psv);
     printf("\nApply ft_pb");
     printf("\nStack A\n");
 	ft_print_array_ps(psv.a, psv.qa);

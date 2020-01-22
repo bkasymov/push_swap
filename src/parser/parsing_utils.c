@@ -12,6 +12,39 @@
 
 #include "../../includes/push_swap.h"
 
+//void    ft_init_lists(t_vars *psv, int  mem)
+//{
+//  psv->stack_a = ft_malloc_list(psv, mem);
+//  psv->stack_b = NULL;
+//}
+//
+//t_stack  ft_malloc_list(t_vars *psv, int mem)
+//{
+//  int     i;
+//  t_stack *list;
+//  t_stack *first;
+//
+//  i = 0;
+//  if (!(list = (t_stack *)malloc(sizeof(t_stack))))
+//    exit(1);
+//  first = list;
+//  while (i < mem)
+//  {
+//    if (i < mem - 1)
+//    {
+//      if (!(list->next = (t_stack *)malloc(sizeof(t_stack))))
+//        exit(1);
+//    }
+//    list->data = psv->a[i]; // if it's last list
+//    if (i == (mem - 1))
+//      list->next = NULL;
+//    else
+//      list = list->next;
+//    i++;
+//  }
+//  return (first);
+//}
+
 /*
 ** function which print Error message;
 ** free stacks variables;
@@ -38,7 +71,7 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 {
 	int		res;
 	int		i;
-	char	**split;
+	char	        **split;
 	int		j;
 
 	j = 0;
@@ -59,14 +92,14 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 		i++;
 	}
 	psv->qa = i;
-    while (i > j)
-    {
-        printf("%d\n", psv->a[j]);
-        j++;
-    }
+	//ft_init_lists(psv, res);
+	while (i > j)
+	{
+	  printf("%d\n", psv->a[j]);
+	  j++;
+	}
 	j = 0;
 	return (0);
-
 }
 
 
@@ -91,17 +124,23 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 			return(1);
 	if (!(psv->a = (int *)malloc(sizeof(int) * (argc - 1))))
 		exit(1);
-	if (!(psv->b = (int *)malloc(sizeof(int) * (argc - 1))))
-		exit(1);
-	i = 0;
+//	if (!(psv->b = (int *)malloc(sizeof(int) * (argc - 1))))
+//		exit(1);
+	i = 1;
 	ft_printf("\nHas parsed next numbers\n");
-	while (argc > 1)
+	while (argc > i)
 	{
-		if(!(psv->a[i] = ft_atoips(psv ,argv[argc - 1]))) //не записывает пятёрку.
-			return(1);
-		argc--;
-		i++;
+	  if(!(psv->a[i - 1] = ft_atoips(psv ,argv[i]))) //не записывает пятёрку.
+	    return(1);
+	  i++;
 	}
+//	while (argc > 1)
+//	{
+//		if(!(psv->a[i] = ft_atoips(psv ,argv[argc - 1]))) //не записывает пятёрку.
+//			return(1);
+//		argc--;
+//		i++;
+//	}
 	psv->qa = i;
 	while (i > j)
     {
