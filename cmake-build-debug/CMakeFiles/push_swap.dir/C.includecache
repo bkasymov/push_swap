@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/Users/dpenney/Desktop/push_swap/includes/push_swap.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
 ../libft/includes/libft.h
-/Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
 ../src/rules.h
-/Users/dpenney/Desktop/push_swap/src/rules.h
+/home/dpenney/Desktop/push_swap/src/rules.h
 stdio.h
-/Users/dpenney/Desktop/push_swap/includes/stdio.h
+/home/dpenney/Desktop/push_swap/includes/stdio.h
 stdlib.h
-/Users/dpenney/Desktop/push_swap/includes/stdlib.h
+/home/dpenney/Desktop/push_swap/includes/stdlib.h
 unistd.h
-/Users/dpenney/Desktop/push_swap/includes/unistd.h
+/home/dpenney/Desktop/push_swap/includes/unistd.h
 ../libft/ft_printf/printf.h
-/Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 limits.h
-/Users/dpenney/Desktop/push_swap/includes/limits.h
+/home/dpenney/Desktop/push_swap/includes/limits.h
 
-/Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 ../includes/libft.h
-/Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
 stdarg.h
 -
 
-/Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+/home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 stdlib.h
 -
 
-/Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
 string.h
 -
 stdlib.h
@@ -40,13 +40,15 @@ stdlib.h
 unistd.h
 -
 bbtree_utils.h
-/Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+/home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
-/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
+/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
 ../../includes/push_swap.h
-/Users/dpenney/Desktop/push_swap/includes/push_swap.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
+../../libft/ft_printf/printf.h
+/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 
-/Users/dpenney/Desktop/push_swap/src/rules.h
+/home/dpenney/Desktop/push_swap/src/rules.h
 ./../includes/push_swap.h
-/Users/dpenney/Desktop/push_swap/includes/push_swap.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
 

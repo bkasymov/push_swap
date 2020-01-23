@@ -13,7 +13,7 @@
 typedef		struct stacks
 {
 	struct stacks	*next;
-	int				*data;
+	int				data;
 	int             step;
 }					t_stack;
 
@@ -41,12 +41,13 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
  */
 
 void		ft_check_dupl(t_vars *psv);
-//int		*ft_intcpy(int *dst, const int *src, int count);
-//int     ft_check_duplicates(t_vars *psv, int count);
-//int		ft_partition(int *array, int start, int end);
-//void	ft_quick_sort(int *array, int start, int end);
-//void            ft_init_lists(t_psv *psv, mem);
-//t_stack            ft_malloc_list(t_vars *psv, int mem);
+
+/*
+ * Functions for record from array to list
+ */
+
+void            ft_init_lists(t_vars *psv, int mem);
+t_stack         *ft_malloc_list(t_vars *psv, int mem);
 
 /*
  * Performing rule swap two first elements;
