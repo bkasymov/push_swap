@@ -2823,6 +2823,60 @@ src/ft_check_dupl.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.s
 .PHONY : src/ft_check_dupl.c.s
 
+src/ft_rr.o: src/ft_rr.c.o
+
+.PHONY : src/ft_rr.o
+
+# target to build an object file
+src/ft_rr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_rr.c.o
+.PHONY : src/ft_rr.c.o
+
+src/ft_rr.i: src/ft_rr.c.i
+
+.PHONY : src/ft_rr.i
+
+# target to preprocess a source file
+src/ft_rr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_rr.c.i
+.PHONY : src/ft_rr.c.i
+
+src/ft_rr.s: src/ft_rr.c.s
+
+.PHONY : src/ft_rr.s
+
+# target to generate assembly for a file
+src/ft_rr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_rr.c.s
+.PHONY : src/ft_rr.c.s
+
+src/ft_rrr.o: src/ft_rrr.c.o
+
+.PHONY : src/ft_rrr.o
+
+# target to build an object file
+src/ft_rrr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_rrr.c.o
+.PHONY : src/ft_rrr.c.o
+
+src/ft_rrr.i: src/ft_rrr.c.i
+
+.PHONY : src/ft_rrr.i
+
+# target to preprocess a source file
+src/ft_rrr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_rrr.c.i
+.PHONY : src/ft_rrr.c.i
+
+src/ft_rrr.s: src/ft_rrr.c.s
+
+.PHONY : src/ft_rrr.s
+
+# target to generate assembly for a file
+src/ft_rrr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_rrr.c.s
+.PHONY : src/ft_rrr.c.s
+
 src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
 
 .PHONY : src/parser/parsing_utils.o
@@ -3267,6 +3321,12 @@ help:
 	@echo "... src/ft_check_dupl.o"
 	@echo "... src/ft_check_dupl.i"
 	@echo "... src/ft_check_dupl.s"
+	@echo "... src/ft_rr.o"
+	@echo "... src/ft_rr.i"
+	@echo "... src/ft_rr.s"
+	@echo "... src/ft_rrr.o"
+	@echo "... src/ft_rrr.i"
+	@echo "... src/ft_rrr.s"
 	@echo "... src/parser/parsing_utils.o"
 	@echo "... src/parser/parsing_utils.i"
 	@echo "... src/parser/parsing_utils.s"

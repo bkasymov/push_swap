@@ -17,7 +17,9 @@ SRC = ./src/push_swap.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/rules_ss.c \
 	  ./src/rules_pp.c \
-	  ./src/ft_check_dupl.c
+	  ./src/ft_check_dupl.c \
+	  ./src/ft_rr.c \
+	  ./src/ft_rrr.c
 
 OBJ = $(SRC:.c=.o)
 

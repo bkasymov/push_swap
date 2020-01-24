@@ -415,6 +415,12 @@
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_check_dupl.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_rr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_rrr.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c">
 			<Option target="push_swap"/>
 		</Unit>

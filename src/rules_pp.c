@@ -22,7 +22,7 @@ void    ft_pa(t_vars *psv, int ps)
 	tmp->next = psv->stack_a;
 	psv->stack_a = tmp;
 	if (ps)
-		write(1, "pa\n", 3);
+		ft_printf("pa\n");
 }
 
 /*
@@ -43,5 +43,5 @@ void        ft_pb(t_vars *psv, int ps)
 	tmp->next = psv->stack_b;
 	psv->stack_b = tmp;
 	if (ps)
-		write(1, "pb\n", 3);
+		ft_printf("pb\n");
 }

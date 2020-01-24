@@ -1,30 +1,48 @@
 #include "rules.h"
 
-void     ft_rule_swap(int *array, int qa)
+/*
+ ** Rules for swap first elements of stacks;
+ ** sa swap stack_a;
+ ** sb swap stack_b;
+ ** Copied first element of top stack_a to tmp;
+ ** Same actions in ft_sb;
+ ** Rule ss do ft_sa and ft_sb in one time;
+ */
+
+void        ft_sa(t_vars *psv, int ps)
 {
-	int     i;
 	int     tmp;
 
-	i = qa;
-	if (qa < 1)
+	if (!psv->stack_a->next)
 		return ;
-	tmp = array[0];
-	array[0] = array[1];
-	array[1] = tmp;
+	tmp = psv->stack_a->data;
+	psv->stack_a->data = psv->stack_a->next->data;
+	psv->stack_a->next->data = tmp;
+	if (ps)
+		ft_printf("sa\n");
 }
 
-void    ft_rule_swap_a(t_vars *psv)
+void        ft_sb(t_vars *psv, int ps)
 {
-	ft_rule_swap(psv->a, psv->qa);
+	int     tmp;
+
+	if (!psv->stack_b->next)
+		return ;
+	tmp = psv->stack_b->data;
+	psv->stack_b->data = psv->stack_b->next->data;
+	psv->stack_b->next->data = tmp;
+	if (ps)
+		ft_printf("sb\n");
 }
 
-void    ft_rule_swap_b(t_vars *psv)
-{
-	ft_rule_swap(psv->b, psv->qb);
-}
+/*
+ ** swap in stack_a and in stack_b;
+ */
 
-void    ft_rule_ss(t_vars *psv)
+void        ft_ss(t_stack *psv, int ps)
 {
-	ft_rule_swap(psv->a, psv->qa);
-	ft_rule_swap(psv->b, psv->qb);
+	ft_sa(psv, ps);
+	ft_sb(psv, ps);
+	if (ps)
+		ft_printf("ss\n");
 }

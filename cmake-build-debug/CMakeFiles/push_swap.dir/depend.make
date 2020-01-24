@@ -405,6 +405,20 @@ CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../src/ft_check_dupl.c
 CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o: ../src/rules.h
 
+CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../src/ft_rr.c
+CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../src/rules.h
+
+CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../src/ft_rrr.c
+CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../src/rules.h
+
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/includes/bbtree_utils.h

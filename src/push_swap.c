@@ -66,16 +66,16 @@ void    ft_initial(t_vars *psv)
 
 int		main(int argc, char **argv)
 {
-//	t_vars	*psv;
-//	psv = (t_vars *)malloc(sizeof(t_vars));
 	t_vars  psv;
 
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
 	ft_check_dupl(&psv);
-//	    ft_rule_swap_a(&psv);
     ft_initial(&psv);
-    ft_pb(&psv, 1);
-    ft_pa(&psv, 1);
+    ft_ra(&psv, 1);
+//    ft_pb(&psv, 1);
+//    ft_pb(&psv, 1);
+//    ft_pa(&psv, 1);
+//    ft_ss(&psv, 1);
 	return(0);
 }

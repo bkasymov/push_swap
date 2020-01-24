@@ -54,10 +54,9 @@ void            ft_free_list(t_vars *psv);
  * Performing rule swap two first elements;
  */
 
-void    ft_rule_swap(int *array, int quant);
-void    ft_rule_swap_a(t_vars *psv);
-void    ft_rule_swap_b(t_vars *psv);
-void    ft_rule_ss(t_vars *psv);
+void        ft_sa(t_vars *psv, int ps);
+void        ft_sb(t_vars *psv, int ps);
+void        ft_ss(t_stack *psv, int ps);
 
 /*
  *  Performing rule pp of take on element of one stack and put to the top of other one stack
@@ -65,5 +64,21 @@ void    ft_rule_ss(t_vars *psv);
 
 void        ft_pb(t_vars *psv, int ps);
 void        ft_pa(t_vars *psv, int ps);
+
+/*
+ ** Performing functions rr
+ */
+
+void        ft_ra(t_vars *psv, int ps);
+void        ft_rb(t_vars *psv, int ps);
+void        ft_rr(t_vars *psv, int ps);
+
+/*
+ ** Performing functions rrr
+ */
+
+void        ft_rra(t_vars *psv, int ps);
+void        ft_rrb(t_vars *psv, int ps);
+void        ft_rrr(t_vars *psv, int ps);
 
 #endif
