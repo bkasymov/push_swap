@@ -42,11 +42,9 @@ unistd.h
 bbtree_utils.h
 /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
-/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
-../../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/src/push_swap.c
+./../includes/push_swap.h
 /home/dpenney/Desktop/push_swap/includes/push_swap.h
-../../libft/ft_printf/printf.h
-/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 
 /home/dpenney/Desktop/push_swap/src/rules.h
 ./../includes/push_swap.h

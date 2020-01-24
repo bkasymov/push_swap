@@ -1,6 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
+/*
+ * :::      ::::::::   */
 /*   parsing_utils.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
@@ -17,6 +18,8 @@ void    ft_init_lists(t_vars *psv, int  mem)
 {
   psv->stack_a = ft_malloc_list(psv, mem);
   psv->stack_b = NULL;
+  psv->qb = 0;
+//  ft_free_list(psv->stack_a);
 }
 
 /*
@@ -58,26 +61,22 @@ t_stack  *ft_malloc_list(t_vars *psv, int mem)
 
 void    ft_free_list(t_vars *psv)
 {
-    int     i;
     t_stack *tmp;
 
-    i = 0;
-    while (i < psv->qa)
+    while (psv->stack_a)
     {
         tmp = psv->stack_a;
         psv->stack_a = psv->stack_a->next;
         free(tmp);
-        i++;
     }
-    i = 0;
-    while (i < psv->qb)
+    while (psv->stack_b)
     {
         tmp = psv->stack_b;
         psv->stack_b = psv->stack_b->next;
         free(tmp);
-        i++;
     }
 }
+
 /*
 ** function which print Error message;
 ** free stacks variables;

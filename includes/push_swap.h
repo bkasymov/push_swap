@@ -48,6 +48,7 @@ void		ft_check_dupl(t_vars *psv);
 
 void            ft_init_lists(t_vars *psv, int mem);
 t_stack         *ft_malloc_list(t_vars *psv, int mem);
+void            ft_free_list(t_vars *psv);
 
 /*
  * Performing rule swap two first elements;
