@@ -60,7 +60,6 @@ void        ft_print_array_ps(int *array, int quant)
 void    ft_initial(t_vars *psv)
 {
     psv->res = 0;
-    psv->qb = 0;
     psv->j = 0;
     psv->count = 0;
 }
@@ -76,10 +75,7 @@ int		main(int argc, char **argv)
 	ft_check_dupl(&psv);
 //	    ft_rule_swap_a(&psv);
     ft_initial(&psv);
-    printf("\nApply ft_pb");
-    printf("\nStack A\n");
-	ft_print_array_ps(psv.a, psv.qa);
-	printf("\nStack B\n");
-	ft_print_array_ps(psv.b, psv.qb);
+    ft_pb(&psv, 1);
+    ft_pa(&psv, 1);
 	return(0);
 }

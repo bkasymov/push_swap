@@ -63,7 +63,7 @@ void    ft_rule_ss(t_vars *psv);
  *  Performing rule pp of take on element of one stack and put to the top of other one stack
  */
 
-void        ft_pb(t_vars *psv);
-
+void        ft_pb(t_vars *psv, int ps);
+void        ft_pa(t_vars *psv, int ps);
 
 #endif
