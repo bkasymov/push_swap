@@ -72,9 +72,12 @@ int		main(int argc, char **argv)
 		return (1);
 	ft_check_dupl(&psv);
     ft_initial(&psv);
-    ft_ra(&psv, 1);
-//    ft_pb(&psv, 1);
-//    ft_pb(&psv, 1);
+	ft_pb(&psv, 1);
+	ft_pb(&psv, 1);
+	ft_pb(&psv, 1);
+	ft_pb(&psv, 1);
+	ft_pb(&psv, 1);
+    ft_rrb(&psv, 1);
 //    ft_pa(&psv, 1);
 //    ft_ss(&psv, 1);
 	return(0);
