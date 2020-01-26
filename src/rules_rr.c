@@ -23,7 +23,7 @@ void        ft_ra(t_vars *psv, int ps)
 	last->next = tmp;
 	psv->stack_a = first;
 	if (ps)
-		ft_printf("ra\n");
+		write(1, "ra\n", 3);
 }
 
 void        ft_rb(t_vars *psv, int ps)
@@ -41,7 +41,7 @@ void        ft_rb(t_vars *psv, int ps)
 	last->next = tmp;
 	psv->stack_b = first;
 	if (ps)
-		ft_printf("rb\n");
+		write(1, "rb\n", 3);
 }
 
 /*
@@ -53,5 +53,5 @@ void        ft_rr(t_vars *psv, int ps)
 	ft_ra(psv, 1);
 	ft_rb(psv, 1);
 	if (ps)
-		ft_printf("rr\n");
+		write(1,"rr\n", 3);
 }

@@ -104,12 +104,13 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "/home/dpenney/Desktop/push_swap/libft/get_next_line.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
   "/home/dpenney/Desktop/push_swap/src/ft_check_dupl.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o"
-  "/home/dpenney/Desktop/push_swap/src/ft_rr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_rr.c.o"
-  "/home/dpenney/Desktop/push_swap/src/ft_rrr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_rrr.c.o"
+  "/home/dpenney/Desktop/push_swap/src/ft_solution_ps.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
   "/home/dpenney/Desktop/push_swap/src/push_swap.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap.c.o"
   "/home/dpenney/Desktop/push_swap/src/rules_pp.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_pp.c.o"
+  "/home/dpenney/Desktop/push_swap/src/rules_rr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_rr.c.o"
+  "/home/dpenney/Desktop/push_swap/src/rules_rrr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_rrr.c.o"
   "/home/dpenney/Desktop/push_swap/src/rules_ss.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_ss.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

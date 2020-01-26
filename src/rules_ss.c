@@ -19,7 +19,7 @@ void        ft_sa(t_vars *psv, int ps)
 	psv->stack_a->data = psv->stack_a->next->data;
 	psv->stack_a->next->data = tmp;
 	if (ps)
-		ft_printf("sa\n");
+		write(1, "sa\n", 3);
 }
 
 void        ft_sb(t_vars *psv, int ps)
@@ -32,7 +32,7 @@ void        ft_sb(t_vars *psv, int ps)
 	psv->stack_b->data = psv->stack_b->next->data;
 	psv->stack_b->next->data = tmp;
 	if (ps)
-		ft_printf("sb\n");
+		write(1, "sb\n", 3);
 }
 
 /*
@@ -44,5 +44,5 @@ void        ft_ss(t_stack *psv, int ps)
 	ft_sa(psv, ps);
 	ft_sb(psv, ps);
 	if (ps)
-		ft_printf("ss\n");
+		write(1,"ss\n", 3);
 }

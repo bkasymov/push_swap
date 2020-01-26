@@ -1422,31 +1422,44 @@ CMakeFiles/push_swap.dir/src/rules_ss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/rules_ss.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/rules_ss.c -o CMakeFiles/push_swap.dir/src/rules_ss.c.s
 
-CMakeFiles/push_swap.dir/src/ft_rr.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/src/ft_rr.c.o: ../src/ft_rr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/push_swap.dir/src/ft_rr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/ft_rr.c.o   -c /home/dpenney/Desktop/push_swap/src/ft_rr.c
+CMakeFiles/push_swap.dir/src/rules_rr.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/rules_rr.c.o: ../src/rules_rr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/push_swap.dir/src/rules_rr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules_rr.c.o   -c /home/dpenney/Desktop/push_swap/src/rules_rr.c
 
-CMakeFiles/push_swap.dir/src/ft_rr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/ft_rr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/ft_rr.c > CMakeFiles/push_swap.dir/src/ft_rr.c.i
+CMakeFiles/push_swap.dir/src/rules_rr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/rules_rr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/rules_rr.c > CMakeFiles/push_swap.dir/src/rules_rr.c.i
 
-CMakeFiles/push_swap.dir/src/ft_rr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/ft_rr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/ft_rr.c -o CMakeFiles/push_swap.dir/src/ft_rr.c.s
+CMakeFiles/push_swap.dir/src/rules_rr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/rules_rr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/rules_rr.c -o CMakeFiles/push_swap.dir/src/rules_rr.c.s
 
-CMakeFiles/push_swap.dir/src/ft_rrr.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/src/ft_rrr.c.o: ../src/ft_rrr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/push_swap.dir/src/ft_rrr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/ft_rrr.c.o   -c /home/dpenney/Desktop/push_swap/src/ft_rrr.c
+CMakeFiles/push_swap.dir/src/rules_rrr.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/rules_rrr.c.o: ../src/rules_rrr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/push_swap.dir/src/rules_rrr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules_rrr.c.o   -c /home/dpenney/Desktop/push_swap/src/rules_rrr.c
 
-CMakeFiles/push_swap.dir/src/ft_rrr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/ft_rrr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/ft_rrr.c > CMakeFiles/push_swap.dir/src/ft_rrr.c.i
+CMakeFiles/push_swap.dir/src/rules_rrr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/rules_rrr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/rules_rrr.c > CMakeFiles/push_swap.dir/src/rules_rrr.c.i
 
-CMakeFiles/push_swap.dir/src/ft_rrr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/ft_rrr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/ft_rrr.c -o CMakeFiles/push_swap.dir/src/ft_rrr.c.s
+CMakeFiles/push_swap.dir/src/rules_rrr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/rules_rrr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/rules_rrr.c -o CMakeFiles/push_swap.dir/src/rules_rrr.c.s
+
+CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o: ../src/ft_solution_ps.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o   -c /home/dpenney/Desktop/push_swap/src/ft_solution_ps.c
+
+CMakeFiles/push_swap.dir/src/ft_solution_ps.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/ft_solution_ps.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/ft_solution_ps.c > CMakeFiles/push_swap.dir/src/ft_solution_ps.c.i
+
+CMakeFiles/push_swap.dir/src/ft_solution_ps.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/ft_solution_ps.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/ft_solution_ps.c -o CMakeFiles/push_swap.dir/src/ft_solution_ps.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -1555,8 +1568,9 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/src/push_swap.c.o" \
 "CMakeFiles/push_swap.dir/src/rules_pp.c.o" \
 "CMakeFiles/push_swap.dir/src/rules_ss.c.o" \
-"CMakeFiles/push_swap.dir/src/ft_rr.c.o" \
-"CMakeFiles/push_swap.dir/src/ft_rrr.c.o"
+"CMakeFiles/push_swap.dir/src/rules_rr.c.o" \
+"CMakeFiles/push_swap.dir/src/rules_rrr.c.o" \
+"CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -1666,11 +1680,12 @@ push_swap: CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o
 push_swap: CMakeFiles/push_swap.dir/src/push_swap.c.o
 push_swap: CMakeFiles/push_swap.dir/src/rules_pp.c.o
 push_swap: CMakeFiles/push_swap.dir/src/rules_ss.c.o
-push_swap: CMakeFiles/push_swap.dir/src/ft_rr.c.o
-push_swap: CMakeFiles/push_swap.dir/src/ft_rrr.c.o
+push_swap: CMakeFiles/push_swap.dir/src/rules_rr.c.o
+push_swap: CMakeFiles/push_swap.dir/src/rules_rrr.c.o
+push_swap: CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

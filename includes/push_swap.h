@@ -59,7 +59,7 @@ void        ft_sb(t_vars *psv, int ps);
 void        ft_ss(t_stack *psv, int ps);
 
 /*
- *  Performing rule pp of take on element of one stack and put to the top of other one stack
+ ** Performing rule pp of take on element of one stack and put to the top of other one stack
  */
 
 void        ft_pb(t_vars *psv, int ps);
@@ -80,5 +80,15 @@ void        ft_rr(t_vars *psv, int ps);
 void        ft_rra(t_vars *psv, int ps);
 void        ft_rrb(t_vars *psv, int ps);
 void        ft_rrr(t_vars *psv, int ps);
+
+/*
+ ** Solution of push_swap
+ */
+
+void        ft_solution_ps(t_vars *psv);
+void        ft_3args_solution(t_vars *psv, int max);
+void        ft_5args_solution(t_vars *psv, int max);
+void        ft_general_solution(t_vars *psv, int max);
+int         ft_find_max(t_vars *psv);
 
 #endif

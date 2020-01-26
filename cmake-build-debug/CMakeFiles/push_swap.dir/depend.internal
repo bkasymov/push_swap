@@ -405,19 +405,12 @@ CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/ft_check_dupl.c
  /home/dpenney/Desktop/push_swap/src/rules.h
-CMakeFiles/push_swap.dir/src/ft_rr.c.o
+CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/ft_rr.c
- /home/dpenney/Desktop/push_swap/src/rules.h
-CMakeFiles/push_swap.dir/src/ft_rrr.c.o
- /home/dpenney/Desktop/push_swap/includes/push_swap.h
- /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/ft_rrr.c
+ /home/dpenney/Desktop/push_swap/src/ft_solution_ps.c
  /home/dpenney/Desktop/push_swap/src/rules.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
@@ -447,6 +440,20 @@ CMakeFiles/push_swap.dir/src/rules_pp.c.o
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/rules.h
  /home/dpenney/Desktop/push_swap/src/rules_pp.c
+CMakeFiles/push_swap.dir/src/rules_rr.c.o
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules_rr.c
+CMakeFiles/push_swap.dir/src/rules_rrr.c.o
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules_rrr.c
 CMakeFiles/push_swap.dir/src/rules_ss.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h

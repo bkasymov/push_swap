@@ -29,18 +29,6 @@ int     ft_general_parser(int argc, char **argv, t_vars *psv)
 	return (0);
 }
 
-void        ft_print_array_ps(int *array, int quant)
-{
-	int     i;
-
-	i = 0;
-	while (quant > i)
-	{
-		printf("%d\n", array[i]);
-		i++;
-	}
-}
-
 /*
  ** Program getting argument and checking.
  ** if 2 argument - dividing string to separate array strings,
@@ -72,13 +60,6 @@ int		main(int argc, char **argv)
 		return (1);
 	ft_check_dupl(&psv);
     ft_initial(&psv);
-	ft_pb(&psv, 1);
-	ft_pb(&psv, 1);
-	ft_pb(&psv, 1);
-	ft_pb(&psv, 1);
-	ft_pb(&psv, 1);
-    ft_rrb(&psv, 1);
-//    ft_pa(&psv, 1);
-//    ft_ss(&psv, 1);
+	ft_solution_ps(&psv);
 	return(0);
 }

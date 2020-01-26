@@ -18,8 +18,9 @@ SRC = ./src/push_swap.c \
 	  ./src/rules_ss.c \
 	  ./src/rules_pp.c \
 	  ./src/ft_check_dupl.c \
-	  ./src/ft_rr.c \
-	  ./src/ft_rrr.c
+	  ./src/rules_rr.c \
+	  ./src/rules_rrr.c \
+	  ./src/ft_solution_ps.c
 
 OBJ = $(SRC:.c=.o)
 

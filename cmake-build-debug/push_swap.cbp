@@ -415,10 +415,7 @@
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_check_dupl.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_rr.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_rrr.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_solution_ps.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c">
@@ -434,6 +431,12 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_pp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_rr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_rrr.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_ss.c">
