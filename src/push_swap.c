@@ -47,8 +47,6 @@ int     ft_general_parser(int argc, char **argv, t_vars *psv)
 
 void    ft_initial(t_vars *psv)
 {
-    psv->res = 0;
-    psv->j = 0;
     psv->count = 0;
 }
 

@@ -17,18 +17,21 @@ typedef		struct stacks
 	int             step;
 }					t_stack;
 
+/*
+ ** mass variable keeping max digit[2], middle digit[1] and min digit[0]
+ */
+
 typedef		struct variables_ps
 {
 	t_stack		        *stack_a;
 	t_stack		        *stack_b;
-	int			*a;
-	int			*b;
-	int                     count;
-	int			j;
-	int			res;
-	int                     qa;
-	int                     qb;
-}				t_vars;
+	int			        *a;
+	int			        *b;
+	int                 count;
+	int                 mass[2];
+	int                 qa;
+	int                 qb;
+}				        t_vars;
 
 void	error_print(t_vars *psv);
 int		ft_atoips(t_vars *psv, const char *str);
@@ -86,9 +89,9 @@ void        ft_rrr(t_vars *psv, int ps);
  */
 
 void        ft_solution_ps(t_vars *psv);
-void        ft_3args_solution(t_vars *psv, int max);
-void        ft_5args_solution(t_vars *psv, int max);
-void        ft_general_solution(t_vars *psv, int max);
-int         ft_find_max(t_vars *psv);
+void        ft_3args_solution(t_vars *psv);
+void        ft_5args_solution(t_vars *psv);
+void        ft_general_solution(t_vars *psv);
+void        ft_find_max(t_vars *psv);
 
 #endif

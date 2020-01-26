@@ -104,7 +104,7 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 {
 	int		res;
 	int		i;
-	char	        **split;
+	char	**split;
 	int		j;
 
 	j = 0;
