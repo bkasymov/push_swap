@@ -17,20 +17,20 @@ int             ft_is_it_sorted(t_vars *psv)
 	int     j;
 
 	j = 0;
-	tmp = psv->a;
+	tmp = psv->arr;
 	i = 0;
-	while (psv->a[i])
+	while (psv->arr[i])
 	{
-		if (psv->a[i] > max)
+		if (psv->arr[i] > max)
 		{
-			max = psv->a[i];
+			max = psv->arr[i];
 			j++;
 		}
 		i++;
 	}
 	if (j == i) {
 		free(psv->stack_a);
-		free(psv->a);
+		free(psv->arr);
 		return (1);
 	}
 	return (0);

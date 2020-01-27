@@ -25,11 +25,11 @@ void		ft_check_dupl(t_vars *psv)
 	i = 0;
 	while (i < psv->qa)
 	{
-		tmp = psv->a[i];
+		tmp = psv->arr[i];
 		j = i + 1;
 		while (j < psv->qa)
 		{
-			if (psv->a[j] == tmp)
+			if (psv->arr[j] == tmp)
 				error_print(psv);
 			j++;
 		}

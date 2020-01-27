@@ -1357,9 +1357,22 @@ CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c -o CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.s
 
+CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o: ../src/parser/ft_is_it_sorted.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o   -c /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c
+
+CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c > CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i
+
+CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c -o CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s
+
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../src/parser/parsing_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o   -c /home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
 
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.i: cmake_force
@@ -1372,7 +1385,7 @@ CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o: ../src/parser/parsing_utils2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o   -c /home/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c
 
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.i: cmake_force
@@ -1385,7 +1398,7 @@ CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o: ../src/rules/rules_pp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o   -c /home/dpenney/Desktop/push_swap/src/rules/rules_pp.c
 
 CMakeFiles/push_swap.dir/src/rules/rules_pp.c.i: cmake_force
@@ -1398,7 +1411,7 @@ CMakeFiles/push_swap.dir/src/rules/rules_pp.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o: ../src/rules/rules_rr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o   -c /home/dpenney/Desktop/push_swap/src/rules/rules_rr.c
 
 CMakeFiles/push_swap.dir/src/rules/rules_rr.c.i: cmake_force
@@ -1411,7 +1424,7 @@ CMakeFiles/push_swap.dir/src/rules/rules_rr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o: ../src/rules/rules_rrr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o   -c /home/dpenney/Desktop/push_swap/src/rules/rules_rrr.c
 
 CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.i: cmake_force
@@ -1424,7 +1437,7 @@ CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules_ss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o   -c /home/dpenney/Desktop/push_swap/src/rules/rules_ss.c
 
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i: cmake_force
@@ -1437,7 +1450,7 @@ CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: ../src/solver/ft_solver_ps.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o   -c /home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c
 
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.i: cmake_force
@@ -1450,7 +1463,7 @@ CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/src/push_swap.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap.c.o: ../src/push_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/push_swap.dir/src/push_swap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/push_swap.dir/src/push_swap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap.c.o   -c /home/dpenney/Desktop/push_swap/src/push_swap.c
 
 CMakeFiles/push_swap.dir/src/push_swap.c.i: cmake_force
@@ -1460,19 +1473,6 @@ CMakeFiles/push_swap.dir/src/push_swap.c.i: cmake_force
 CMakeFiles/push_swap.dir/src/push_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/push_swap.c -o CMakeFiles/push_swap.dir/src/push_swap.c.s
-
-CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o: ../src/parser/ft_is_it_sorted.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o   -c /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c
-
-CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c > CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i
-
-CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c -o CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -1576,6 +1576,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/push_swap.dir/libft/get_next_line.c.o" \
 "CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o" \
+"CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o" \
 "CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o" \
 "CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o" \
 "CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o" \
@@ -1583,8 +1584,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o" \
 "CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o" \
 "CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o" \
-"CMakeFiles/push_swap.dir/src/push_swap.c.o" \
-"CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o"
+"CMakeFiles/push_swap.dir/src/push_swap.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -1689,6 +1689,7 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_tolower.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_toupper.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/get_next_line.c.o
 push_swap: CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o
+push_swap: CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o
 push_swap: CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
 push_swap: CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o
 push_swap: CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o
@@ -1697,7 +1698,6 @@ push_swap: CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o
 push_swap: CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
 push_swap: CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o
 push_swap: CMakeFiles/push_swap.dir/src/push_swap.c.o
-push_swap: CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Linking C executable push_swap"

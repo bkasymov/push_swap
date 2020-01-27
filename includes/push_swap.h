@@ -1,10 +1,6 @@
 #ifndef PUSH_SWAP
 # define PUSH_SWAP
 
-
-# include "stdio.h" //Delete it!
-
-
 # include "../libft/includes/libft.h"
 # include "../src/rules/rules.h"
 
@@ -28,8 +24,7 @@ typedef		struct variables_ps
 {
 	t_stack		        *stack_a;
 	t_stack		        *stack_b;
-	int			        *a;
-	int			        *b;
+	int			        *arr;
 	int                 count;
 	int                 mass[3];
 	int                 qa;

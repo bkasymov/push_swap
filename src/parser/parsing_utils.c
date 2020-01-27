@@ -49,7 +49,7 @@ t_stack  *ft_malloc_list(t_vars *psv, int mem)
       if (!(list->next = (t_stack *)malloc(sizeof(t_stack))))
         exit(1);
     }
-    list->data = psv->a[i];
+    list->data = psv->arr[i];
     if (i == (mem - 1))
         list->next = NULL; //
     else
@@ -85,9 +85,8 @@ void    ft_free_list(t_vars *psv)
 
 void	error_print(t_vars *psv)
 {
-	free(psv->a);
+	free(psv->arr);
 	free(psv->stack_a);
-	//free(psv->stack_b);
 	write(2, "Error\n", 7);
 	exit(1);
 }
@@ -114,12 +113,12 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 		return(1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
-	if (!(psv->a = ft_memalloc(res)) && !(psv->b = ft_memalloc(res)))
+	if (!(psv->arr = (int *)malloc(sizeof(int) * res)))
 		return(1);
 	res--;
 	while (res >= i)
 	{
-		psv->a[i] = ft_atoips(psv, split[i]);
+		psv->arr[i] = ft_atoips(psv, split[i]);
 		i++;
 	}
 	psv->qa = i;
@@ -147,13 +146,12 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 	while(argc > i)
 		if ((ft_check_sym(argv[i++])) == 1)
 			return(1);
-	if (!(psv->a = (int *)malloc(sizeof(int) * (argc - 1))))
+	if (!(psv->arr = (int *)malloc(sizeof(int) * (argc))))
 		exit(1);
 	i = 1;
 	while (argc > i)
 	{
-	  if(!(psv->a[i - 1] = ft_atoips(psv ,argv[i]))) //не записывает пятёрку.
-	    return(1);
+	  psv->arr[i - 1] = ft_atoips(psv ,argv[i]);
 	  i++;
 	}
 	psv->qa = i - 1;
