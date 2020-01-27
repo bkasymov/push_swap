@@ -116,7 +116,6 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 	res = num_word(str, ' ');
 	if (!(psv->a = ft_memalloc(res)) && !(psv->b = ft_memalloc(res)))
 		return(1);
-	printf("\nHas parsed next numbers\n");
 	res--;
 	while (res >= i)
 	{
@@ -151,7 +150,6 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 	if (!(psv->a = (int *)malloc(sizeof(int) * (argc - 1))))
 		exit(1);
 	i = 1;
-	printf("\nHas parsed next numbers\n");
 	while (argc > i)
 	{
 	  if(!(psv->a[i - 1] = ft_atoips(psv ,argv[i]))) //не записывает пятёрку.

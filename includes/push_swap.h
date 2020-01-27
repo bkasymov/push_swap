@@ -98,4 +98,10 @@ void        ft_3args_solution(t_vars *psv);
 void        ft_5args_solution(t_vars *psv);
 void        ft_general_solution(t_vars *psv);
 
+/*
+ * Checker funcions;
+ */
+
+
+
 #endif

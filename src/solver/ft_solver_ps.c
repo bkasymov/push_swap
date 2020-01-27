@@ -9,6 +9,11 @@
 void        ft_solver_ps(t_vars *psv)
 {
 	ft_find_bones(psv);
+	if (psv->qa == 2)
+	{
+		if (psv->stack_a->data > psv->stack_a->next->data)
+			ft_sa(psv, 1);
+	}
 	if (psv->qa == 3)
 		ft_3args_solution(psv);
 	if (psv->qa == 5)
