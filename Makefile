@@ -15,12 +15,13 @@ NAME_1 = push_swap
 SRC = ./src/push_swap.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
-	  ./src/rules_ss.c \
-	  ./src/rules_pp.c \
-	  ./src/ft_check_dupl.c \
-	  ./src/rules_rr.c \
-	  ./src/rules_rrr.c \
-	  ./src/ft_solution_ps.c
+	  ./src/parser/ft_check_dupl.c \
+	  ./src/parser/ft_is_it_sorted.c \
+	  ./src/rules/rules_ss.c \
+	  ./src/rules/rules_pp.c \
+	  ./src/rules/rules_rr.c \
+	  ./src/rules/rules_rrr.c \
+	  ./src/solver/ft_solver_ps.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -34,7 +35,7 @@ all: $(NAME_1)
 
 $(NAME_1): $(OBJ)
 	make -C libft/
-	gcc  $(OBJ) -I ./includes/ -o  $(NAME_1) $(LIBINC)
+	gcc $(FLAGS) $(OBJ) -I ./includes/ -o  $(NAME_1) $(LIBINC)
 
 clean:
 	rm -f ./libft/*.o

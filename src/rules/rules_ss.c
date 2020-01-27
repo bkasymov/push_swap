@@ -9,28 +9,32 @@
  ** Rule ss do ft_sa and ft_sb in one time;
  */
 
-void        ft_sa(t_vars *psv, int ps)
+void        ft_sa(struct variables_ps *psv, int ps)
 {
 	int     tmp;
+	t_stack	*link;
 
-	if (!psv->stack_a->next)
+	link = psv->stack_a;
+	if (!link)
 		return ;
-	tmp = psv->stack_a->data;
-	psv->stack_a->data = psv->stack_a->next->data;
-	psv->stack_a->next->data = tmp;
+	tmp = link->data;
+	link->data = link->next->data;
+	link->next->data = tmp;
 	if (ps)
 		write(1, "sa\n", 3);
 }
 
-void        ft_sb(t_vars *psv, int ps)
+void        ft_sb(struct variables_ps *psv, int ps)
 {
 	int     tmp;
+	t_stack	*link;
 
-	if (!psv->stack_b->next)
+	link = psv->stack_b;
+	if (!link)
 		return ;
-	tmp = psv->stack_b->data;
-	psv->stack_b->data = psv->stack_b->next->data;
-	psv->stack_b->next->data = tmp;
+	tmp = link->data;
+	link->data = link->next->data;
+	link->next->data = tmp;
 	if (ps)
 		write(1, "sb\n", 3);
 }
@@ -39,10 +43,10 @@ void        ft_sb(t_vars *psv, int ps)
  ** swap in stack_a and in stack_b;
  */
 
-void        ft_ss(t_stack *psv, int ps)
+void        ft_ss(t_vars *psv, int ps)
 {
-	ft_sa(psv, ps);
-	ft_sb(psv, ps);
+	ft_sa(psv, 1);
+	ft_sb(psv, 1);
 	if (ps)
 		write(1,"ss\n", 3);
 }

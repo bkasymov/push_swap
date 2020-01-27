@@ -1,4 +1,4 @@
-#include "../includes/push_swap.h"
+#include "../../includes/push_swap.h"
 
 /*
  ** At first we are finding max digit in stack_a
@@ -6,9 +6,9 @@
  ** if digits 3, 5 or more;
  */
 
-void        ft_solution_ps(t_vars *psv)
+void        ft_solver_ps(t_vars *psv)
 {
-	ft_find_max(psv);
+	ft_find_bones(psv);
 	if (psv->qa == 3)
 		ft_3args_solution(psv);
 	if (psv->qa == 5)
@@ -62,35 +62,42 @@ void        ft_general_solution(t_vars *psv)
 	return ;
 }
 
-void     ft_find_max(t_vars *psv)
-{
-	t_stack *tmp_max;
-	t_stack *tmp_min;
-	t_stack *tmp_mid;
-	int     i;
+/*
+ ** I don't know but my psv->qa (quantity of stack_a)
+ ** changing in cycle when i'm searcing digit with max value
+ ** in stack_a. Therefore I decide to save first value in variable
+ ** save;
+ */
 
-	i = 0;
-	tmp_max = psv->stack_a;
-	tmp_min = psv->stack_a;
-	tmp_mid = psv->stack_a;
-	while (tmp_min)
+void     ft_find_bones(t_vars *psv)
+{
+	t_stack *tmp;
+	int     i;
+	int     save;
+
+	tmp = psv->stack_a;
+	while (tmp)
 	{
-		if (tmp_min->data < psv->mass[0])
-			psv->mass[0] = tmp_min->data;
-		tmp_min = tmp_min->next;
+		if (tmp->data < psv->mass[0])
+			psv->mass[0] = tmp->data;
+		tmp = tmp->next;
 	}
 	i = psv->qa;
 	i /= 2;
+	tmp = psv->stack_a;
 	while (i) {
-		tmp_mid = tmp_mid->next;
+		tmp = tmp->next;
 		i--;
 	}
-	psv->mass[1] = tmp_mid->data;
-	psv->mass[2] = tmp_max->data;
-	while (tmp_max) //Why psv->qa changing here? WHY? We are not using this variable here.
+	save = psv->qa;
+	psv->mass[1] = tmp->data;
+	tmp = psv->stack_a;
+	psv->mass[2] = tmp->data;
+	while (tmp) //Why psv->qa changing here? WHY? We are not using this variable here.
 	{
-		if (tmp_max->data > psv->mass[2])
-			psv->mass[2] = tmp_max->data;
-		tmp_max = tmp_max->next;
+		if (tmp->data > psv->mass[2])
+			psv->mass[2] = tmp->data;
+		tmp = tmp->next;
 	}
+	psv->qa = save;
 }

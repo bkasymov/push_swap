@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./../includes/push_swap.h"
+#include "./../../includes/push_swap.h"
 
 /*
  * Not working cycle when looking for duplicate of digits.

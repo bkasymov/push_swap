@@ -2796,59 +2796,59 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-src/ft_check_dupl.o: src/ft_check_dupl.c.o
+src/parser/ft_check_dupl.o: src/parser/ft_check_dupl.c.o
 
-.PHONY : src/ft_check_dupl.o
-
-# target to build an object file
-src/ft_check_dupl.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o
-.PHONY : src/ft_check_dupl.c.o
-
-src/ft_check_dupl.i: src/ft_check_dupl.c.i
-
-.PHONY : src/ft_check_dupl.i
-
-# target to preprocess a source file
-src/ft_check_dupl.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.i
-.PHONY : src/ft_check_dupl.c.i
-
-src/ft_check_dupl.s: src/ft_check_dupl.c.s
-
-.PHONY : src/ft_check_dupl.s
-
-# target to generate assembly for a file
-src/ft_check_dupl.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_check_dupl.c.s
-.PHONY : src/ft_check_dupl.c.s
-
-src/ft_solution_ps.o: src/ft_solution_ps.c.o
-
-.PHONY : src/ft_solution_ps.o
+.PHONY : src/parser/ft_check_dupl.o
 
 # target to build an object file
-src/ft_solution_ps.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o
-.PHONY : src/ft_solution_ps.c.o
+src/parser/ft_check_dupl.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o
+.PHONY : src/parser/ft_check_dupl.c.o
 
-src/ft_solution_ps.i: src/ft_solution_ps.c.i
+src/parser/ft_check_dupl.i: src/parser/ft_check_dupl.c.i
 
-.PHONY : src/ft_solution_ps.i
+.PHONY : src/parser/ft_check_dupl.i
 
 # target to preprocess a source file
-src/ft_solution_ps.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_solution_ps.c.i
-.PHONY : src/ft_solution_ps.c.i
+src/parser/ft_check_dupl.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.i
+.PHONY : src/parser/ft_check_dupl.c.i
 
-src/ft_solution_ps.s: src/ft_solution_ps.c.s
+src/parser/ft_check_dupl.s: src/parser/ft_check_dupl.c.s
 
-.PHONY : src/ft_solution_ps.s
+.PHONY : src/parser/ft_check_dupl.s
 
 # target to generate assembly for a file
-src/ft_solution_ps.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/ft_solution_ps.c.s
-.PHONY : src/ft_solution_ps.c.s
+src/parser/ft_check_dupl.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.s
+.PHONY : src/parser/ft_check_dupl.c.s
+
+src/parser/ft_is_it_sorted.o: src/parser/ft_is_it_sorted.c.o
+
+.PHONY : src/parser/ft_is_it_sorted.o
+
+# target to build an object file
+src/parser/ft_is_it_sorted.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o
+.PHONY : src/parser/ft_is_it_sorted.c.o
+
+src/parser/ft_is_it_sorted.i: src/parser/ft_is_it_sorted.c.i
+
+.PHONY : src/parser/ft_is_it_sorted.i
+
+# target to preprocess a source file
+src/parser/ft_is_it_sorted.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i
+.PHONY : src/parser/ft_is_it_sorted.c.i
+
+src/parser/ft_is_it_sorted.s: src/parser/ft_is_it_sorted.c.s
+
+.PHONY : src/parser/ft_is_it_sorted.s
+
+# target to generate assembly for a file
+src/parser/ft_is_it_sorted.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s
+.PHONY : src/parser/ft_is_it_sorted.c.s
 
 src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
 
@@ -2931,113 +2931,140 @@ src/push_swap.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.s
 .PHONY : src/push_swap.c.s
 
-src/rules_pp.o: src/rules_pp.c.o
+src/rules/rules_pp.o: src/rules/rules_pp.c.o
 
-.PHONY : src/rules_pp.o
-
-# target to build an object file
-src/rules_pp.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_pp.c.o
-.PHONY : src/rules_pp.c.o
-
-src/rules_pp.i: src/rules_pp.c.i
-
-.PHONY : src/rules_pp.i
-
-# target to preprocess a source file
-src/rules_pp.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_pp.c.i
-.PHONY : src/rules_pp.c.i
-
-src/rules_pp.s: src/rules_pp.c.s
-
-.PHONY : src/rules_pp.s
-
-# target to generate assembly for a file
-src/rules_pp.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_pp.c.s
-.PHONY : src/rules_pp.c.s
-
-src/rules_rr.o: src/rules_rr.c.o
-
-.PHONY : src/rules_rr.o
+.PHONY : src/rules/rules_pp.o
 
 # target to build an object file
-src/rules_rr.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_rr.c.o
-.PHONY : src/rules_rr.c.o
+src/rules/rules_pp.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o
+.PHONY : src/rules/rules_pp.c.o
 
-src/rules_rr.i: src/rules_rr.c.i
+src/rules/rules_pp.i: src/rules/rules_pp.c.i
 
-.PHONY : src/rules_rr.i
+.PHONY : src/rules/rules_pp.i
 
 # target to preprocess a source file
-src/rules_rr.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_rr.c.i
-.PHONY : src/rules_rr.c.i
+src/rules/rules_pp.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.i
+.PHONY : src/rules/rules_pp.c.i
 
-src/rules_rr.s: src/rules_rr.c.s
+src/rules/rules_pp.s: src/rules/rules_pp.c.s
 
-.PHONY : src/rules_rr.s
+.PHONY : src/rules/rules_pp.s
 
 # target to generate assembly for a file
-src/rules_rr.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_rr.c.s
-.PHONY : src/rules_rr.c.s
+src/rules/rules_pp.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_pp.c.s
+.PHONY : src/rules/rules_pp.c.s
 
-src/rules_rrr.o: src/rules_rrr.c.o
+src/rules/rules_rr.o: src/rules/rules_rr.c.o
 
-.PHONY : src/rules_rrr.o
+.PHONY : src/rules/rules_rr.o
 
 # target to build an object file
-src/rules_rrr.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_rrr.c.o
-.PHONY : src/rules_rrr.c.o
+src/rules/rules_rr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o
+.PHONY : src/rules/rules_rr.c.o
 
-src/rules_rrr.i: src/rules_rrr.c.i
+src/rules/rules_rr.i: src/rules/rules_rr.c.i
 
-.PHONY : src/rules_rrr.i
+.PHONY : src/rules/rules_rr.i
 
 # target to preprocess a source file
-src/rules_rrr.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_rrr.c.i
-.PHONY : src/rules_rrr.c.i
+src/rules/rules_rr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_rr.c.i
+.PHONY : src/rules/rules_rr.c.i
 
-src/rules_rrr.s: src/rules_rrr.c.s
+src/rules/rules_rr.s: src/rules/rules_rr.c.s
 
-.PHONY : src/rules_rrr.s
+.PHONY : src/rules/rules_rr.s
 
 # target to generate assembly for a file
-src/rules_rrr.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_rrr.c.s
-.PHONY : src/rules_rrr.c.s
+src/rules/rules_rr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_rr.c.s
+.PHONY : src/rules/rules_rr.c.s
 
-src/rules_ss.o: src/rules_ss.c.o
+src/rules/rules_rrr.o: src/rules/rules_rrr.c.o
 
-.PHONY : src/rules_ss.o
+.PHONY : src/rules/rules_rrr.o
 
 # target to build an object file
-src/rules_ss.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_ss.c.o
-.PHONY : src/rules_ss.c.o
+src/rules/rules_rrr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o
+.PHONY : src/rules/rules_rrr.c.o
 
-src/rules_ss.i: src/rules_ss.c.i
+src/rules/rules_rrr.i: src/rules/rules_rrr.c.i
 
-.PHONY : src/rules_ss.i
+.PHONY : src/rules/rules_rrr.i
 
 # target to preprocess a source file
-src/rules_ss.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_ss.c.i
-.PHONY : src/rules_ss.c.i
+src/rules/rules_rrr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.i
+.PHONY : src/rules/rules_rrr.c.i
 
-src/rules_ss.s: src/rules_ss.c.s
+src/rules/rules_rrr.s: src/rules/rules_rrr.c.s
 
-.PHONY : src/rules_ss.s
+.PHONY : src/rules/rules_rrr.s
 
 # target to generate assembly for a file
-src/rules_ss.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules_ss.c.s
-.PHONY : src/rules_ss.c.s
+src/rules/rules_rrr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.s
+.PHONY : src/rules/rules_rrr.c.s
+
+src/rules/rules_ss.o: src/rules/rules_ss.c.o
+
+.PHONY : src/rules/rules_ss.o
+
+# target to build an object file
+src/rules/rules_ss.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
+.PHONY : src/rules/rules_ss.c.o
+
+src/rules/rules_ss.i: src/rules/rules_ss.c.i
+
+.PHONY : src/rules/rules_ss.i
+
+# target to preprocess a source file
+src/rules/rules_ss.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.i
+.PHONY : src/rules/rules_ss.c.i
+
+src/rules/rules_ss.s: src/rules/rules_ss.c.s
+
+.PHONY : src/rules/rules_ss.s
+
+# target to generate assembly for a file
+src/rules/rules_ss.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s
+.PHONY : src/rules/rules_ss.c.s
+
+src/solver/ft_solver_ps.o: src/solver/ft_solver_ps.c.o
+
+.PHONY : src/solver/ft_solver_ps.o
+
+# target to build an object file
+src/solver/ft_solver_ps.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o
+.PHONY : src/solver/ft_solver_ps.c.o
+
+src/solver/ft_solver_ps.i: src/solver/ft_solver_ps.c.i
+
+.PHONY : src/solver/ft_solver_ps.i
+
+# target to preprocess a source file
+src/solver/ft_solver_ps.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.i
+.PHONY : src/solver/ft_solver_ps.c.i
+
+src/solver/ft_solver_ps.s: src/solver/ft_solver_ps.c.s
+
+.PHONY : src/solver/ft_solver_ps.s
+
+# target to generate assembly for a file
+src/solver/ft_solver_ps.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.s
+.PHONY : src/solver/ft_solver_ps.c.s
 
 # Help Target
 help:
@@ -3345,12 +3372,12 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... src/ft_check_dupl.o"
-	@echo "... src/ft_check_dupl.i"
-	@echo "... src/ft_check_dupl.s"
-	@echo "... src/ft_solution_ps.o"
-	@echo "... src/ft_solution_ps.i"
-	@echo "... src/ft_solution_ps.s"
+	@echo "... src/parser/ft_check_dupl.o"
+	@echo "... src/parser/ft_check_dupl.i"
+	@echo "... src/parser/ft_check_dupl.s"
+	@echo "... src/parser/ft_is_it_sorted.o"
+	@echo "... src/parser/ft_is_it_sorted.i"
+	@echo "... src/parser/ft_is_it_sorted.s"
 	@echo "... src/parser/parsing_utils.o"
 	@echo "... src/parser/parsing_utils.i"
 	@echo "... src/parser/parsing_utils.s"
@@ -3360,18 +3387,21 @@ help:
 	@echo "... src/push_swap.o"
 	@echo "... src/push_swap.i"
 	@echo "... src/push_swap.s"
-	@echo "... src/rules_pp.o"
-	@echo "... src/rules_pp.i"
-	@echo "... src/rules_pp.s"
-	@echo "... src/rules_rr.o"
-	@echo "... src/rules_rr.i"
-	@echo "... src/rules_rr.s"
-	@echo "... src/rules_rrr.o"
-	@echo "... src/rules_rrr.i"
-	@echo "... src/rules_rrr.s"
-	@echo "... src/rules_ss.o"
-	@echo "... src/rules_ss.i"
-	@echo "... src/rules_ss.s"
+	@echo "... src/rules/rules_pp.o"
+	@echo "... src/rules/rules_pp.i"
+	@echo "... src/rules/rules_pp.s"
+	@echo "... src/rules/rules_rr.o"
+	@echo "... src/rules/rules_rr.i"
+	@echo "... src/rules/rules_rr.s"
+	@echo "... src/rules/rules_rrr.o"
+	@echo "... src/rules/rules_rrr.i"
+	@echo "... src/rules/rules_rrr.s"
+	@echo "... src/rules/rules_ss.o"
+	@echo "... src/rules/rules_ss.i"
+	@echo "... src/rules/rules_ss.s"
+	@echo "... src/solver/ft_solver_ps.o"
+	@echo "... src/solver/ft_solver_ps.i"
+	@echo "... src/solver/ft_solver_ps.s"
 .PHONY : help
 
 

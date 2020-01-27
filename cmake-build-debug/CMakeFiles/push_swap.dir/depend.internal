@@ -398,66 +398,73 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/libft/get_next_line.c
-CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o
+CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/ft_check_dupl.c
- /home/dpenney/Desktop/push_swap/src/rules.h
-CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o
+ /home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/ft_solution_ps.c
- /home/dpenney/Desktop/push_swap/src/rules.h
+ /home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
- /home/dpenney/Desktop/push_swap/src/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c
- /home/dpenney/Desktop/push_swap/src/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
 CMakeFiles/push_swap.dir/src/push_swap.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/push_swap.c
- /home/dpenney/Desktop/push_swap/src/rules.h
-CMakeFiles/push_swap.dir/src/rules_pp.c.o
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/rules.h
- /home/dpenney/Desktop/push_swap/src/rules_pp.c
-CMakeFiles/push_swap.dir/src/rules_rr.c.o
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_pp.c
+CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/rules.h
- /home/dpenney/Desktop/push_swap/src/rules_rr.c
-CMakeFiles/push_swap.dir/src/rules_rrr.c.o
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_rr.c
+CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/rules.h
- /home/dpenney/Desktop/push_swap/src/rules_rrr.c
-CMakeFiles/push_swap.dir/src/rules_ss.c.o
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_rrr.c
+CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
  /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
- /home/dpenney/Desktop/push_swap/src/rules.h
- /home/dpenney/Desktop/push_swap/src/rules_ss.c
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_ss.c
+CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c

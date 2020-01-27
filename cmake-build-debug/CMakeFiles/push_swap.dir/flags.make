@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/dpenney/Desktop/push_swap/includes -I/home/dpenney/Desktop/push_swap/libft/ft_printf -I/home/dpenney/Desktop/push_swap/libft/ftoa -I/home/dpenney/Desktop/push_swap/libft/includes -I/home/dpenney/Desktop/push_swap/src 
+C_INCLUDES = -I/home/dpenney/Desktop/push_swap/includes -I/home/dpenney/Desktop/push_swap/libft/ft_printf -I/home/dpenney/Desktop/push_swap/libft/ftoa -I/home/dpenney/Desktop/push_swap/libft/includes -I/home/dpenney/Desktop/push_swap/src/rules 
 

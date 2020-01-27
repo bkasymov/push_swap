@@ -103,15 +103,16 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o"
   "/home/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "/home/dpenney/Desktop/push_swap/libft/get_next_line.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
-  "/home/dpenney/Desktop/push_swap/src/ft_check_dupl.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_check_dupl.c.o"
-  "/home/dpenney/Desktop/push_swap/src/ft_solution_ps.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/ft_solution_ps.c.o"
+  "/home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o"
+  "/home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
   "/home/dpenney/Desktop/push_swap/src/push_swap.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap.c.o"
-  "/home/dpenney/Desktop/push_swap/src/rules_pp.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_pp.c.o"
-  "/home/dpenney/Desktop/push_swap/src/rules_rr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_rr.c.o"
-  "/home/dpenney/Desktop/push_swap/src/rules_rrr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_rrr.c.o"
-  "/home/dpenney/Desktop/push_swap/src/rules_ss.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules_ss.c.o"
+  "/home/dpenney/Desktop/push_swap/src/rules/rules_pp.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o"
+  "/home/dpenney/Desktop/push_swap/src/rules/rules_rr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o"
+  "/home/dpenney/Desktop/push_swap/src/rules/rules_rrr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o"
+  "/home/dpenney/Desktop/push_swap/src/rules/rules_ss.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
+  "/home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -121,7 +122,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../libft/ft_printf"
   "../libft/ftoa"
   "../libft/includes"
-  "../src"
+  "../src/rules"
   )
 
 # Targets to which this target links.

@@ -38,7 +38,7 @@
 					<Add directory="/home/dpenney/Desktop/push_swap/libft/ft_printf"/>
 					<Add directory="/home/dpenney/Desktop/push_swap/libft/ftoa"/>
 					<Add directory="/home/dpenney/Desktop/push_swap/libft/includes"/>
-					<Add directory="/home/dpenney/Desktop/push_swap/src"/>
+					<Add directory="/home/dpenney/Desktop/push_swap/src/rules"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
@@ -63,7 +63,7 @@
 					<Add directory="/home/dpenney/Desktop/push_swap/libft/ft_printf"/>
 					<Add directory="/home/dpenney/Desktop/push_swap/libft/ftoa"/>
 					<Add directory="/home/dpenney/Desktop/push_swap/libft/includes"/>
-					<Add directory="/home/dpenney/Desktop/push_swap/src"/>
+					<Add directory="/home/dpenney/Desktop/push_swap/src/rules"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
@@ -412,10 +412,10 @@
 		<Unit filename="/home/dpenney/Desktop/push_swap/libft/includes/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_check_dupl.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/ft_solution_ps.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c">
@@ -427,19 +427,22 @@
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/push_swap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules.h">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules/rules.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_pp.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules/rules_pp.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_rr.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules/rules_rr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_rrr.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules/rules_rrr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules_ss.c">
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules/rules_ss.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/CMakeLists.txt">

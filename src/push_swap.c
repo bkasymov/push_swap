@@ -56,8 +56,10 @@ int		main(int argc, char **argv)
 
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
+	if (ft_is_it_sorted(&psv))
+		return (0);
 	ft_check_dupl(&psv);
     ft_initial(&psv);
-	ft_solution_ps(&psv);
+	ft_solver_ps(&psv);
 	return(0);
 }

@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/dpenney/Desktop/push_swap/includes/push_swap.h
-../libft/includes/libft.h
-/home/dpenney/Desktop/push_swap/libft/includes/libft.h
-../src/rules.h
-/home/dpenney/Desktop/push_swap/src/rules.h
 stdio.h
 /home/dpenney/Desktop/push_swap/includes/stdio.h
+../libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
+../src/rules/rules.h
+/home/dpenney/Desktop/push_swap/src/rules/rules.h
 stdlib.h
 /home/dpenney/Desktop/push_swap/includes/stdlib.h
 unistd.h
@@ -42,11 +42,13 @@ unistd.h
 bbtree_utils.h
 /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
-/home/dpenney/Desktop/push_swap/src/ft_solution_ps.c
-../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
+../../includes/push_swap.h
 /home/dpenney/Desktop/push_swap/includes/push_swap.h
+../../libft/ft_printf/printf.h
+/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 
-/home/dpenney/Desktop/push_swap/src/rules.h
-./../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/src/rules/rules.h
+./../../includes/push_swap.h
 /home/dpenney/Desktop/push_swap/includes/push_swap.h
 

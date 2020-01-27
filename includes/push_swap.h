@@ -1,14 +1,17 @@
 #ifndef PUSH_SWAP
 # define PUSH_SWAP
 
-# include "../libft/includes/libft.h"
-# include "../src/rules.h"
+
 # include "stdio.h" //Delete it!
+
+
+# include "../libft/includes/libft.h"
+# include "../src/rules/rules.h"
+
 # include "stdlib.h"
 # include "unistd.h"
 # include "../libft/ft_printf/printf.h"
 # include "limits.h"
-
 
 typedef		struct stacks
 {
@@ -28,7 +31,7 @@ typedef		struct variables_ps
 	int			        *a;
 	int			        *b;
 	int                 count;
-	int                 mass[2];
+	int                 mass[3];
 	int                 qa;
 	int                 qb;
 }				        t_vars;
@@ -52,6 +55,7 @@ void		ft_check_dupl(t_vars *psv);
 void            ft_init_lists(t_vars *psv, int mem);
 t_stack         *ft_malloc_list(t_vars *psv, int mem);
 void            ft_free_list(t_vars *psv);
+int             ft_is_it_sorted(t_vars *psv);
 
 /*
  * Performing rule swap two first elements;
@@ -59,7 +63,7 @@ void            ft_free_list(t_vars *psv);
 
 void        ft_sa(t_vars *psv, int ps);
 void        ft_sb(t_vars *psv, int ps);
-void        ft_ss(t_stack *psv, int ps);
+void        ft_ss(t_vars *psv, int ps);
 
 /*
  ** Performing rule pp of take on element of one stack and put to the top of other one stack
@@ -88,10 +92,10 @@ void        ft_rrr(t_vars *psv, int ps);
  ** Solution of push_swap
  */
 
-void        ft_solution_ps(t_vars *psv);
+void        ft_solver_ps(t_vars *psv);
+void        ft_find_bones(t_vars *psv);
 void        ft_3args_solution(t_vars *psv);
 void        ft_5args_solution(t_vars *psv);
 void        ft_general_solution(t_vars *psv);
-void        ft_find_max(t_vars *psv);
 
 #endif
