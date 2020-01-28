@@ -14,6 +14,8 @@ void        ft_ra(t_vars *psv, int ps)
 	t_stack *tmp;
 	t_stack *last;
 
+	if ((!psv->stack_a) || !(psv->stack_a->next))
+		return ;
 	tmp = psv->stack_a;
 	last = psv->stack_a;
 	first = psv->stack_a->next;
@@ -32,6 +34,8 @@ void        ft_rb(t_vars *psv, int ps)
 	t_stack *tmp;
 	t_stack *last;
 
+	if ((!psv->stack_b) || !(psv->stack_b->next))
+		return ;
 	tmp = psv->stack_b;
 	last = psv->stack_b;
 	first = psv->stack_b->next;

@@ -29,25 +29,28 @@ void        ft_calc_step(t_vars *psv)
 	int     mid;
 	int     j;
 	t_stack  *list;
-	t_stack  *list2;
 
-	i = 1;
+	i = 0;
 	j = 0;
 	mid = psv->qa / 2;
 	list = psv->stack_a;
-	while (mid)
+	while (psv->qa > j)
 	{
-		list->step = 0 + i;
-		list = list->next;
-		mid--;
-		i++;
-	}
-	i = psv->qa;
-	while (i != mid)
-	{
-		list->step = --j;
-		list = list->next;
-		i--;
+		while (mid)
+		{
+			list->step = 0 + i;
+			list = list->next;
+			mid--;
+			i++;
+		}
+		i = 0;
+		while (list)
+		{
+			list->step = 0 - i;
+			list = list->next;
+			i++;
+		}
+		j++;
 	}
 }
 
@@ -99,26 +102,36 @@ void        ft_5args_solution(t_vars *psv)
 	}
 }
 
+/*
+ * at first putting all digits which not max or min to stack_b
+ * in cycle till qa > 2 we are checking next
+ * if it's not max and min, ft_pb.
+ * if digit > med, putting to stack_b by end through ft_pb and ft_rb;
+ * if digit < med, just putting to stack_b;
+ * if digit of stack_a is max or min, putting it by end of stack_a;
+ * */
+
 void        ft_general_solution(t_vars *psv)
 {
-	t_stack *a;
-	t_stack *b;
-
-	a = psv->stack_a;
-	b = psv->stack_b;
-	while (a)
+	while (psv->qa > 2)
 	{
-		if (psv->mass[1] >= a->data && a->data != psv->mass[0] && a->data != psv->mass[2])
+		if (psv->stack_a->data != psv->mass[0] && psv->stack_a->data != psv->mass[2])
 		{
-			ft_pb(psv, 1);
+			if (psv->stack_a->data > psv->mass[1])
+			{
+				ft_pb(psv, 1);
+				ft_rb(psv, 1);
+			}
+			else{
+				ft_pb(psv, 1);
+			}
 		}
-		else if (a->data > psv->mass[1] && a->data != psv->mass[0] && a->data != psv->mass[2])
-		{
-			ft_pb(psv, 1);
-			ft_rb(psv, 1);
-		}
-		a = a->next;
+		else
+			ft_ra(psv, 1);
 	}
+	if (psv->stack_a->data < psv->stack_a->next->data)
+		ft_sa(psv, 1);
+//	ft_pa(psv, 1); // Это уже начало вращения?
 }
 
 void     ft_quick_sort(int *array, int start, int end)
