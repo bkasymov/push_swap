@@ -27,10 +27,12 @@ void        ft_calc_step(t_vars *psv)
 {
 	int     i;
 	int     mid;
+	int     j;
 	t_stack  *list;
 	t_stack  *list2;
 
 	i = 1;
+	j = 0;
 	mid = psv->qa / 2;
 	list = psv->stack_a;
 	while (mid)
@@ -43,7 +45,9 @@ void        ft_calc_step(t_vars *psv)
 	i = psv->qa;
 	while (i != mid)
 	{
-		list
+		list->step = --j;
+		list = list->next;
+		i--;
 	}
 }
 
