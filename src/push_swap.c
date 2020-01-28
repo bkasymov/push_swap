@@ -45,10 +45,6 @@ int     ft_general_parser(int argc, char **argv, t_vars *psv)
 ** and free result of ft_strsplit
 */
 
-void    ft_initial(t_vars *psv)
-{
-    psv->count = 0;
-}
 
 int		main(int argc, char **argv)
 {
@@ -59,7 +55,7 @@ int		main(int argc, char **argv)
 	if (ft_is_it_sorted(&psv))
 		return (0);
 	ft_check_dupl(&psv);
-    ft_initial(&psv);
 	ft_solver_ps(&psv);
+	ft_free_list(&psv);
 	return(0);
 }

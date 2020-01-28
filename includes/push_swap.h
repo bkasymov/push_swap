@@ -4,6 +4,8 @@
 # include "../libft/includes/libft.h"
 # include "../src/rules/rules.h"
 
+#include "stdio.h"
+
 # include "stdlib.h"
 # include "unistd.h"
 # include "../libft/ft_printf/printf.h"
@@ -31,11 +33,11 @@ typedef		struct variables_ps
 	int                 qb;
 }				        t_vars;
 
-void	error_print(t_vars *psv);
-int		ft_atoips(t_vars *psv, const char *str);
-int		ft_check_sym(char *str);
-int		ft_args_in_1_string(char *str, t_vars *psv);
-int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
+void	    error_print(t_vars *psv);
+int		    ft_atoips(t_vars *psv, const char *str);
+int		    ft_check_sym(char *str);
+int		    ft_args_in_1_string(char *str, t_vars *psv);
+int         ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
 
 /*
  * How to check duplicate?
@@ -84,18 +86,26 @@ void        ft_rrb(t_vars *psv, int ps);
 void        ft_rrr(t_vars *psv, int ps);
 
 /*
- ** Solution of push_swap
- */
+** Finding max, med, min;
+*/
 
-void        ft_solver_ps(t_vars *psv);
 void        ft_find_bones(t_vars *psv);
+void        ft_quick_sort(int *array, int start, int end);
+int         ft_parting(int *array, int start, int end);
+void        ft_calc_step(t_vars *psv);
+
+/*
+** Solution of push_swap
+*/
+
 void        ft_3args_solution(t_vars *psv);
 void        ft_5args_solution(t_vars *psv);
 void        ft_general_solution(t_vars *psv);
+void        ft_solver_ps(t_vars *psv);
 
 /*
- * Checker funcions;
- */
+** Checker funcions;
+*/
 
 
 

@@ -29,7 +29,7 @@ int             ft_is_it_sorted(t_vars *psv)
 		i++;
 	}
 	if (j == i) {
-		free(psv->stack_a);
+		ft_free_list(psv);
 		free(psv->arr);
 		return (1);
 	}

@@ -86,7 +86,7 @@ void    ft_free_list(t_vars *psv)
 void	error_print(t_vars *psv)
 {
 	free(psv->arr);
-	free(psv->stack_a);
+	ft_free_list(psv);
 	write(2, "Error\n", 7);
 	exit(1);
 }
