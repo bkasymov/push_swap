@@ -1,5 +1,5 @@
-#ifndef PUSH_SWAP
-# define PUSH_SWAP
+#ifndef CHECKER_PS
+# define CHECKER_PS
 
 # include "../libft/includes/libft.h"
 # include "../src/rules/rules.h"
@@ -11,19 +11,19 @@
 # include "../libft/ft_printf/printf.h"
 # include "limits.h"
 
-typedef		struct      stacks
+typedef		struct stacks_chv
 {
-	struct stacks	    *next;
-	int				    data;
-	int                 step;
-	int                 rotate;
-}					    t_stack;
+	struct stacks	*next;
+	int				data;
+	int             step;
+	int             rotate;
+}					t_stack_chv;
 
 /*
  ** mass variable keeping max digit[2], middle digit[1] and min digit[0]
  */
 
-typedef		struct variables
+typedef		struct variables_chv
 {
 	t_stack		        *stack_a;
 	t_stack		        *stack_b;
@@ -32,7 +32,7 @@ typedef		struct variables
 	int                 mass[3];
 	int                 qa;
 	int                 qb;
-}				        t_vars;
+}				        t_vars_chv;
 
 int                     ft_general_parser(int argc, char **argv, t_vars *psv);
 void	                error_print(t_vars *psv);
@@ -95,20 +95,5 @@ void                    ft_find_bones(t_vars *psv);
 void                    ft_quick_sort(int *array, int start, int end);
 int                     ft_parting(int *array, int start, int end);
 void                    ft_calc_step(t_stack *tmp, int quan);
-
-/*
-** Solution of push_swap
-*/
-
-void                    ft_3args_solution(t_vars *psv);
-void                    ft_5args_solution(t_vars *psv);
-void                    ft_general_solution(t_vars *psv);
-void                    ft_solver_ps(t_vars *psv);
-
-/*
-** Checker funcions;
-*/
-
-
 
 #endif

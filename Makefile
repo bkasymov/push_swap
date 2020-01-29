@@ -10,7 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME_1 = push_swap
+NAME_PS = push_swap
+
+NAME_CH = checker
 
 SRC = ./src/push_swap.c \
 	  ./src/parser/parsing_utils.c \
@@ -21,7 +23,8 @@ SRC = ./src/push_swap.c \
 	  ./src/rules/rules_pp.c \
 	  ./src/rules/rules_rr.c \
 	  ./src/rules/rules_rrr.c \
-	  ./src/solver/ft_solver_ps.c
+	  ./src/solver/ft_solver_ps.c \
+	  ./src/solver/ft_general_solver_ps.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -31,11 +34,14 @@ FLAGS = -Wall -Wextra -Werror
 
 LIBINC = -I libft/include/libft.h -L ./libft -lft
 
-all: $(NAME_1)
+all: $(NAME_PS) $(NAME_CH)
 
-$(NAME_1): $(OBJ)
+$(NAME_PS): $(OBJ)
 	make -C libft/
-	gcc $(FLAGS) $(OBJ) -I ./includes/ -o  $(NAME_1) $(LIBINC)
+	gcc $(FLAGS) $(OBJ) -I ./includes/ -o  $(NAME_PS) $(LIBINC)
+
+$(NAME_CH):
+	gcc $(FLAGS) $(OBJ) -I ./includes/ -o $(NAME_CH) $(LIBINC)
 
 clean:
 	rm -f ./libft/*.o
@@ -44,7 +50,8 @@ clean:
 	rm -f $(OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	rm -f $(NAME_CH)
+	rm -f $(NAME_PS)
 	rm -f libft/printf/libft.a
 
 re: fclean all

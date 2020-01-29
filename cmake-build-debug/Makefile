@@ -2796,6 +2796,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+src/checker.o: src/checker.c.o
+
+.PHONY : src/checker.o
+
+# target to build an object file
+src/checker.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.o
+.PHONY : src/checker.c.o
+
+src/checker.i: src/checker.c.i
+
+.PHONY : src/checker.i
+
+# target to preprocess a source file
+src/checker.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.i
+.PHONY : src/checker.c.i
+
+src/checker.s: src/checker.c.s
+
+.PHONY : src/checker.s
+
+# target to generate assembly for a file
+src/checker.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.s
+.PHONY : src/checker.c.s
+
 src/parser/ft_check_dupl.o: src/parser/ft_check_dupl.c.o
 
 .PHONY : src/parser/ft_check_dupl.o
@@ -3038,6 +3065,33 @@ src/rules/rules_ss.s: src/rules/rules_ss.c.s
 src/rules/rules_ss.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/rules/rules_ss.c.s
 .PHONY : src/rules/rules_ss.c.s
+
+src/solver/ft_general_solver_ps.o: src/solver/ft_general_solver_ps.c.o
+
+.PHONY : src/solver/ft_general_solver_ps.o
+
+# target to build an object file
+src/solver/ft_general_solver_ps.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o
+.PHONY : src/solver/ft_general_solver_ps.c.o
+
+src/solver/ft_general_solver_ps.i: src/solver/ft_general_solver_ps.c.i
+
+.PHONY : src/solver/ft_general_solver_ps.i
+
+# target to preprocess a source file
+src/solver/ft_general_solver_ps.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.i
+.PHONY : src/solver/ft_general_solver_ps.c.i
+
+src/solver/ft_general_solver_ps.s: src/solver/ft_general_solver_ps.c.s
+
+.PHONY : src/solver/ft_general_solver_ps.s
+
+# target to generate assembly for a file
+src/solver/ft_general_solver_ps.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.s
+.PHONY : src/solver/ft_general_solver_ps.c.s
 
 src/solver/ft_solver_ps.o: src/solver/ft_solver_ps.c.o
 
@@ -3372,6 +3426,9 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... src/checker.o"
+	@echo "... src/checker.i"
+	@echo "... src/checker.s"
 	@echo "... src/parser/ft_check_dupl.o"
 	@echo "... src/parser/ft_check_dupl.i"
 	@echo "... src/parser/ft_check_dupl.s"
@@ -3399,6 +3456,9 @@ help:
 	@echo "... src/rules/rules_ss.o"
 	@echo "... src/rules/rules_ss.i"
 	@echo "... src/rules/rules_ss.s"
+	@echo "... src/solver/ft_general_solver_ps.o"
+	@echo "... src/solver/ft_general_solver_ps.i"
+	@echo "... src/solver/ft_general_solver_ps.s"
 	@echo "... src/solver/ft_solver_ps.o"
 	@echo "... src/solver/ft_solver_ps.i"
 	@echo "... src/solver/ft_solver_ps.s"

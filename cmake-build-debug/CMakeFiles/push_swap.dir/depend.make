@@ -398,6 +398,14 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/get_next_lin
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 
+CMakeFiles/push_swap.dir/src/checker.c.o: ../includes/checker.h
+CMakeFiles/push_swap.dir/src/checker.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/checker.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/checker.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/checker.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/checker.c.o: ../src/rules/rules.h
+CMakeFiles/push_swap.dir/src/checker.c.o: ../src/checker.c
+
 CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o: ../libft/includes/bbtree_utils.h
@@ -460,6 +468,13 @@ CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../libft/includes/bbtree_utils.
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules.h
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o: ../src/rules/rules_ss.c
+
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../src/rules/rules.h
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../src/solver/ft_general_solver_ps.c
 
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: ../libft/ft_printf/printf.h

@@ -103,6 +103,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o"
   "/home/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "/home/dpenney/Desktop/push_swap/libft/get_next_line.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
+  "/home/dpenney/Desktop/push_swap/src/checker.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/checker.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o"
   "/home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
@@ -112,6 +113,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dpenney/Desktop/push_swap/src/rules/rules_rr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o"
   "/home/dpenney/Desktop/push_swap/src/rules/rules_rrr.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o"
   "/home/dpenney/Desktop/push_swap/src/rules/rules_ss.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
+  "/home/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o"
   "/home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c" "/home/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

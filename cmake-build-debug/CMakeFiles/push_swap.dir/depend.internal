@@ -398,6 +398,14 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/libft/get_next_line.c
+CMakeFiles/push_swap.dir/src/checker.c.o
+ ../includes/checker.h
+ ../includes/push_swap.h
+ ../libft/ft_printf/printf.h
+ ../libft/includes/bbtree_utils.h
+ ../libft/includes/libft.h
+ ../src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/checker.c
 CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
@@ -461,6 +469,13 @@ CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/rules/rules.h
  /home/dpenney/Desktop/push_swap/src/rules/rules_ss.c
+CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules.h
+ /home/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h

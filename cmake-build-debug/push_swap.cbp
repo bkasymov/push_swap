@@ -88,6 +88,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dpenney/Desktop/push_swap/includes/checker.h">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/includes/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
@@ -412,6 +415,9 @@
 		<Unit filename="/home/dpenney/Desktop/push_swap/libft/includes/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/checker.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -440,6 +446,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/rules/rules_ss.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c">

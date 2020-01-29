@@ -128,4 +128,4 @@ add_executable(push_swap
         src/rules/rules_rrr.c
         src/rules/rules_ss.c
         src/solver/ft_solver_ps.c
-        src/push_swap.c)
+        src/push_swap.c src/solver/ft_general_solver_ps.c src/checker.c includes/checker.h)
