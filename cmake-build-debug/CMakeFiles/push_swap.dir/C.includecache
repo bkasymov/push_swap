@@ -6,49 +6,33 @@
 
 #IncludeRegexTransform: 
 
-../includes/checker.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
 ../libft/includes/libft.h
-../libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
 ../src/rules/rules.h
-../src/rules/rules.h
+/home/dpenney/Desktop/push_swap/src/rules/rules.h
 stdio.h
-../includes/stdio.h
+/home/dpenney/Desktop/push_swap/includes/stdio.h
 stdlib.h
-../includes/stdlib.h
+/home/dpenney/Desktop/push_swap/includes/stdlib.h
 unistd.h
-../includes/unistd.h
+/home/dpenney/Desktop/push_swap/includes/unistd.h
 ../libft/ft_printf/printf.h
-../libft/ft_printf/printf.h
+/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 limits.h
-../includes/limits.h
+/home/dpenney/Desktop/push_swap/includes/limits.h
 
-../includes/push_swap.h
-../libft/includes/libft.h
-../libft/includes/libft.h
-../src/rules/rules.h
-../src/rules/rules.h
-stdio.h
-../includes/stdio.h
-stdlib.h
-../includes/stdlib.h
-unistd.h
-../includes/unistd.h
-../libft/ft_printf/printf.h
-../libft/ft_printf/printf.h
-limits.h
-../includes/limits.h
-
-../libft/ft_printf/printf.h
+/home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
 ../includes/libft.h
-../libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
 stdarg.h
 -
 
-../libft/includes/bbtree_utils.h
+/home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 stdlib.h
 -
 
-../libft/includes/libft.h
+/home/dpenney/Desktop/push_swap/libft/includes/libft.h
 string.h
 -
 stdlib.h
@@ -56,13 +40,19 @@ stdlib.h
 unistd.h
 -
 bbtree_utils.h
-../libft/includes/bbtree_utils.h
-
-../src/rules/rules.h
-./../../includes/push_swap.h
-../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
 /home/dpenney/Desktop/push_swap/src/checker.c
-../../includes/checker.h
-/home/dpenney/Desktop/includes/checker.h
+../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
+stdio.h
+/home/dpenney/Desktop/push_swap/src/stdio.h
+
+/home/dpenney/Desktop/push_swap/src/push_swap.c
+./../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
+
+/home/dpenney/Desktop/push_swap/src/rules/rules.h
+./../../includes/push_swap.h
+/home/dpenney/Desktop/push_swap/includes/push_swap.h
 
