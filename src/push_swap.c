@@ -12,22 +12,7 @@
 
 #include "./../includes/push_swap.h"
 
-int     ft_general_parser(int argc, char **argv, t_vars *psv)
-{
-	if (argc == 2)
-	{
-		if (ft_args_in_1_string(argv[1], psv) == 1)
-		{
-			return(1);
-		}
-	}
-	else if (argc == 1)
-		return(1);
-	else
-	if ((ft_args_in_other_strings(argv, argc, psv) == 1))
-		error_print(psv);
-	return (0);
-}
+
 
 /*
  ** Program getting argument and checking.

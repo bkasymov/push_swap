@@ -9,7 +9,7 @@
  ** Rule ss do ft_sa and ft_sb in one time;
  */
 
-void        ft_sa(struct variables_ps *psv, int ps)
+void        ft_sa(struct variables *psv, int ps)
 {
 	int     tmp;
 	t_stack	*link;
@@ -24,7 +24,7 @@ void        ft_sa(struct variables_ps *psv, int ps)
 		write(1, "sa\n", 3);
 }
 
-void        ft_sb(struct variables_ps *psv, int ps)
+void        ft_sb(struct variables *psv, int ps)
 {
 	int     tmp;
 	t_stack	*link;
