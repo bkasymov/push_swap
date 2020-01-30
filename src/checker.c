@@ -1,7 +1,7 @@
 #include "../includes/push_swap.h"
 #include "stdio.h"
 
-void    ft_perfroming_rules(char *line, t_vars *chv)
+void    ft_performing_rules(char *line, t_vars *chv)
 {
 	if (!(ft_strcmp(line, "sa")))
 		ft_sa(chv, 0);
@@ -36,7 +36,7 @@ void    ft_read_rules(t_vars *chv)
 	line = NULL;
 	while (get_next_line(0, &line))
 	{
-		ft_perfroming_rules(line, chv);
+		ft_performing_rules(line, chv);
 		free(line);
 		line = NULL;
 	}
@@ -52,24 +52,24 @@ int     ft_check_sort(t_vars *chv)
 {
 	t_stack     *tmp;
 	int         i;
-	int         digit;
+	int         max;
 	int         j;
 
 	i = 0;
-	digit = 0;
+	max = 0;
 	j = 0;
 	tmp = chv->stack_a;
-	while (i < chv->qa)
+	while (tmp)
 	{
-		if (digit < tmp->data)
+		if (max < tmp->data)
 		{
-			digit = tmp->data;
+			max = tmp->data;
 			j++;
 		}
 		tmp = tmp->next;
 		i++;
 	}
-	if (j == i - 1)
+	if (j == i)
 		return (1);
 	return (0);
 }

@@ -48,10 +48,6 @@ bbtree_utils.h
 stdio.h
 /home/dpenney/Desktop/push_swap/src/stdio.h
 
-/home/dpenney/Desktop/push_swap/src/push_swap.c
-./../includes/push_swap.h
-/home/dpenney/Desktop/push_swap/includes/push_swap.h
-
 /home/dpenney/Desktop/push_swap/src/rules/rules.h
 ./../../includes/push_swap.h
 /home/dpenney/Desktop/push_swap/includes/push_swap.h

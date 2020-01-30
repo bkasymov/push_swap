@@ -393,10 +393,10 @@ CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o: ../libft/ftoa/ftoa.c
 CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o: ../libft/ftoa/ft_fp.h
 CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o: ../libft/ftoa/ftoa2.c
 
+CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/bbtree_utils.h
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/includes/libft.h
-CMakeFiles/push_swap.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 
 CMakeFiles/push_swap.dir/src/checker.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/checker.c.o: ../libft/ft_printf/printf.h

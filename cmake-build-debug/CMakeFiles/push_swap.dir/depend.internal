@@ -394,10 +394,10 @@ CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o
  /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
  /home/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o
- ../libft/includes/bbtree_utils.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/libft/get_next_line.c
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/get_next_line.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/checker.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
