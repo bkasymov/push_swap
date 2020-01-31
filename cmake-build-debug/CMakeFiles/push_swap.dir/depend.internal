@@ -399,12 +399,7 @@ CMakeFiles/push_swap.dir/libft/get_next_line.c.o
  /home/dpenney/Desktop/push_swap/libft/includes/get_next_line.h
  /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/checker.c.o
- /home/dpenney/Desktop/push_swap/includes/push_swap.h
- /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /home/dpenney/Desktop/push_swap/libft/includes/libft.h
  /home/dpenney/Desktop/push_swap/src/checker.c
- /home/dpenney/Desktop/push_swap/src/rules/rules.h
 CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o
  /home/dpenney/Desktop/push_swap/includes/push_swap.h
  /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h

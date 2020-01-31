@@ -76,6 +76,20 @@ void        ft_calc_step(t_stack *tmp, int quan)
  * Sending than to mark every list with necessary steps and rotations;
  * */
 
+void        ft_lets_go(t_vars *psv)
+{
+	t_stack     *tmpa;
+	t_stack     *tmpb;
+	int         i;
+
+	i = 0;
+	tmpa = psv->stack_a;
+	tmpb = psv->stack_b;
+	while (psv->qa > i) {
+
+	}
+}
+
 void        ft_general_solution(t_vars *psv)
 {
 	while (psv->qa > 2)
@@ -95,9 +109,9 @@ void        ft_general_solution(t_vars *psv)
 	}
 	if (psv->stack_a->data < psv->stack_a->next->data)
 		ft_sa(psv, 1);
-	ft_pa(psv, 1);
 	ft_calc_step(psv->stack_a, psv->qa);
 	ft_calc_step(psv->stack_b, psv->qb);
+	ft_lets_go(psv);
 }
 
 /*
