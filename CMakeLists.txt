@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(push_swap C)
+project(PUSH C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -9,7 +9,7 @@ include_directories(libft/ftoa)
 include_directories(libft/includes)
 include_directories(src/rules)
 
-add_executable(push_swap
+add_executable(PUSH
         includes/push_swap.h
         libft/ft_printf/apply_spec.c
         libft/ft_printf/apply_spec.h
@@ -127,5 +127,7 @@ add_executable(push_swap
         src/rules/rules_rr.c
         src/rules/rules_rrr.c
         src/rules/rules_ss.c
+        src/solver/ft_general_solver_ps.c
         src/solver/ft_solver_ps.c
-        src/push_swap.c src/solver/ft_general_solver_ps.c src/checker.c includes/checker.h)
+        src/checker.c
+        src/push_swap.c)

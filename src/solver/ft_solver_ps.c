@@ -45,9 +45,9 @@ void        ft_5args_solution(t_vars *psv)
 	while (psv->qb < 2)
 	{
 		if (psv->stack_a->data == psv->mass[2] || psv->stack_a->data == psv->mass[0])
-			ft_pb(psv, 1);
-		else
 			ft_ra(psv, 1);
+		else
+			ft_pb(psv, 1);
 	}
 	ft_3args_solution(psv);
 	ft_pa(psv, 1);
