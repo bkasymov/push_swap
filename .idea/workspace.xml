@@ -302,8 +302,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.push_swap" />
       <item itemvalue="CMake Application.PUSH" />
+      <item itemvalue="CMake Application.push_swap" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -513,10 +513,10 @@
     </state>
     <state x="194" y="213" key="SettingsEditor/0.23.2560.1333@0.23.2560.1333" timestamp="1580750911255" />
     <state x="194" y="214" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1576675067608" />
-    <state x="321" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1580485914468">
-      <screen x="0" y="27" width="1366" height="700" />
+    <state x="601" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1580761821678">
+      <screen x="0" y="23" width="2560" height="1333" />
     </state>
-    <state x="601" y="379" key="com.intellij.ide.util.TipDialog/0.23.2560.1333@0.23.2560.1333" timestamp="1579716737672" />
+    <state x="601" y="379" key="com.intellij.ide.util.TipDialog/0.23.2560.1333@0.23.2560.1333" timestamp="1580761821678" />
     <state x="601" y="380" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579095882106" />
     <state x="321" y="214" key="com.intellij.ide.util.TipDialog/0.27.1366.700@0.27.1366.700" timestamp="1580485914468" />
     <state x="372" y="212" key="com.intellij.ide.util.TipDialog/67.27.1299.694@67.27.1299.694" timestamp="1580055496353" />
