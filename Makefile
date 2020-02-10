@@ -38,14 +38,14 @@ LIBINC = -I libft/include/libft.h -L ./libft -lft
 
 LIBFT = ./libft/libft.a
 
-all: $(NAME_PS) $(NAME_CH)
+all: $(NAME_PS) #$(NAME_CH)
 
 $(NAME_PS): $(OBJ) $(LIBFT)
 	make -C libft/
 	gcc $(FLAGS) $(OBJ) $(OBJ_LIB) $(LIBINC) $(LIBFT) -o $(NAME_PS)
 
-$(NAME_CH): $(OBJ_CH) $(LIBFT)
-	gcc $(FLAGS) $(OBJ_CH) $(OBJ_LIB) $(LIBINC) $(LIBFT) -o $(NAME_CH)
+#$(NAME_CH): $(OBJ_CH) $(LIBFT)
+	#gcc $(FLAGS) $(OBJ_CH) $(OBJ_LIB) $(LIBINC) $(LIBFT) -o $(NAME_CH)
 
 clean:
 	rm -f ./libft/*.o

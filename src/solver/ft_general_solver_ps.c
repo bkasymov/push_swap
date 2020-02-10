@@ -118,47 +118,31 @@ void        ft_general_solution(t_vars *psv)
  *
  */
 
-void     ft_quick_sort(int *array, int start, int end)
+void        ft_quick_sort(int *s_arr, int first, int last)
 {
-	int     i;
+    int left;
+    int right;
+    int middle;
+    int tmp;
 
-	if (start < end)
-	{
-		i = ft_parting(array, start, end);
-		ft_quick_sort(array, start, i - 1);
-		ft_quick_sort(array, i + 1, end);
-	}
-}
-
-/*
- * pivot it's last digit;
- *
- */
-
-int     ft_parting(int *array, int start, int end)
-{
-
-	int     i;
-	int     j;
-	int     tmp;
-	int     pivot;
-
-	pivot = array[end];
-	i = start - 1;
-	j = start;
-	while (j < end)
-	{
-		if (array[j] <= pivot)
-		{
-			i++;
-			tmp = array[i];
-			array[i] = array[j];
-			array[j] = tmp;
-		}
-		j++;
-	}
-	tmp = array[i + 1];
-	array[i + 1] = array[end];
-	array[end] = tmp;
-	return (i + 1);
+    left = first;
+    right = last - 1;
+    middle = s_arr[(left + right) / 2];
+    while (s_arr[left] < middle)
+        left++;
+    while (s_arr[right] > middle)
+        right--;
+    while (left <= right)
+    {
+        if (left <= right)
+        {
+            tmp = s_arr[left];
+            s_arr[left] = s_arr[right];
+            s_arr[right] = tmp;
+            left++;
+            right--;
+        }
+        ft_quick_sort(s_arr, first, right);
+        ft_quick_sort(s_arr, left, last);
+    }
 }

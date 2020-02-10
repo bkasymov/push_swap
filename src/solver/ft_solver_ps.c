@@ -9,27 +9,59 @@
 void        ft_solver_ps(t_vars *psv)
 {
 	ft_find_bones(psv);
-	if (psv->qa == 2) {
-		if (psv->stack_a->data > psv->stack_a->next->data)
-			ft_sa(psv, 1);
-		return ;
-	}
 	if (psv->qa <= 3)
 		ft_3args_solution(psv);
-	if (psv->qa <= 5)
+	else if (psv->qa <= 5)
 		ft_5args_solution(psv);
-	if (psv->qa > 5)
+	else if (psv->qa > 5)
 		ft_general_solution(psv);
+}
+
+/*
+ * Finding max value in stack_a of last lists again,
+ * because last max value was pb to stack_b and we are
+ * finding new max value in fresh stack_a;
+ */
+
+int         ft_find_max(t_vars *psv)
+{
+    int     max_el;
+    t_stack  *tmp;
+
+    tmp = psv->stack_a;
+    max_el = tmp->data;
+    while (tmp)
+    {
+        if (tmp->data > max_el)
+            max_el = tmp->data;
+        tmp = tmp->next;
+    }
+    return (max_el);
 }
 
 void        ft_3args_solution(t_vars *psv)
 {
-	if (psv->stack_a->data == psv->mass[2])
-		ft_ra(psv, 1);
-	if (psv->stack_a->next->data == psv->mass[2])
-		ft_rra(psv, 1);
-	if (psv->stack_a-> data > psv->stack_a->next->data)
-		ft_sa(psv, 1);
+    int     max_el;
+
+
+    max_el = ft_find_max(psv);
+    if (psv->qa == 1)
+        return ;
+    if (psv->qa == 2)
+    {
+        if (psv->stack_a->data > psv->stack_a->next->data)
+            ft_sa(psv, 1);
+        return ;
+    }
+    else if (psv->qa == 3)
+    {
+        if (psv->stack_a->data == max_el)
+            ft_ra(psv, 1);
+        if (psv->stack_a->next->data == max_el)
+            ft_rra(psv, 1);
+        if (psv->stack_a->data > psv->stack_a->next->data)
+            ft_sa(psv, 1);
+    }
 }
 
 /*
@@ -44,10 +76,10 @@ void        ft_5args_solution(t_vars *psv)
 {
 	while (psv->qb < 2)
 	{
-		if (psv->stack_a->data == psv->mass[2] || psv->stack_a->data == psv->mass[0])
-			ft_ra(psv, 1);
-		else
+		if (psv->stack_a->data == psv->mass[0] || psv->stack_a->data == psv->mass[2])
 			ft_pb(psv, 1);
+		else
+			ft_ra(psv, 1);
 	}
 	ft_3args_solution(psv);
 	ft_pa(psv, 1);
@@ -60,4 +92,3 @@ void        ft_5args_solution(t_vars *psv)
 		ft_ra(psv, 1);
 	}
 }
-
