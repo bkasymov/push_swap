@@ -78,12 +78,27 @@ void        ft_calc_step(t_stack *tmp, int quan)
     }
 }
 
+void        ft_search_place(t_vars *psv)
+{
+    int     i;
+    t_stack *atmp;
+    t_stack *btmp
+    i = 0;
+    while (psv->qb > i)
+    {
+        if (btmp->data > atmp->data && btmp->data < atmp->data)
+        {
+
+        }
+        i++;
+    }
+}
 
 void        ft_general_sort(t_vars *psv)
 {
     while (psv->qb > 0)
     {
-
+        ft_search_place(psv);
         ft_calc_step(psv->stack_a, psv->qa);
         ft_calc_step(psv->stack_b, psv->qb);
     }

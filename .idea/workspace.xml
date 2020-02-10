@@ -13,18 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e580de7b-5d6e-472d-b9b5-a2efbe860888" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PUSH.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PUSH.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PUSH.dir/src/parser/parsing_utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PUSH.dir/src/parser/parsing_utils.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PUSH.dir/src/solver/ft_general_solver_ps.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PUSH.dir/src/solver/ft_general_solver_ps.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/PUSH" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PUSH" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/parsing_utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parsing_utils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/parsing_utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parsing_utils.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solver/ft_general_solver_ps.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_general_solver_ps.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solver/ft_general_solver_ps.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_general_solver_ps.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solver/ft_solver_ps.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_solver_ps.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +148,7 @@
       <workItem from="1581328139530" duration="945000" />
       <workItem from="1581329588786" duration="8354000" />
       <workItem from="1581347698015" duration="4587000" />
-      <workItem from="1581357772038" duration="1896000" />
+      <workItem from="1581357772038" duration="3868000" />
     </task>
     <servers />
   </component>
@@ -209,75 +199,75 @@
     </state>
     <state x="454" y="132" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.700@0.27.1366.700" timestamp="1580412837620" />
     <state x="499" y="131" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.694@67.27.1299.694" timestamp="1580075562510" />
-    <state width="1413" height="465" key="GridCell.Tab.0.bottom" timestamp="1581360185440">
+    <state width="1413" height="465" key="GridCell.Tab.0.bottom" timestamp="1581360775670">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603208" />
     <state width="1231" height="334" key="GridCell.Tab.0.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224106" />
-    <state width="1413" height="465" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581360185440" />
+    <state width="1413" height="465" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581360775670" />
     <state width="1320" height="225" key="GridCell.Tab.0.bottom/0.27.1366.700@0.27.1366.700" timestamp="1580494547889" />
     <state width="1320" height="270" key="GridCell.Tab.0.bottom/67.27.1299.694@67.27.1299.694" timestamp="1580084647519" />
     <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577673717490" />
-    <state width="1413" height="465" key="GridCell.Tab.0.center" timestamp="1581360185438">
+    <state width="1413" height="465" key="GridCell.Tab.0.center" timestamp="1581360775670">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.center/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603206" />
     <state width="1231" height="334" key="GridCell.Tab.0.center/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224105" />
-    <state width="1413" height="465" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581360185438" />
+    <state width="1413" height="465" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581360775670" />
     <state width="1320" height="225" key="GridCell.Tab.0.center/0.27.1366.700@0.27.1366.700" timestamp="1580494547888" />
     <state width="1320" height="270" key="GridCell.Tab.0.center/67.27.1299.694@67.27.1299.694" timestamp="1580084647519" />
     <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577673717489" />
-    <state width="1413" height="465" key="GridCell.Tab.0.left" timestamp="1581360185438">
+    <state width="1413" height="465" key="GridCell.Tab.0.left" timestamp="1581360775669">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.left/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603205" />
     <state width="1231" height="334" key="GridCell.Tab.0.left/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224105" />
-    <state width="1413" height="465" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581360185438" />
+    <state width="1413" height="465" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581360775669" />
     <state width="1320" height="225" key="GridCell.Tab.0.left/0.27.1366.700@0.27.1366.700" timestamp="1580494547886" />
     <state width="1320" height="270" key="GridCell.Tab.0.left/67.27.1299.694@67.27.1299.694" timestamp="1580084647518" />
     <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577673717489" />
-    <state width="1413" height="465" key="GridCell.Tab.0.right" timestamp="1581360185439">
+    <state width="1413" height="465" key="GridCell.Tab.0.right" timestamp="1581360775670">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.right/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603207" />
     <state width="1231" height="334" key="GridCell.Tab.0.right/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224106" />
-    <state width="1413" height="465" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581360185439" />
+    <state width="1413" height="465" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581360775670" />
     <state width="1320" height="225" key="GridCell.Tab.0.right/0.27.1366.700@0.27.1366.700" timestamp="1580494547888" />
     <state width="1320" height="270" key="GridCell.Tab.0.right/67.27.1299.694@67.27.1299.694" timestamp="1580084647519" />
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577673717490" />
-    <state width="1413" height="465" key="GridCell.Tab.1.bottom" timestamp="1581360186094">
+    <state width="1413" height="465" key="GridCell.Tab.1.bottom" timestamp="1581360776186">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604144" />
     <state width="1231" height="334" key="GridCell.Tab.1.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224108" />
-    <state width="1413" height="465" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581360186094" />
+    <state width="1413" height="465" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581360776186" />
     <state width="1320" height="225" key="GridCell.Tab.1.bottom/0.27.1366.700@0.27.1366.700" timestamp="1580494548443" />
     <state width="1320" height="253" key="GridCell.Tab.1.bottom/67.27.1299.694@67.27.1299.694" timestamp="1580084515054" />
     <state width="1253" height="188" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
-    <state width="1413" height="465" key="GridCell.Tab.1.center" timestamp="1581360186094">
+    <state width="1413" height="465" key="GridCell.Tab.1.center" timestamp="1581360776185">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.center/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604143" />
     <state width="1231" height="334" key="GridCell.Tab.1.center/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224107" />
-    <state width="1413" height="465" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581360186094" />
+    <state width="1413" height="465" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581360776185" />
     <state width="1320" height="225" key="GridCell.Tab.1.center/0.27.1366.700@0.27.1366.700" timestamp="1580494548443" />
     <state width="1320" height="253" key="GridCell.Tab.1.center/67.27.1299.694@67.27.1299.694" timestamp="1580084515053" />
     <state width="1253" height="188" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
-    <state width="1413" height="465" key="GridCell.Tab.1.left" timestamp="1581360186093">
+    <state width="1413" height="465" key="GridCell.Tab.1.left" timestamp="1581360776185">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.left/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604142" />
     <state width="1231" height="334" key="GridCell.Tab.1.left/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224107" />
-    <state width="1413" height="465" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581360186093" />
+    <state width="1413" height="465" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581360776185" />
     <state width="1320" height="225" key="GridCell.Tab.1.left/0.27.1366.700@0.27.1366.700" timestamp="1580494548442" />
     <state width="1320" height="253" key="GridCell.Tab.1.left/67.27.1299.694@67.27.1299.694" timestamp="1580084515053" />
     <state width="1253" height="188" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1577673571090" />
-    <state width="1413" height="465" key="GridCell.Tab.1.right" timestamp="1581360186094">
+    <state width="1413" height="465" key="GridCell.Tab.1.right" timestamp="1581360776186">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.right/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604143" />
     <state width="1231" height="334" key="GridCell.Tab.1.right/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224108" />
-    <state width="1413" height="465" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581360186094" />
+    <state width="1413" height="465" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581360776186" />
     <state width="1320" height="225" key="GridCell.Tab.1.right/0.27.1366.700@0.27.1366.700" timestamp="1580494548443" />
     <state width="1320" height="253" key="GridCell.Tab.1.right/67.27.1299.694@67.27.1299.694" timestamp="1580084515053" />
     <state width="1253" height="188" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
@@ -351,13 +341,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/solver/ft_general_solver_ps.c</url>
-          <line>88</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/solver/ft_general_solver_ps.c</url>
-          <line>54</line>
-          <option name="timeStamp" value="147" />
+          <line>102</line>
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
