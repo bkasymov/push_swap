@@ -46,7 +46,7 @@ bbtree_utils.h
 ./../../includes/push_swap.h
 /Users/dpenney/Desktop/PUSH/includes/push_swap.h
 
-/Users/dpenney/Desktop/PUSH/src/solver/ft_solver_ps.c
+/Users/dpenney/Desktop/PUSH/src/solver/ft_general_solver_ps.c
 ../../includes/push_swap.h
 /Users/dpenney/Desktop/PUSH/includes/push_swap.h
 

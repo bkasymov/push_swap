@@ -86,11 +86,14 @@ void    ft_free_list(t_vars *psv)
         psv->stack_a = psv->stack_a->next;
         free(tmp);
     }
-    while (psv->stack_b)
+    if (psv->stack_b)
     {
-        tmp = psv->stack_b;
-        psv->stack_b = psv->stack_b->next;
-        free(tmp);
+        while (psv->stack_b)
+        {
+            tmp = psv->stack_b;
+            psv->stack_b = psv->stack_b->next;
+            free(tmp);
+        }
     }
 }
 

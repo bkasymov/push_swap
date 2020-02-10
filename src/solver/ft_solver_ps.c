@@ -8,13 +8,18 @@
 
 void        ft_solver_ps(t_vars *psv)
 {
-	ft_find_bones(psv);
 	if (psv->qa <= 3)
 		ft_3args_solution(psv);
 	else if (psv->qa <= 5)
-		ft_5args_solution(psv);
+	{
+        ft_find_bones(psv);
+        ft_5args_solution(psv);
+    }
 	else if (psv->qa > 5)
-		ft_general_solution(psv);
+    {
+        ft_find_bones(psv);
+        ft_general_solution(psv);
+    }
 }
 
 /*
