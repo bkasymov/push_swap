@@ -88,9 +88,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dpenney/Desktop/push_swap/includes/checker.h">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/home/dpenney/Desktop/push_swap/includes/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>

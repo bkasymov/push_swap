@@ -16,8 +16,22 @@ typedef		struct      stacks
 	struct stacks	    *next;
 	int				    data;
 	int                 step;
-	int                 rotate;
+	int                 rotation;
 }					    t_stack;
+
+/*
+ * t_pos keeping information of calculation
+ * than to find minimum value to actions for
+ * put values in order;
+ */
+
+typedef     struct      pos
+{
+	int     a_quantity;
+	int     b_quantity;
+	int     a_turn;
+	int     b_turn;
+}                       t_pos;
 
 /*
  ** mass variable keeping max digit[2], middle digit[1] and min digit[0]

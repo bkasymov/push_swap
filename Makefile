@@ -1,8 +1,12 @@
-NAME_PS = push_swap
+NAME1 = push_swap
 
-NAME_CH = checker
+NAME2 = checker
 
-SRC = ./src/push_swap.c \
+CC = gcc
+
+FLAGS = -Wall -Wextra -Werror
+
+SRC_PS= ./src/push_swap.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \
@@ -24,39 +28,44 @@ SRC_CH = ./src/checker.c \
 	  ./src/rules/rules_rr.c \
 	  ./src/rules/rules_rrr.c
 
-OBJ = $(SRC:.c=.o)
+OBJSFD = object_files
 
-OBJ_CH = $(SRC_CH:.c=.o)
+OBJS1 = $(addprefix $(OBJSFD)/,$(SRC_PS:.c=.o))
+OBJS2 = $(addprefix $(OBJSFD)/, $(SRC_CH:.c=.o))
 
-OBJ_LIB = ./libft/*.o
+HEAD = -I ./includes
 
-HEAD = -I ./includes/push_swap.h  ./libft/ft_printf  ./libft/ftoa  ./src/rules/rules.h
+LIBFT_HEAD = -I ./libft/includes
 
-FLAGS = -Wall -Wextra -Werror
-
-LIBINC = -I libft/include/libft.h -L ./libft -lft
+LIBFT_BIN = -L ./libft -lft
 
 LIBFT = ./libft/libft.a
 
-all: $(NAME_PS) #$(NAME_CH)
+$(LIBFT):
+	make -C libft
 
-$(NAME_PS): $(OBJ) $(LIBFT)
-	make -C libft/
-	gcc $(FLAGS) $(OBJ) $(OBJ_LIB) $(LIBINC) $(LIBFT) -o $(NAME_PS)
+all: $(LIBFT) $(NAME1) $(NAME2)
 
-#$(NAME_CH): $(OBJ_CH) $(LIBFT)
-	#gcc $(FLAGS) $(OBJ_CH) $(OBJ_LIB) $(LIBINC) $(LIBFT) -o $(NAME_CH)
+$(OBJSFD):
+	mkdir $@
+
+$(OBJSFD)/%.o: %.c | $(OBJSFD)
+	$(CC) $(FLAGS) $(HEAD) $(LIBFT_HEAD) -c $< -o $@
+
+$(NAME1): $(OBJSFD) $(LIBFT)
+	$(CC) $(OBJS1) $(LIBFT_BIN) -o $@
+
+$(NAME2): $(OBJSFD) $(LIBFT)
+	$(CC) $(OBJS2) $(LIBFT_BIN) -o $@
 
 clean:
-	rm -f ./libft/*.o
-	rm -f ./libft/printf/*.o
-	rm -f ./libft/ftoa/*.o
-	rm -f $(OBJ)
-	rm -f $(OBJ_CH)
+	/bin/rm -f $(OBJS)
+	rm -rf $(OBJSFD)
+	make -C ./libft fclean
 
 fclean: clean
-	rm -f $(NAME_CH)
-	rm -f $(NAME_PS)
-	rm -f libft/printf/libft.a
+	/bin/rm -f $(NAME1)
+	/bin/rm -f $(NAME2)
 
 re: fclean all
+
