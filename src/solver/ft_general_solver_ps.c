@@ -117,7 +117,7 @@ void        ft_search_position(t_vars *psv, int *tmp, int *actions)
 	{
 		*tmp = psv->stack_a->data;
 		if (psv->stack_b->data > psv->stack_a->data) {
-			*actions++;
+			*actions = *actions + 1;
 			if (psv->stack_b->data < psv->stack_a->data)
 				break;
 			psv->stack_a = psv->stack_a->next;
@@ -131,7 +131,7 @@ void        ft_search_position(t_vars *psv, int *tmp, int *actions)
 			if (psv->stack_a->data < *tmp && psv->stack_a->data > psv->stack_b->data)
 				break;
 			else
-				*actions++;
+                *actions = *actions + 1;
 			psv->stack_a = psv->stack_a->next;
 		}
 	}

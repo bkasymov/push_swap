@@ -1,5 +1,4 @@
 NAME1 = push_swap
-
 NAME2 = checker
 
 CC = gcc
@@ -30,8 +29,8 @@ SRC2 = ./src/checker.c \
 
 OBJSFD = object_files
 
-OBJS1 = $(addprefix $(OBJSFD)/,$(SRC1:.c=.o))
-OBJS2 = $(addprefix $(OBJSFD)/, $(SRC2:.c=.o))
+OBJS1 = $(SRC1:.c=.o)
+OBJS2 = $(SRC2:.c=.o)
 
 HEAD = -I ./includes
 LIBFT_HEAD = -I ./libft/includes
@@ -46,23 +45,22 @@ all: $(LIBFT) $(NAME1) $(NAME2)
 $(OBJSFD):
 	mkdir $@
 
-$(OBJSFD)/%.o: %.c | $(OBJSFD)
+$(OBJSFD)/%.o: %.c | $(OBJS1) $(OBJS2)
 	$(CC) $(FLAGS) $(HEAD) $(LIBFT_HEAD) -c $< -o $@
 
-$(NAME1): $(OBJSFD) $(LIBFT)
+$(NAME1): $(OBJS1) $(LIBFT)
 	$(CC) $(OBJS1) $(LIBFT_BIN) -o $@
 
-$(NAME2): $(OBJSFD) $(LIBFT)
+$(NAME2): $(OBJS2) $(LIBFT)
 	$(CC) $(OBJS2) $(LIBFT_BIN) -o $@
 
 clean:
-	/bin/rm -f $(OBJS)
-	rm -rf $(OBJSFD)
+	rm -f $(OBJS1)
+	rm -f $(OBJS2)
 	make -C ./libft fclean
 
 fclean: clean
-	/bin/rm -f $(NAME1)
-	/bin/rm -f $(NAME2)
+	rm -f $(NAME1)
+	rm -f $(NAME2)
 
 re: fclean all
-

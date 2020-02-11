@@ -95,7 +95,7 @@ void    ft_free_list(t_vars *psv)
             free(tmp);
         }
     }
-    free(t_pos)
+    free(psv->arr);
 }
 
 /*
