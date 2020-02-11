@@ -6,7 +6,7 @@ CC = gcc
 
 FLAGS = -Wall -Wextra -Werror
 
-SRC_PS= ./src/push_swap.c \
+SRC1 = ./src/push_swap.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \
@@ -18,7 +18,7 @@ SRC_PS= ./src/push_swap.c \
 	  ./src/solver/ft_solver_ps.c \
 	  ./src/solver/ft_general_solver_ps.c
 
-SRC_CH = ./src/checker.c \
+SRC2 = ./src/checker.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \
@@ -30,15 +30,12 @@ SRC_CH = ./src/checker.c \
 
 OBJSFD = object_files
 
-OBJS1 = $(addprefix $(OBJSFD)/,$(SRC_PS:.c=.o))
-OBJS2 = $(addprefix $(OBJSFD)/, $(SRC_CH:.c=.o))
+OBJS1 = $(addprefix $(OBJSFD)/,$(SRC1:.c=.o))
+OBJS2 = $(addprefix $(OBJSFD)/, $(SRC2:.c=.o))
 
 HEAD = -I ./includes
-
 LIBFT_HEAD = -I ./libft/includes
-
 LIBFT_BIN = -L ./libft -lft
-
 LIBFT = ./libft/libft.a
 
 $(LIBFT):

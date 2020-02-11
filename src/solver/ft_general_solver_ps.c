@@ -175,7 +175,8 @@ int         ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 		pos->a_quantity = actions;
 		pos->b_quantity = psv->stack_b->step;
 		rec = psv->stack_b->step + actions;
-	} else
+	}
+	else
 		rec = calc;
 	return (rec);
 }
@@ -212,10 +213,9 @@ void        ft_calc_place_for_insertion(t_vars *psv, t_pos *pos)
  * Performing actions, which calculated from
  * ft_calc_place_for_insertion
  * If have action to turn - turn;
- *
- *
- * Else rra, because
- *
+ * a_turn is rotation. If it is - turning ft_ra;
+ * else ft_rra because value of turn is 1 or -1
+ * (rotating with shift down);
  *
  */
 
@@ -240,11 +240,40 @@ void        ft_performance_actions(t_vars *psv, t_pos *pos)
 }
 
 /*
+ * this function aligning all digits by order
+ * if min digit close by start - doing ft_ra
+ * else ft_rra
+ * Doing it than to econom count of actions to align
+ * by order.
+ */
+
+void        ft_align_in_order(t_vars *psv)
+{
+	int     i;
+	int     j;
+
+	j = psv->qa / 2;
+	i = 0;
+	while (psv->stack_a->data != psv->mass[0])
+		i++;
+	if (i > j)
+		while (psv->stack_a->data != psv->mass[0])
+			ft_rra(psv, 1);
+	else
+		while (psv->stack_a->data != psv->mass[0])
+			ft_ra(psv, 1);
+}
+
+/*
  * Initializing positions variable than to keep
  * there information about calculation of steps for
  * every digit to move values from stack b to stack a.
  * Allocating memory than to spend less memory for
  * performance of program.
+ * start value of ?_quantity is -1 than to
+ * save of mistakes of calc steps;
+ * When all digits pushed to stack_a - we should to sort
+ * stack_a by order;
  */
 
 void        ft_general_sort(t_vars *psv)
@@ -263,6 +292,8 @@ void        ft_general_sort(t_vars *psv)
         ft_calc_place_for_insertion(psv, pos);
         ft_performance_actions(psv, pos);
     }
+    ft_align_in_order(psv);
+    free(pos);
 }
 
 /*
