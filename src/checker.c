@@ -76,17 +76,18 @@ int     ft_check_sort(t_vars *chv)
 
 int     main(int argc, char **argv)
 {
-	t_vars      chv;
+    t_vars      chv;
 
-	if ((ft_general_parser(argc, argv, &chv)) == 1)
-		return (1);
-	if (ft_is_it_sorted(&chv))
-		return (0);
-	ft_check_dupl(&chv);
-	ft_read_rules(&chv);
-	if (ft_check_sort(&chv))
-		write(1, "OK\n", 3);
-	else
-		write(1, "KO\n", 3);
-	return (0);
+    if ((ft_general_parser(argc, argv, &chv)) == 1)
+        return (1);
+    if (ft_is_it_sorted(&chv))
+        return (0);
+    ft_check_dupl(&chv);
+    ft_read_rules(&chv);
+    if (ft_check_sort(&chv))
+        write(1, "OK\n", 3);
+    else
+        write(1, "KO\n", 3);
+    ft_free_list(&chv);
+    return (0);
 }

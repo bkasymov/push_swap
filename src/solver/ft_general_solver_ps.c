@@ -3,7 +3,13 @@
 /*
  * in array all digits, in start a zero and in end the count of
  * digits;
- *
+ * At first assigning values of first, last and middle;
+ * in cycle checking if first number is less than middle,
+ * we are remaining and taking next number for comparison;
+ * in cycle checking last number. If it's bigger than
+ * middle number - taking next number for comparison;
+ * in next general cycle sorting swaping left and right
+ * numbers;
  */
 
 void        ft_quick_sort(int *s_arr, int first, int last)
@@ -36,21 +42,13 @@ void        ft_quick_sort(int *s_arr, int first, int last)
 }
 
 /*
- * We should to divide our digits to 2 colomns;
- * all numbers till medium - will have positive
- * digits because it's steps thant to put digit
- * by steps;
- * if digits after middle, all steps will be negative
- * because we will use ft_rra;
- * Короче делим числа стэка на двое.
- * Если это числа первой середины, то высчитываем сколько шагов
- * нужно, чтобы они стали на первую позицию. Вращение д.б.
- * вверх.
- * Если это числа второй середины, то крутим через ft_rra or ft_rrb
- * т.е. двигаем снизу.
- * Начинаем с -1, чтобы позиция первого элемента была ноль.
- * Ей ведь передвигаться не нужно.
- * */
+ * ft_calc_step calculating how much steps
+ * should be than to be at the top position
+ * and set up rotation, which indicate which
+ * rotation should be than to move by top
+ * Rotation 1 mean ft_ra and -1 mean ft_rra
+ * (shift up), (shift down);
+*/
 
 void        ft_calc_step(t_stack *tmp, int quan)
 {
@@ -116,9 +114,10 @@ void        ft_search_position(t_vars *psv, int *tmp, int *actions)
 	while (psv->stack_a)
 	{
 		*tmp = psv->stack_a->data;
-		if (psv->stack_b->data > psv->stack_a->data) {
+		if (psv->stack_a->data < psv->stack_b->data)
+		{
 			*actions = *actions + 1;
-			if (psv->stack_b->data < psv->stack_a->data)
+			if (psv->stack_b->data < psv->stack_a->next->data)
 				break;
 			psv->stack_a = psv->stack_a->next;
 		}
@@ -159,9 +158,9 @@ void        ft_search_position(t_vars *psv, int *tmp, int *actions)
 
 int         ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 {
-	int     actions;
 	int     tmp;
-	int     rec;
+    int     actions;
+    int     rec;
 
 	tmp = 0;
 	actions = 0;
@@ -195,18 +194,20 @@ void        ft_calc_place_for_insertion(t_vars *psv, t_pos *pos)
 	int     calc;
 	t_stack *save_a;
 	t_stack *save_b;
+	int     tmpqb;
 
+	tmpqb = psv->qb;
 	calc = -1;
 	save_a = psv->stack_a;
 	save_b = psv->stack_b;
-	while (save_b)
+	while (tmpqb)
 	{
 		calc = ft__search_and_calc_position(psv, pos, calc);
 		psv->stack_a = save_a;
 		psv->stack_b = psv->stack_b->next;
+		tmpqb--;
 	}
 	psv->stack_b = save_b;
-
 }
 
 /*
@@ -251,11 +252,16 @@ void        ft_align_in_order(t_vars *psv)
 {
 	int     i;
 	int     j;
+    t_stack *tmp;
 
+    tmp = psv->stack_a;
 	j = psv->qa / 2;
-	i = 0;
-	while (psv->stack_a->data != psv->mass[0])
-		i++;
+	i = 1;
+	while (tmp->data != psv->mass[0])
+	{
+        tmp = tmp->next;
+        i++;
+    }
 	if (i > j)
 		while (psv->stack_a->data != psv->mass[0])
 			ft_rra(psv, 1);
