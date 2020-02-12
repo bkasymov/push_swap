@@ -106,8 +106,7 @@ void                    ft_rrr(t_vars *psv, int ps);
 */
 
 void                    ft_find_bones(t_vars *psv);
-void                    ft_quick_sort(int *array, int start, int end);
-int                     ft_parting(int *array, int start, int end);
+void                    ft_quick_sort(int *arr, int start, int end);
 void                    ft_calc_step(t_stack *tmp, int quan);
 
 /*
@@ -116,8 +115,22 @@ void                    ft_calc_step(t_stack *tmp, int quan);
 
 void                    ft_3args_solution(t_vars *psv);
 void                    ft_5args_solution(t_vars *psv);
-void                    ft_general_solution(t_vars *psv);
+
+
+
 void                    ft_solver_ps(t_vars *psv);
+void                    ft_general_solution(t_vars *psv);
+void                    ft_general_sort(t_vars *psv);
+void                    ft_find_bones(t_vars *psv);
+
+void                    ft_calc_step(t_stack *tmp, int quan);
+void                    ft_calc_place_for_insertion(t_vars *psv, t_pos *pos);
+int                     ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc);
+void                    ft_search_position(t_vars *psv, int *tmp, int *actions);
+int                     ft_search_small_element(t_vars *psv, int *data, int data_b);
+void                    ft_performance_actions(t_vars *psv, t_pos *pos);
+void                    ft_align_in_order(t_vars *psv);
+
 
 /*
 ** Checker funcions;

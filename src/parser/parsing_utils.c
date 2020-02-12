@@ -168,7 +168,7 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 		if ((ft_check_sym(argv[i++])) == 1)
 			return(1);
 	if (!(psv->arr = (int *)malloc(sizeof(int) * (argc))))
-		exit(1);
+		return(1);
 	i = 1;
 	while (argc > i)
 	{

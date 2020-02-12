@@ -3066,6 +3066,60 @@ src/solver/ft_general_solver_ps.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.s
 .PHONY : src/solver/ft_general_solver_ps.c.s
 
+src/solver/ft_generals_solvers_utils_ps.o: src/solver/ft_generals_solvers_utils_ps.c.o
+
+.PHONY : src/solver/ft_generals_solvers_utils_ps.o
+
+# target to build an object file
+src/solver/ft_generals_solvers_utils_ps.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o
+.PHONY : src/solver/ft_generals_solvers_utils_ps.c.o
+
+src/solver/ft_generals_solvers_utils_ps.i: src/solver/ft_generals_solvers_utils_ps.c.i
+
+.PHONY : src/solver/ft_generals_solvers_utils_ps.i
+
+# target to preprocess a source file
+src/solver/ft_generals_solvers_utils_ps.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.i
+.PHONY : src/solver/ft_generals_solvers_utils_ps.c.i
+
+src/solver/ft_generals_solvers_utils_ps.s: src/solver/ft_generals_solvers_utils_ps.c.s
+
+.PHONY : src/solver/ft_generals_solvers_utils_ps.s
+
+# target to generate assembly for a file
+src/solver/ft_generals_solvers_utils_ps.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.s
+.PHONY : src/solver/ft_generals_solvers_utils_ps.c.s
+
+src/solver/ft_quick_sort_arr.o: src/solver/ft_quick_sort_arr.c.o
+
+.PHONY : src/solver/ft_quick_sort_arr.o
+
+# target to build an object file
+src/solver/ft_quick_sort_arr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o
+.PHONY : src/solver/ft_quick_sort_arr.c.o
+
+src/solver/ft_quick_sort_arr.i: src/solver/ft_quick_sort_arr.c.i
+
+.PHONY : src/solver/ft_quick_sort_arr.i
+
+# target to preprocess a source file
+src/solver/ft_quick_sort_arr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.i
+.PHONY : src/solver/ft_quick_sort_arr.c.i
+
+src/solver/ft_quick_sort_arr.s: src/solver/ft_quick_sort_arr.c.s
+
+.PHONY : src/solver/ft_quick_sort_arr.s
+
+# target to generate assembly for a file
+src/solver/ft_quick_sort_arr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.s
+.PHONY : src/solver/ft_quick_sort_arr.c.s
+
 src/solver/ft_solver_ps.o: src/solver/ft_solver_ps.c.o
 
 .PHONY : src/solver/ft_solver_ps.o
@@ -3429,6 +3483,12 @@ help:
 	@echo "... src/solver/ft_general_solver_ps.o"
 	@echo "... src/solver/ft_general_solver_ps.i"
 	@echo "... src/solver/ft_general_solver_ps.s"
+	@echo "... src/solver/ft_generals_solvers_utils_ps.o"
+	@echo "... src/solver/ft_generals_solvers_utils_ps.i"
+	@echo "... src/solver/ft_generals_solvers_utils_ps.s"
+	@echo "... src/solver/ft_quick_sort_arr.o"
+	@echo "... src/solver/ft_quick_sort_arr.i"
+	@echo "... src/solver/ft_quick_sort_arr.s"
 	@echo "... src/solver/ft_solver_ps.o"
 	@echo "... src/solver/ft_solver_ps.i"
 	@echo "... src/solver/ft_solver_ps.s"

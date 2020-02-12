@@ -113,6 +113,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dpenney/Desktop/push_swap/src/rules/rules_rrr.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o"
   "/Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
   "/Users/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o"
   "/Users/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

@@ -447,6 +447,12 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c">
 			<Option target="push_swap"/>
 		</Unit>

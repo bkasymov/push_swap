@@ -108,6 +108,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o"
   "CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o"
   "CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o"
+  "CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o"
+  "CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o"
   "CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o"
   "push_swap"
   "push_swap.pdb"

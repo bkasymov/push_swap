@@ -39,7 +39,7 @@ int		main(int argc, char **argv)
 	    return (0);
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
-	if (ft_check_sort(&psv)) // 1 ошибка valgrind
+	if (ft_check_sort(&psv))
 		return (0);
 	ft_check_dupl(&psv);
 	ft_solver_ps(&psv);

@@ -468,6 +468,20 @@ CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../libft/includes/
 CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../src/rules/rules.h
 CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o: ../src/solver/ft_general_solver_ps.c
 
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../src/rules/rules.h
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../src/solver/ft_generals_solvers_utils_ps.c
+
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../src/rules/rules.h
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../src/solver/ft_quick_sort_arr.c
+
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o: ../libft/includes/bbtree_utils.h

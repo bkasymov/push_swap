@@ -1487,6 +1487,32 @@ CMakeFiles/push_swap.dir/src/push_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/push_swap.c -o CMakeFiles/push_swap.dir/src/push_swap.c.s
 
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o: ../src/solver/ft_generals_solvers_utils_ps.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o   -c /Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c
+
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c > CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.i
+
+CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c -o CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.s
+
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o: ../src/solver/ft_quick_sort_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o   -c /Users/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c
+
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c > CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.i
+
+CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c -o CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.s
+
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec.c.o" \
@@ -1598,7 +1624,9 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o" \
 "CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o" \
 "CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o" \
-"CMakeFiles/push_swap.dir/src/push_swap.c.o"
+"CMakeFiles/push_swap.dir/src/push_swap.c.o" \
+"CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o" \
+"CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -1713,9 +1741,11 @@ push_swap: CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
 push_swap: CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o
 push_swap: CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o
 push_swap: CMakeFiles/push_swap.dir/src/push_swap.c.o
+push_swap: CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o
+push_swap: CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

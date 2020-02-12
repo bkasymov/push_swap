@@ -15,6 +15,8 @@ SRC1 = ./src/push_swap.c \
 	  ./src/rules/rules_rr.c \
 	  ./src/rules/rules_rrr.c \
 	  ./src/solver/ft_solver_ps.c \
+	  ./src/solver/ft_quick_sort_arr.c \
+	  ./src/solver/ft_generals_solvers_utils_ps.c \
 	  ./src/solver/ft_general_solver_ps.c
 
 SRC2 = ./src/checker.c \
@@ -27,14 +29,12 @@ SRC2 = ./src/checker.c \
 	  ./src/rules/rules_rr.c \
 	  ./src/rules/rules_rrr.c
 
-OBJSFD = object_files
-
 OBJS1 = $(SRC1:.c=.o)
 OBJS2 = $(SRC2:.c=.o)
 
-HEAD = -I ./includes
-LIBFT_HEAD = -I ./libft/includes
-LIBFT_BIN = -L ./libft -lft
+HEAD = -I./includes/push_swap.h
+LIBFT_HEAD = -I ./libft/includes/libft.h
+LIBFT_BIN = -L./libft -lft
 LIBFT = ./libft/libft.a
 
 $(LIBFT):
@@ -42,21 +42,17 @@ $(LIBFT):
 
 all: $(LIBFT) $(NAME1) $(NAME2)
 
-$(OBJSFD):
-	mkdir $@
-
-%.o: %.c
-	@gcc -Wall -Wextra -Werror -c $< -o $@
-
 $(NAME1): $(OBJS1) $(LIBFT)
 	$(CC) $(FLAGS) $(OBJS1) $(LIBFT_BIN) -o $@
 
 $(NAME2): $(OBJS2) $(LIBFT)
 	$(CC) $(FLAGS) $(OBJS2) $(LIBFT_BIN) -o $@
 
+%.o: %.c
+	@$(CC) $(CFLAGS) $(HDR) $(LIBFT_HDR) -c $< -o $@
+
 clean:
-	rm -f $(OBJS1)
-	rm -f $(OBJS2)
+	rm -f $(OBJS1) $(OBJS2)
 	make -C ./libft fclean
 
 fclean: clean
@@ -64,3 +60,5 @@ fclean: clean
 	rm -f $(NAME2)
 
 re: fclean all
+
+.PHONY: all, clean, fclean, re
