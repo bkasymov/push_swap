@@ -1,18 +1,30 @@
-#include "rules.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   rules_rr.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/02/12 11:49:38 by dpenney           #+#    #+#             */
+/*   Updated: 2020/02/12 11:59:16 by dpenney          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../../includes/push_swap.h"
 
 /*
- ** taking first list with first element to tmp variable
- ** Finding last element through cycle;
- ** Zeroing next element of tmp;
- ** last list will indicate to tmp;
- ** first element take address of second element;
- */
+** taking first list with first element to tmp variable
+** Finding last element through cycle;
+** Zeroing next element of tmp;
+** last list will indicate to tmp;
+** first element take address of second element;
+*/
 
-void        ft_ra(t_vars *psv, int ps)
+void		ft_ra(t_vars *psv, int ps)
 {
-	t_stack *first;
-	t_stack *tmp;
-	t_stack *last;
+	t_stack	*first;
+	t_stack	*tmp;
+	t_stack	*last;
 
 	if ((!psv->stack_a) || !(psv->stack_a->next))
 		return ;
@@ -28,11 +40,11 @@ void        ft_ra(t_vars *psv, int ps)
 		write(1, "ra\n", 3);
 }
 
-void        ft_rb(t_vars *psv, int ps)
+void		ft_rb(t_vars *psv, int ps)
 {
-	t_stack *first;
-	t_stack *tmp;
-	t_stack *last;
+	t_stack	*first;
+	t_stack	*tmp;
+	t_stack	*last;
 
 	if ((!psv->stack_b) || !(psv->stack_b->next))
 		return ;
@@ -49,13 +61,13 @@ void        ft_rb(t_vars *psv, int ps)
 }
 
 /*
- ** doing ra and rb together;
- */
+** doing ra and rb together;
+*/
 
-void        ft_rr(t_vars *psv, int ps)
+void		ft_rr(t_vars *psv, int ps)
 {
 	ft_ra(psv, 1);
 	ft_rb(psv, 1);
 	if (ps)
-		write(1,"rr\n", 3);
+		write(1, "rr\n", 3);
 }

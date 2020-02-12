@@ -48,7 +48,6 @@
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ft_printf"/>
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ftoa"/>
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/includes"/>
-					<Add directory="/Users/dpenney/Desktop/push_swap/src/rules"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -74,7 +73,6 @@
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ft_printf"/>
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ftoa"/>
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/includes"/>
-					<Add directory="/Users/dpenney/Desktop/push_swap/src/rules"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -414,6 +412,9 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/includes/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/error_and_free.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -427,9 +428,6 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/push_swap.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/src/rules/rules.h">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/rules/rules_pp.c">

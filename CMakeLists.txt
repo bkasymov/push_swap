@@ -7,7 +7,6 @@ include_directories(includes)
 include_directories(libft/ft_printf)
 include_directories(libft/ftoa)
 include_directories(libft/includes)
-include_directories(src/rules)
 
 add_executable(push_swap
         includes/push_swap.h
@@ -118,15 +117,17 @@ add_executable(push_swap
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/get_next_line.c
+        src/parser/error_and_free.c
         src/parser/ft_check_dupl.c
         src/parser/ft_check_sort.c
         src/parser/parsing_utils.c
         src/parser/parsing_utils2.c
-        src/rules/rules.h
         src/rules/rules_pp.c
         src/rules/rules_rr.c
         src/rules/rules_rrr.c
         src/rules/rules_ss.c
         src/solver/ft_general_solver_ps.c
+        src/solver/ft_generals_solvers_utils_ps.c
+        src/solver/ft_quick_sort_arr.c
         src/solver/ft_solver_ps.c
-        src/push_swap.c src/solver/ft_generals_solvers_utils_ps.c src/solver/ft_quick_sort_arr.c)
+        src/push_swap.c)

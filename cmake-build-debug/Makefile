@@ -2796,6 +2796,33 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
+src/parser/error_and_free.o: src/parser/error_and_free.c.o
+
+.PHONY : src/parser/error_and_free.o
+
+# target to build an object file
+src/parser/error_and_free.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/error_and_free.c.o
+.PHONY : src/parser/error_and_free.c.o
+
+src/parser/error_and_free.i: src/parser/error_and_free.c.i
+
+.PHONY : src/parser/error_and_free.i
+
+# target to preprocess a source file
+src/parser/error_and_free.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/error_and_free.c.i
+.PHONY : src/parser/error_and_free.c.i
+
+src/parser/error_and_free.s: src/parser/error_and_free.c.s
+
+.PHONY : src/parser/error_and_free.s
+
+# target to generate assembly for a file
+src/parser/error_and_free.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/error_and_free.c.s
+.PHONY : src/parser/error_and_free.c.s
+
 src/parser/ft_check_dupl.o: src/parser/ft_check_dupl.c.o
 
 .PHONY : src/parser/ft_check_dupl.o
@@ -3453,6 +3480,9 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... src/parser/error_and_free.o"
+	@echo "... src/parser/error_and_free.i"
+	@echo "... src/parser/error_and_free.s"
 	@echo "... src/parser/ft_check_dupl.o"
 	@echo "... src/parser/ft_check_dupl.i"
 	@echo "... src/parser/ft_check_dupl.s"

@@ -2,9 +2,6 @@
 # define PUSH_SWAP
 
 # include "../libft/includes/libft.h"
-# include "../src/rules/rules.h"
-
-#include "stdio.h"
 
 # include "stdlib.h"
 # include "unistd.h"

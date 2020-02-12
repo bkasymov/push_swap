@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_check_sort.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/02/12 11:48:48 by dpenney           #+#    #+#             */
+/*   Updated: 2020/02/12 12:13:55 by dpenney          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../includes/push_swap.h"
 
 /*
@@ -7,24 +19,25 @@
 ** if even next digit bigger than current digit, we are counting
 ** it like iteration. After all we are comparing our iteretions
 ** if both iterations is equal it's mean that order is right.
- */
+*/
 
-int             ft_check_sort(t_vars *psv)
+int			ft_check_sort(t_vars *psv)
 {
-    int     i;
-    int     j;
+	int		i;
+	int		j;
 
-    i = 0;
-    j = 0;
+	i = 0;
+	j = 0;
 	while (i < psv->qa - 1)
-    {
-	    if (psv->arr[i] < psv->arr[i + 1])
-	        j++;
-	    i++;
-    }
-	if (i == j) {
-	    ft_free_list(psv, 1);
-        return (1);
-    }
+	{
+		if (psv->arr[i] < psv->arr[i + 1])
+			j++;
+		i++;
+	}
+	if (i == j)
+	{
+		ft_free_list(psv, 1);
+		return (1);
+	}
 	return (0);
 }

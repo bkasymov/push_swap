@@ -1,117 +1,79 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*
- * :::      ::::::::   */
+/*                                                        :::      ::::::::   */
 /*   parsing_utils.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/08 23:17:18 by dpenney           #+#    #+#             */
-/*   Updated: 2020/01/08 23:17:20 by dpenney          ###   ########.fr       */
+/*   Created: 2020/02/12 12:24:57 by dpenney           #+#    #+#             */
+/*   Updated: 2020/02/12 12:27:13 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/push_swap.h"
-#include "../../libft/ft_printf/printf.h"
 
-int     ft_general_parser(int argc, char **argv, t_vars *psv)
+int			ft_general_parser(int argc, char **argv, t_vars *psv)
 {
 	if (argc == 2)
 	{
 		if (ft_args_in_1_string(argv[1], psv) == 1)
 		{
-            error_print(psv, 0);
-            return(1);
+			error_print(psv, 0);
+			return (1);
 		}
 	}
 	else if (argc == 1)
-		return(1);
+		return (1);
 	else
-	if ((ft_args_in_other_strings(argv, argc, psv) == 1))
-		error_print(psv, 0);
+	{
+		if ((ft_args_in_other_strings(argv, argc, psv) == 1))
+			error_print(psv, 0);
+	}
 	return (0);
 }
 
-void    ft_init_lists(t_vars *psv, int  mem)
+void		ft_init_lists(t_vars *psv, int mem)
 {
-  psv->stack_a = ft_malloc_list(psv, mem);
-  psv->stack_b = NULL;
-  psv->qb = 0;
-//  ft_free_list(psv->stack_a);
+	psv->stack_a = ft_malloc_list(psv, mem);
+	psv->stack_b = NULL;
+	psv->qb = 0;
 }
 
 /*
- * Creating 2 links of lists format;
- * list - than to create and move this list forward
- * first - keep address of first list;
- * allocating memory for list and keeping it's address
- * in first variable;
- * Mem keeping count of values for record.
- * In cycle recording all values to lists;
- */
-
-t_stack  *ft_malloc_list(t_vars *psv, int mem)
-{
-  int       i;
-  t_stack   *list;
-  t_stack   *first;
-
-  i = 0;
-  if (!(list = (t_stack *)malloc(sizeof(t_stack))))
-    exit(1);
-  first = list;
-  while (i < mem)
-  {
-    if (i < mem - 1)
-    {
-      if (!(list->next = (t_stack *)malloc(sizeof(t_stack))))
-        exit(1);
-    }
-    list->data = psv->arr[i];
-    if (i == (mem - 1))
-        list->next = NULL; //
-    else
-      list = list->next;
-    i++;
-  }
-  return (first);
-}
-
-void    ft_free_list(t_vars *psv, int a)
-{
-    t_stack *tmp;
-
-    while (psv->stack_a)
-    {
-        tmp = psv->stack_a;
-        psv->stack_a = psv->stack_a->next;
-        free(tmp);
-    }
-    if (psv->stack_b)
-    {
-        while (psv->stack_b)
-        {
-            tmp = psv->stack_b;
-            psv->stack_b = psv->stack_b->next;
-            free(tmp);
-        }
-    }
-    if (a)
-        free(psv->arr);
-}
-
-/*
-** function which print Error message;
-** free stacks variables;
-** write "Error";
+** Creating 2 links of lists format;
+** list - than to create and move this list forward
+** first - keep address of first list;
+** allocating memory for list and keeping it's address
+** in first variable;
+** Mem keeping count of values for record.
+** In cycle recording all values to lists;
 */
 
-void	error_print(t_vars *psv, int a)
+t_stack		*ft_malloc_list(t_vars *psv, int mem)
 {
-    if (a)
-        ft_free_list(psv, 1);
-	write(2, "Error\n", 7);
-	exit(1);
+	int		i;
+	t_stack	*list;
+	t_stack	*first;
+
+	i = 0;
+	if (!(list = (t_stack *)malloc(sizeof(t_stack))))
+		exit(1);
+	first = list;
+	while (i < mem)
+	{
+		if (i < mem - 1)
+		{
+			if (!(list->next = (t_stack *)malloc(sizeof(t_stack))))
+				exit(1);
+		}
+		list->data = psv->arr[i];
+		if (i == (mem - 1))
+			list->next = NULL;
+		else
+			list = list->next;
+		i++;
+	}
+	return (first);
 }
 
 /*
@@ -122,7 +84,7 @@ void	error_print(t_vars *psv, int a)
 ** converting all separate digits to integer and filling stack a;
 */
 
-int		ft_args_in_1_string(char *str, t_vars *psv)
+int			ft_args_in_1_string(char *str, t_vars *psv)
 {
 	int		res;
 	int		i;
@@ -131,11 +93,11 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 	res = 0;
 	i = 0;
 	if ((res = ft_check_sym(str)) == 1)
-		return(1);
+		return (1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
 	if (!(psv->arr = (int *)malloc(sizeof(int) * res)))
-		return(1);
+		return (1);
 	res--;
 	while (res >= i)
 	{
@@ -147,15 +109,13 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 	return (0);
 }
 
-
 /*
 ** checking all arguments than be just digits;
 ** allocating memory for stacks;
 ** filling with arguments from argv to stack A;
-**
 */
 
-int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
+int			ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 {
 	int		i;
 	int		res;
@@ -164,18 +124,18 @@ int		ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 	j = 0;
 	res = 0;
 	i = 1;
-	while(argc > i)
+	while (argc > i)
 		if ((ft_check_sym(argv[i++])) == 1)
-			return(1);
+			return (1);
 	if (!(psv->arr = (int *)malloc(sizeof(int) * (argc))))
-		return(1);
+		return (1);
 	i = 1;
 	while (argc > i)
 	{
-	  psv->arr[i - 1] = ft_atoips(psv ,argv[i]);
-	  i++;
+		psv->arr[i - 1] = ft_atoips(psv, argv[i]);
+		i++;
 	}
 	psv->qa = i - 1;
-    ft_init_lists(psv, psv->qa);
+	ft_init_lists(psv, psv->qa);
 	return (0);
 }

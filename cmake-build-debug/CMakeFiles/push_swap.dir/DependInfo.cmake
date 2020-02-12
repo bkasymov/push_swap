@@ -103,6 +103,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o"
   "/Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o"
   "/Users/dpenney/Desktop/push_swap/libft/get_next_line.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/parser/error_and_free.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/error_and_free.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
@@ -125,7 +126,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../libft/ft_printf"
   "../libft/ftoa"
   "../libft/includes"
-  "../src/rules"
   )
 
 # Targets to which this target links.

@@ -6,15 +6,15 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 17:05:28 by dpenney           #+#    #+#             */
-/*   Updated: 2020/01/13 17:09:01 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/12 12:36:42 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./../../includes/push_swap.h"
 
 /*
- * Not working cycle when looking for duplicate of digits.
- */
+** Not working cycle when looking for duplicate of digits.
+*/
 
 void		ft_check_dupl(t_vars *psv)
 {
