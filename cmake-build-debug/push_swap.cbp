@@ -414,13 +414,10 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/includes/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/src/checker.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/ft_is_it_sorted.c">
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c">

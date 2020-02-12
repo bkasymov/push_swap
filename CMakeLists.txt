@@ -119,7 +119,7 @@ add_executable(push_swap
         libft/ft_toupper.c
         libft/get_next_line.c
         src/parser/ft_check_dupl.c
-        src/parser/ft_is_it_sorted.c
+        src/parser/ft_check_sort.c
         src/parser/parsing_utils.c
         src/parser/parsing_utils2.c
         src/rules/rules.h
@@ -129,5 +129,4 @@ add_executable(push_swap
         src/rules/rules_ss.c
         src/solver/ft_general_solver_ps.c
         src/solver/ft_solver_ps.c
-        src/checker.c
         src/push_swap.c)

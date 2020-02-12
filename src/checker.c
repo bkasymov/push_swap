@@ -26,7 +26,7 @@ void    ft_performing_rules(char *line, t_vars *chv)
 	else if (!(ft_strcmp(line, "pb")))
 		ft_pb(chv, 0);
 	else
-		error_print(chv);
+		error_print(chv, 0);
 }
 
 void    ft_read_rules(t_vars *chv)
@@ -48,46 +48,22 @@ void    ft_read_rules(t_vars *chv)
 }
 
 
-int     ft_check_sort(t_vars *chv)
-{
-	t_stack     *tmp;
-	int         i;
-	int         max;
-	int         j;
-
-	i = 0;
-	max = 0;
-	j = 0;
-	tmp = chv->stack_a;
-	while (tmp)
-	{
-		if (max < tmp->data)
-		{
-			max = tmp->data;
-			j++;
-		}
-		tmp = tmp->next;
-		i++;
-	}
-	if (j == i)
-		return (1);
-	return (0);
-}
-
 int     main(int argc, char **argv)
 {
     t_vars      chv;
 
-    if ((ft_general_parser(argc, argv, &chv)) == 1)
-        return (1);
-    if (ft_is_it_sorted(&chv))
-        return (0);
-    ft_check_dupl(&chv);
-    ft_read_rules(&chv);
-    if (ft_check_sort(&chv))
-        write(1, "OK\n", 3);
-    else
-        write(1, "KO\n", 3);
-    ft_free_list(&chv);
+    if (argc == 2) {
+        if ((ft_general_parser(argc, argv, &chv)) == 1)
+            return (1);
+        if (ft_check_sort(&chv))
+            return (0);
+        ft_check_dupl(&chv);
+        ft_read_rules(&chv);
+        if (ft_check_sort(&chv))
+            write(1, "OK\n", 3);
+        else
+            write(1, "KO\n", 3);
+        ft_free_list(&chv, 0);
+    }
     return (0);
 }

@@ -9,7 +9,7 @@ SRC1 = ./src/push_swap.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \
-	  ./src/parser/ft_is_it_sorted.c \
+	  ./src/parser/ft_check_sort.c \
 	  ./src/rules/rules_ss.c \
 	  ./src/rules/rules_pp.c \
 	  ./src/rules/rules_rr.c \
@@ -21,7 +21,7 @@ SRC2 = ./src/checker.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \
-	  ./src/parser/ft_is_it_sorted.c \
+	  ./src/parser/ft_check_sort.c \
 	  ./src/rules/rules_ss.c \
 	  ./src/rules/rules_pp.c \
 	  ./src/rules/rules_rr.c \
@@ -45,14 +45,14 @@ all: $(LIBFT) $(NAME1) $(NAME2)
 $(OBJSFD):
 	mkdir $@
 
-$(OBJSFD)/%.o: %.c | $(OBJS1) $(OBJS2)
-	$(CC) $(FLAGS) $(HEAD) $(LIBFT_HEAD) -c $< -o $@
+%.o: %.c
+	@gcc -Wall -Wextra -Werror -c $< -o $@
 
 $(NAME1): $(OBJS1) $(LIBFT)
-	$(CC) $(OBJS1) $(LIBFT_BIN) -o $@
+	$(CC) $(FLAGS) $(OBJS1) $(LIBFT_BIN) -o $@
 
 $(NAME2): $(OBJS2) $(LIBFT)
-	$(CC) $(OBJS2) $(LIBFT_BIN) -o $@
+	$(CC) $(FLAGS) $(OBJS2) $(LIBFT_BIN) -o $@
 
 clean:
 	rm -f $(OBJS1)

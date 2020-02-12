@@ -20,14 +20,15 @@ int     ft_general_parser(int argc, char **argv, t_vars *psv)
 	{
 		if (ft_args_in_1_string(argv[1], psv) == 1)
 		{
-			return(1);
+            error_print(psv, 0);
+            return(1);
 		}
 	}
 	else if (argc == 1)
 		return(1);
 	else
 	if ((ft_args_in_other_strings(argv, argc, psv) == 1))
-		error_print(psv);
+		error_print(psv, 0);
 	return (0);
 }
 
@@ -76,7 +77,7 @@ t_stack  *ft_malloc_list(t_vars *psv, int mem)
   return (first);
 }
 
-void    ft_free_list(t_vars *psv)
+void    ft_free_list(t_vars *psv, int a)
 {
     t_stack *tmp;
 
@@ -95,7 +96,8 @@ void    ft_free_list(t_vars *psv)
             free(tmp);
         }
     }
-    free(psv->arr);
+    if (a)
+        free(psv->arr);
 }
 
 /*
@@ -104,10 +106,10 @@ void    ft_free_list(t_vars *psv)
 ** write "Error";
 */
 
-void	error_print(t_vars *psv)
+void	error_print(t_vars *psv, int a)
 {
-	free(psv->arr);
-	ft_free_list(psv);
+    if (a)
+        ft_free_list(psv, 1);
 	write(2, "Error\n", 7);
 	exit(1);
 }
@@ -125,9 +127,7 @@ int		ft_args_in_1_string(char *str, t_vars *psv)
 	int		res;
 	int		i;
 	char	**split;
-	int		j;
 
-	j = 0;
 	res = 0;
 	i = 0;
 	if ((res = ft_check_sym(str)) == 1)

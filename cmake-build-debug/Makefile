@@ -2796,33 +2796,6 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-src/checker.o: src/checker.c.o
-
-.PHONY : src/checker.o
-
-# target to build an object file
-src/checker.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.o
-.PHONY : src/checker.c.o
-
-src/checker.i: src/checker.c.i
-
-.PHONY : src/checker.i
-
-# target to preprocess a source file
-src/checker.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.i
-.PHONY : src/checker.c.i
-
-src/checker.s: src/checker.c.s
-
-.PHONY : src/checker.s
-
-# target to generate assembly for a file
-src/checker.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.s
-.PHONY : src/checker.c.s
-
 src/parser/ft_check_dupl.o: src/parser/ft_check_dupl.c.o
 
 .PHONY : src/parser/ft_check_dupl.o
@@ -2850,32 +2823,32 @@ src/parser/ft_check_dupl.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.s
 .PHONY : src/parser/ft_check_dupl.c.s
 
-src/parser/ft_is_it_sorted.o: src/parser/ft_is_it_sorted.c.o
+src/parser/ft_check_sort.o: src/parser/ft_check_sort.c.o
 
-.PHONY : src/parser/ft_is_it_sorted.o
+.PHONY : src/parser/ft_check_sort.o
 
 # target to build an object file
-src/parser/ft_is_it_sorted.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.o
-.PHONY : src/parser/ft_is_it_sorted.c.o
+src/parser/ft_check_sort.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o
+.PHONY : src/parser/ft_check_sort.c.o
 
-src/parser/ft_is_it_sorted.i: src/parser/ft_is_it_sorted.c.i
+src/parser/ft_check_sort.i: src/parser/ft_check_sort.c.i
 
-.PHONY : src/parser/ft_is_it_sorted.i
+.PHONY : src/parser/ft_check_sort.i
 
 # target to preprocess a source file
-src/parser/ft_is_it_sorted.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.i
-.PHONY : src/parser/ft_is_it_sorted.c.i
+src/parser/ft_check_sort.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.i
+.PHONY : src/parser/ft_check_sort.c.i
 
-src/parser/ft_is_it_sorted.s: src/parser/ft_is_it_sorted.c.s
+src/parser/ft_check_sort.s: src/parser/ft_check_sort.c.s
 
-.PHONY : src/parser/ft_is_it_sorted.s
+.PHONY : src/parser/ft_check_sort.s
 
 # target to generate assembly for a file
-src/parser/ft_is_it_sorted.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_is_it_sorted.c.s
-.PHONY : src/parser/ft_is_it_sorted.c.s
+src/parser/ft_check_sort.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.s
+.PHONY : src/parser/ft_check_sort.c.s
 
 src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
 
@@ -3426,15 +3399,12 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... src/checker.o"
-	@echo "... src/checker.i"
-	@echo "... src/checker.s"
 	@echo "... src/parser/ft_check_dupl.o"
 	@echo "... src/parser/ft_check_dupl.i"
 	@echo "... src/parser/ft_check_dupl.s"
-	@echo "... src/parser/ft_is_it_sorted.o"
-	@echo "... src/parser/ft_is_it_sorted.i"
-	@echo "... src/parser/ft_is_it_sorted.s"
+	@echo "... src/parser/ft_check_sort.o"
+	@echo "... src/parser/ft_check_sort.i"
+	@echo "... src/parser/ft_check_sort.s"
 	@echo "... src/parser/parsing_utils.o"
 	@echo "... src/parser/parsing_utils.i"
 	@echo "... src/parser/parsing_utils.s"

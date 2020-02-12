@@ -49,7 +49,7 @@ typedef		struct variables
 }				        t_vars;
 
 int                     ft_general_parser(int argc, char **argv, t_vars *psv);
-void	                error_print(t_vars *psv);
+void	                error_print(t_vars *psv, int a);
 int		                ft_atoips(t_vars *psv, const char *str);
 int		                ft_check_sym(char *str);
 int		                ft_args_in_1_string(char *str, t_vars *psv);
@@ -67,8 +67,8 @@ void		            ft_check_dupl(t_vars *psv);
 
 void                    ft_init_lists(t_vars *psv, int mem);
 t_stack                 *ft_malloc_list(t_vars *psv, int mem);
-void                    ft_free_list(t_vars *psv);
-int                     ft_is_it_sorted(t_vars *psv);
+void                    ft_free_list(t_vars *psv, int a);
+int                     ft_check_sort(t_vars *psv);
 
 /*
  * Performing rule swap two first elements;

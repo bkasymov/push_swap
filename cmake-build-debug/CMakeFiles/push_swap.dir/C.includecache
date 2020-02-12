@@ -42,11 +42,11 @@ unistd.h
 bbtree_utils.h
 /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
-/Users/dpenney/Desktop/push_swap/src/rules/rules.h
-./../../includes/push_swap.h
+/Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c
+../../includes/push_swap.h
 /Users/dpenney/Desktop/push_swap/includes/push_swap.h
 
-/Users/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c
-../../includes/push_swap.h
+/Users/dpenney/Desktop/push_swap/src/rules/rules.h
+./../../includes/push_swap.h
 /Users/dpenney/Desktop/push_swap/includes/push_swap.h
 

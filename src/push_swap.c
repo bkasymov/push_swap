@@ -35,12 +35,14 @@ int		main(int argc, char **argv)
 {
 	t_vars  psv;
 
+	if (argc < 2)
+	    return (0);
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
-	if (ft_is_it_sorted(&psv))
+	if (ft_check_sort(&psv)) // 1 ошибка valgrind
 		return (0);
 	ft_check_dupl(&psv);
 	ft_solver_ps(&psv);
-	ft_free_list(&psv);
+	ft_free_list(&psv, 1);
 	return(0);
 }

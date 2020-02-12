@@ -1,45 +1,5 @@
 #include "../../includes/push_swap.h"
 
-/*
- * in array all digits, in start a zero and in end the count of
- * digits;
- * At first assigning values of first, last and middle;
- * in cycle checking if first number is less than middle,
- * we are remaining and taking next number for comparison;
- * in cycle checking last number. If it's bigger than
- * middle number - taking next number for comparison;
- * in next general cycle sorting swaping left and right
- * numbers;
- */
-
-void        ft_quick_sort(int *s_arr, int first, int last)
-{
-    int left;
-    int right;
-    int middle;
-    int tmp;
-
-    left = first;
-    right = last - 1;
-    middle = s_arr[(left + right) / 2];
-    while (s_arr[left] < middle)
-        left++;
-    while (s_arr[right] > middle)
-        right--;
-    while (left <= right)
-    {
-        if (left <= right)
-        {
-            tmp = s_arr[left];
-            s_arr[left] = s_arr[right];
-            s_arr[right] = tmp;
-            left++;
-            right--;
-        }
-        ft_quick_sort(s_arr, first, right);
-        ft_quick_sort(s_arr, left, last);
-    }
-}
 
 /*
  * ft_calc_step calculating how much steps
@@ -285,7 +245,7 @@ void        ft_align_in_order(t_vars *psv)
 void        ft_general_sort(t_vars *psv)
 {
 	t_pos   *pos;
-	if (!(pos = malloc(sizeof(t_pos))))
+	if (!(pos = (t_pos *)malloc(sizeof(t_pos))))
 		exit(1);
     while (psv->qb > 0)
     {
@@ -298,8 +258,8 @@ void        ft_general_sort(t_vars *psv)
         ft_calc_place_for_insertion(psv, pos);
         ft_performance_actions(psv, pos);
     }
+	free(pos);
     ft_align_in_order(psv);
-    free(pos);
 }
 
 /*
@@ -338,10 +298,52 @@ void        ft_general_solution(t_vars *psv)
  */
 
 
+/*
+ * in array all digits, in start a zero and in end the count of
+ * digits;
+ * At first assigning values of first, last and middle;
+ * in cycle checking if first number is less than middle,
+ * we are remaining and taking next number for comparison;
+ * in cycle checking last number. If it's bigger than
+ * middle number - taking next number for comparison;
+ * in next general cycle sorting swaping left and right
+ * numbers;
+ */
+
+void        ft_quick_sort(int *s_arr, int first, int last) {
+    int left;
+    int right;
+    int middle;
+    int tmp;
+
+    left = first;
+    right = last - 1;
+    middle = s_arr[(left + right) / 2];
+    if (first < last) {
+        while (s_arr[left] < middle)
+            left++;
+        while (s_arr[right] > middle)
+            right--;
+        while (left <= right) {
+            if (left <= right) {
+                tmp = s_arr[left];
+                s_arr[left] = s_arr[right];
+                s_arr[right] = tmp;
+                left++;
+                right--;
+            }
+            ft_quick_sort(s_arr, first, right);
+            ft_quick_sort(s_arr, left, last);
+        }
+    }
+}
 
 void     ft_find_bones(t_vars *psv)
 {
-	ft_quick_sort(psv->arr, 0, psv->qa);
+    int     i;
+
+    i = 0;
+	ft_quick_sort(psv->arr, i, psv->qa);
 	psv->mass[0] = psv->arr[0];
 	psv->mass[1] = psv->arr[psv->qa / 2];
 	psv->mass[2] = psv->arr[psv->qa - 1];

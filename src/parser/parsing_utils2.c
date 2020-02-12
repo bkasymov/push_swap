@@ -60,7 +60,7 @@ int					ft_atoips(t_vars *psv, const char *str)
 		res = res * 10 + (str[i] - 48);
 		i++;
 		if (i > 10 || (res * sym) < INT_MIN || (res * sym) > INT_MAX)
-			error_print(psv);
+			error_print(psv, 1);
 	}
 	return (res * sym);
 }

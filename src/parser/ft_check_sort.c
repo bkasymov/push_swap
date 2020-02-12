@@ -9,30 +9,22 @@
 ** if both iterations is equal it's mean that order is right.
  */
 
-int             ft_is_it_sorted(t_vars *psv)
+int             ft_check_sort(t_vars *psv)
 {
-	int     i;
-	int     max;
-	int     *tmp;
-	int     j;
+    int     i;
+    int     j;
 
-	j = 0;
-	tmp = psv->arr;
-	i = 0;
-	while (psv->arr[i])
-	{
-		if (psv->arr[i] > max)
-		{
-			max = psv->arr[i];
-			j++;
-		}
-		i++;
-	}
-	if (j == i)
-	{
-		ft_free_list(psv);
-		free(psv->arr);
-		return (1);
-	}
+    i = 0;
+    j = 0;
+	while (i < psv->qa - 1)
+    {
+	    if (psv->arr[i] < psv->arr[i + 1])
+	        j++;
+	    i++;
+    }
+	if (i == j) {
+	    ft_free_list(psv, 1);
+        return (1);
+    }
 	return (0);
 }
