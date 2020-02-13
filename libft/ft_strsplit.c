@@ -12,20 +12,6 @@
 
 #include "libft.h"
 
-static char			*ft_free(char **for_free, size_t count)
-{
-	size_t			i;
-
-	i = 0;
-	while (count > i)
-	{
-		free(for_free[i]);
-		i++;
-	}
-	free(for_free);
-	for_free = NULL;
-	return (NULL);
-}
 
 int			num_word(char const *s, char c)
 {
@@ -45,62 +31,73 @@ int			num_word(char const *s, char c)
 	}
 	return (num);
 }
+#include "libft.h"
 
-static	char		*ft_memword(char const *s, size_t mem)
+static int				get_n_words(char const *s, char c)
 {
-	char			*ptr;
-        int                     i;
+  int	n;
 
-        i = 0;
-	if (!(ptr = (char *)malloc(sizeof(char) * mem)))
-		return (NULL);
-	while (mem > i)
-        {
-	  ptr[i] = '\0';
-	  i++;
-        }
-	ptr = ft_strncpy(ptr, s, mem);
-	ptr[mem] = '\0';
-	return (ptr);
+  n = 0;
+  while (*s)
+  {
+    if (*s != c && (*(s + 1) == c || *(s + 1) == 0))
+      n++;
+    s++;
+  }
+  return (n);
 }
 
-static	char		**ft_fill(const char *s, char c, size_t count)
+static const char		*start_of_next(const char *s, char sep)
 {
-	size_t			j;
-	size_t			n;
-	size_t			i;
-	char			**next;
-
-	i = 0;
-	n = 0;
-	if (!(next = (char **)malloc(sizeof(char *) * (count + 1))))
-		return (NULL);
-	while (s[i] != '\0')
-	{
-		while (s[i] == c)
-			i++;
-		j = i;
-		while (s[i] && s[i] != c)
-			i++;
-		if (i > j)
-			if (!(next[n++] = ft_memword(s + j, i - j)))
-			{
-				ft_free(next, count);
-				return (NULL);
-			}
-	}
-	next[n] = 0;
-	return (next);
+  while (*s == sep)
+    s++;
+  return (s);
 }
 
-char				**ft_strsplit(char const *s, char c)
+static size_t			len_of_next(const char *src, char sep)
 {
-	size_t			count;
+  size_t	len;
 
-	if (!s || !c)
-		return (NULL);
-	if (s == NULL)
-		return (NULL);
-	count = num_word(s, c);
-	return (ft_fill(s, c, count));
+  len = 0;
+  while (*src != sep && *src != 0)
+  {
+    src++;
+    len++;
+  }
+  return (len);
+}
+
+static void				avoid_leaks(char **res, int nlinks)
+{
+  while (nlinks > 0)
+    free(res[nlinks--]);
+  free(res);
+}
+
+char					**ft_strsplit(char const *s, char c)
+{
+  int		n_words;
+  char	**res;
+  size_t	len;
+  int		i;
+
+  i = 0;
+  n_words = get_n_words(s, c);
+  res = (char **)malloc(sizeof(char *) * (n_words + 1));
+  if (!res)
+    return (0);
+  res[n_words] = 0;
+  while (i < n_words)
+  {
+    s = start_of_next(s, c);
+    len = len_of_next(s, c);
+    res[i++] = ft_strsub(s, 0, len);
+    if (!res[i - 1])
+    {
+      avoid_leaks(res, i - 2);
+      return (0);
+    }
+    s += len;
+  }
+  return (res);
 }

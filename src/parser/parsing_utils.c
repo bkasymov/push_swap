@@ -34,7 +34,7 @@ int			ft_general_parser(int argc, char **argv, t_vars *psv)
 
 void		ft_init_lists(t_vars *psv, int mem)
 {
-	psv->stack_a = ft_malloc_list(psv, mem - 1);
+	psv->stack_a = ft_malloc_list(psv, mem);
 	psv->stack_b = NULL;
 	psv->qb = 0;
 }
@@ -104,7 +104,7 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 	}
 	psv->qa = i;
 	free(split);
-	ft_init_lists(psv, res + 1);
+	ft_init_lists(psv, res);
 	return (0);
 }
 
