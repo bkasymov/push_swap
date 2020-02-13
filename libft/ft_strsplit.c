@@ -52,7 +52,7 @@ static	char		*ft_memword(char const *s, size_t mem)
         int                     i;
 
         i = 0;
-	if (!(ptr = (char *)malloc(sizeof(char) * mem + 1)))
+	if (!(ptr = (char *)malloc(sizeof(char) * mem)))
 		return (NULL);
 	while (mem > i)
         {

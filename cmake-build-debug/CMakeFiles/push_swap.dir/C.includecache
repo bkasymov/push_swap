@@ -38,7 +38,7 @@ unistd.h
 bbtree_utils.h
 /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
 
-/Users/dpenney/Desktop/push_swap/src/parser/init_array.c
+/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
 ../../includes/push_swap.h
 /Users/dpenney/Desktop/push_swap/includes/push_swap.h
 

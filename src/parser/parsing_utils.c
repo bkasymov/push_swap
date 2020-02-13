@@ -34,7 +34,7 @@ int			ft_general_parser(int argc, char **argv, t_vars *psv)
 
 void		ft_init_lists(t_vars *psv, int mem)
 {
-	psv->stack_a = ft_malloc_list(psv, mem);
+	psv->stack_a = ft_malloc_list(psv, mem - 1);
 	psv->stack_b = NULL;
 	psv->qb = 0;
 }
@@ -95,7 +95,7 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 		return (1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
-	ft_init_array(psv, res, 0);
+	ft_init_array(psv, res + 1, 0);
 	i = 0;
 	while (res > i)
 	{
