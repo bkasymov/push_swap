@@ -130,4 +130,4 @@ add_executable(push_swap
         src/solver/ft_generals_solvers_utils_ps.c
         src/solver/ft_quick_sort_arr.c
         src/solver/ft_solver_ps.c
-        src/push_swap.c)
+        src/push_swap.c src/parser/init_array.c)

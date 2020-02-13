@@ -12,128 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e580de7b-5d6e-472d-b9b5-a2efbe860888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_array_subtract.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_atoi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_bbtree_utils.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_bsort_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_bzero.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_del.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isalnum.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isalpha.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isascii.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isdigit.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_isprint.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_itoa.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_itoa_base.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstadd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstappend.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstdel.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstdelone.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstiter.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstmap.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_lstnew.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_max_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_maxval_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memalloc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memccpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memchr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memcmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memdel.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memdup.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memmove.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_memset.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_min_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_minval_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_print_array.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/apply_spec.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/apply_spec2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/apply_spec3.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/apply_spec4.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/apply_spec5.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/apply_spec6.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/arg_extractors.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/arg_extractors2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/conv_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/conv_int2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/conv_other.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/conv_wrappers_int.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/conv_wrappers_int2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/conv_wrappers_other.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/find_action.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/printf.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/read_spec.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_printf/read_spec2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putchar.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putchar_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putendl.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putendl_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putnbr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putnbr_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putstr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_putstr_fd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strcat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strchr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strclr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strcmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strdel.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strdup.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strequ.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_striter.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_striteri.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strjoin.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strlcat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strlen.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strmap.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strmapi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strncat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strncmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strncpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strnequ.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strnew.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strnstr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strrchr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strrev.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strsplit.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strstr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strsub.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_strtrim.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_swap.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_swapint.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_tolower.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ft_toupper.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/decimal_arithmetic.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/decimal_arithmetic2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/decimal_arithmetic3.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/decimal_arithmetic4.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/decimal_arithmetic5.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/ftoa.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/ftoa/ftoa2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/get_next_line.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/push_swap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checker.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/error_and_free.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/ft_check_dupl.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/ft_check_sort.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/parsing_utils.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/parsing_utils2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/push_swap.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rules/rules_pp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rules/rules_rr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rules/rules_rrr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rules/rules_ss.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solver/ft_general_solver_ps.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solver/ft_quick_sort_arr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solver/ft_solver_ps.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parser/init_array.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parser/init_array.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker" beforeDir="false" afterPath="$PROJECT_DIR$/checker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strsplit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strsplit.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/push_swap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strsplit.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strsplit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_strsplit.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_strsplit.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push_swap.dSYM/Contents/Resources/DWARF/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.dSYM/Contents/Resources/DWARF/push_swap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/parsing_utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parsing_utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/parsing_utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parsing_utils.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solver/ft_quick_sort_arr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_quick_sort_arr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solver/ft_quick_sort_arr.o" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/ft_quick_sort_arr.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,10 +81,10 @@
     <property name="cf.advertisement.text.overridden" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RunManager" selected="CMake Application.PUSH">
-    <configuration name="PUSH" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="321 450 73 24 19 " WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="push_swap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap" RUN_TARGET_NAME="push_swap">
+    <configuration name="PUSH" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" 400 6000 200 700 100 800" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="push_swap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap" RUN_TARGET_NAME="push_swap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -273,7 +184,9 @@
       <workItem from="1581476512202" duration="3426000" />
       <workItem from="1581482827616" duration="11533000" />
       <workItem from="1581498188412" duration="739000" />
-      <workItem from="1581504019853" duration="1617000" />
+      <workItem from="1581504019853" duration="1961000" />
+      <workItem from="1581567033773" duration="7481000" />
+      <workItem from="1581582154606" duration="1496000" />
     </task>
     <servers />
   </component>
@@ -293,11 +206,11 @@
       <screen x="0" y="27" width="1366" height="700" />
     </state>
     <state x="273" y="38" width="800" height="677" key="#Updates/0.27.1366.700@0.27.1366.700" timestamp="1580322925525" />
-    <state x="253" y="488" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581505751368">
+    <state x="1242" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581584048376">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="781" y="272" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1333@0.23.2560.1333" timestamp="1581328830344" />
-    <state x="253" y="488" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581505751368" />
+    <state x="1242" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581584048376" />
     <state x="231" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.700@0.27.1366.700" timestamp="1581402785048" />
     <state x="282" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.694@67.27.1299.694" timestamp="1580084437034" />
     <state x="1745" y="536" width="738" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581480703040">
@@ -315,11 +228,11 @@
     <state x="1522" y="376" key="#push_swap/0.0.2560.1360@0.0.2560.1360" timestamp="1578911602431" />
     <state x="1522" y="393" key="#push_swap/0.23.2560.1337@0.23.2560.1337" timestamp="1578920829807" />
     <state x="714" y="232" width="642" height="527" key="#push_swap/67.27.1299.741@67.27.1299.741" timestamp="1577673716407" />
-    <state x="1295" y="237" key="#xdebugger.evaluate" timestamp="1581495734245">
+    <state x="1295" y="237" key="#xdebugger.evaluate" timestamp="1581582585136">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1566" y="216" key="#xdebugger.evaluate/0.23.2560.1333@0.23.2560.1333" timestamp="1581329081197" />
-    <state x="1295" y="237" key="#xdebugger.evaluate/0.23.2560.1337@0.23.2560.1337" timestamp="1581495734245" />
+    <state x="1295" y="237" key="#xdebugger.evaluate/0.23.2560.1337@0.23.2560.1337" timestamp="1581582585136" />
     <state x="782" y="125" key="#xdebugger.evaluate/0.27.1366.700@0.27.1366.700" timestamp="1581411200625" />
     <state x="811" y="124" key="#xdebugger.evaluate/67.27.1299.694@67.27.1299.694" timestamp="1580080251586" />
     <state x="464" y="148" key="#xdebugger.evaluate/67.27.1299.741@67.27.1299.741" timestamp="1577666156141" />
@@ -328,75 +241,75 @@
     </state>
     <state x="454" y="132" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.700@0.27.1366.700" timestamp="1581374110681" />
     <state x="499" y="131" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.694@67.27.1299.694" timestamp="1580075562510" />
-    <state width="1355" height="381" key="GridCell.Tab.0.bottom" timestamp="1581505744026">
+    <state width="2518" height="478" key="GridCell.Tab.0.bottom" timestamp="1581584212329">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603208" />
     <state width="1231" height="334" key="GridCell.Tab.0.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224106" />
-    <state width="1355" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581505744026" />
+    <state width="2518" height="478" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212329" />
     <state width="1326" height="197" key="GridCell.Tab.0.bottom/0.27.1366.700@0.27.1366.700" timestamp="1581411306403" />
     <state width="1320" height="270" key="GridCell.Tab.0.bottom/67.27.1299.694@67.27.1299.694" timestamp="1580084647519" />
     <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577673717490" />
-    <state width="1355" height="381" key="GridCell.Tab.0.center" timestamp="1581505744025">
+    <state width="2518" height="478" key="GridCell.Tab.0.center" timestamp="1581584212328">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.center/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603206" />
     <state width="1231" height="334" key="GridCell.Tab.0.center/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224105" />
-    <state width="1355" height="381" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581505744025" />
+    <state width="2518" height="478" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212328" />
     <state width="1326" height="197" key="GridCell.Tab.0.center/0.27.1366.700@0.27.1366.700" timestamp="1581411306402" />
     <state width="1320" height="270" key="GridCell.Tab.0.center/67.27.1299.694@67.27.1299.694" timestamp="1580084647519" />
     <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577673717489" />
-    <state width="1355" height="381" key="GridCell.Tab.0.left" timestamp="1581505744025">
+    <state width="2518" height="478" key="GridCell.Tab.0.left" timestamp="1581584212328">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.left/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603205" />
     <state width="1231" height="334" key="GridCell.Tab.0.left/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224105" />
-    <state width="1355" height="381" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581505744025" />
+    <state width="2518" height="478" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212328" />
     <state width="1326" height="197" key="GridCell.Tab.0.left/0.27.1366.700@0.27.1366.700" timestamp="1581411306401" />
     <state width="1320" height="270" key="GridCell.Tab.0.left/67.27.1299.694@67.27.1299.694" timestamp="1580084647518" />
     <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577673717489" />
-    <state width="1355" height="381" key="GridCell.Tab.0.right" timestamp="1581505744025">
+    <state width="2518" height="478" key="GridCell.Tab.0.right" timestamp="1581584212328">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.0.right/0.0.2560.1360@0.0.2560.1360" timestamp="1578911603207" />
     <state width="1231" height="334" key="GridCell.Tab.0.right/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224106" />
-    <state width="1355" height="381" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581505744025" />
+    <state width="2518" height="478" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212328" />
     <state width="1326" height="197" key="GridCell.Tab.0.right/0.27.1366.700@0.27.1366.700" timestamp="1581411306402" />
     <state width="1320" height="270" key="GridCell.Tab.0.right/67.27.1299.694@67.27.1299.694" timestamp="1580084647519" />
     <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577673717490" />
-    <state width="1355" height="478" key="GridCell.Tab.1.bottom" timestamp="1581505733407">
+    <state width="2518" height="478" key="GridCell.Tab.1.bottom" timestamp="1581584212908">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604144" />
     <state width="1231" height="334" key="GridCell.Tab.1.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224108" />
-    <state width="1355" height="478" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581505733407" />
+    <state width="2518" height="478" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212908" />
     <state width="643" height="228" key="GridCell.Tab.1.bottom/0.27.1366.700@0.27.1366.700" timestamp="1581411305421" />
     <state width="1320" height="253" key="GridCell.Tab.1.bottom/67.27.1299.694@67.27.1299.694" timestamp="1580084515054" />
     <state width="1253" height="188" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
-    <state width="1355" height="478" key="GridCell.Tab.1.center" timestamp="1581505733406">
+    <state width="2518" height="478" key="GridCell.Tab.1.center" timestamp="1581584212906">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.center/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604143" />
     <state width="1231" height="334" key="GridCell.Tab.1.center/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224107" />
-    <state width="1355" height="478" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581505733406" />
+    <state width="2518" height="478" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212906" />
     <state width="643" height="228" key="GridCell.Tab.1.center/0.27.1366.700@0.27.1366.700" timestamp="1581411305421" />
     <state width="1320" height="253" key="GridCell.Tab.1.center/67.27.1299.694@67.27.1299.694" timestamp="1580084515053" />
     <state width="1253" height="188" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
-    <state width="1355" height="478" key="GridCell.Tab.1.left" timestamp="1581505733406">
+    <state width="2518" height="478" key="GridCell.Tab.1.left" timestamp="1581584212906">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.left/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604142" />
     <state width="1231" height="334" key="GridCell.Tab.1.left/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224107" />
-    <state width="1355" height="478" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581505733406" />
+    <state width="2518" height="478" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212906" />
     <state width="643" height="228" key="GridCell.Tab.1.left/0.27.1366.700@0.27.1366.700" timestamp="1581411305420" />
     <state width="1320" height="253" key="GridCell.Tab.1.left/67.27.1299.694@67.27.1299.694" timestamp="1580084515053" />
     <state width="1253" height="188" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1577673571090" />
-    <state width="1355" height="478" key="GridCell.Tab.1.right" timestamp="1581505733406">
+    <state width="2518" height="478" key="GridCell.Tab.1.right" timestamp="1581584212907">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="332" key="GridCell.Tab.1.right/0.0.2560.1360@0.0.2560.1360" timestamp="1578911604143" />
     <state width="1231" height="334" key="GridCell.Tab.1.right/0.23.2560.1333@0.23.2560.1333" timestamp="1581329224108" />
-    <state width="1355" height="478" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581505733406" />
+    <state width="2518" height="478" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1581584212907" />
     <state width="643" height="228" key="GridCell.Tab.1.right/0.27.1366.700@0.27.1366.700" timestamp="1581411305421" />
     <state width="1320" height="253" key="GridCell.Tab.1.right/67.27.1299.694@67.27.1299.694" timestamp="1580084515053" />
     <state width="1253" height="188" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1577673571091" />
@@ -414,17 +327,17 @@
     <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.23.2560.1337@0.23.2560.1337" timestamp="1581504014286" />
     <state width="342" height="251" key="ImportCMakeProjectWizard.topPanel/0.27.1366.700@0.27.1366.700" timestamp="1581372040725" />
     <state width="325" height="248" key="ImportCMakeProjectWizard.topPanel/67.27.1299.694@67.27.1299.694" timestamp="1580075578425" />
-    <state x="194" y="214" width="1012" height="700" key="SettingsEditor" timestamp="1581495170841">
+    <state x="194" y="214" width="1012" height="700" key="SettingsEditor" timestamp="1581576577569">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="194" y="213" key="SettingsEditor/0.23.2560.1333@0.23.2560.1333" timestamp="1580750911255" />
-    <state x="194" y="214" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1581495170841" />
+    <state x="194" y="214" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1581576577569" />
     <state x="104" y="27" width="1012" height="700" key="SettingsEditor/0.27.1366.700@0.27.1366.700" timestamp="1581371993035" />
-    <state x="601" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581498188461">
+    <state x="601" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581582270582">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="601" y="379" key="com.intellij.ide.util.TipDialog/0.23.2560.1333@0.23.2560.1333" timestamp="1581328139688" />
-    <state x="601" y="380" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581498188461" />
+    <state x="601" y="380" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1581582270582" />
     <state x="321" y="214" key="com.intellij.ide.util.TipDialog/0.27.1366.700@0.27.1366.700" timestamp="1580485914468" />
     <state x="372" y="212" key="com.intellij.ide.util.TipDialog/67.27.1299.694@67.27.1299.694" timestamp="1580055496353" />
     <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1577666052413" />
@@ -460,20 +373,27 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/parser/parsing_utils.c</url>
-          <line>107</line>
-          <option name="timeStamp" value="86" />
+          <url>file://$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.c</url>
+          <line>137</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/solver/ft_generals_solvers_utils_ps.c</url>
-          <line>144</line>
-          <option name="timeStamp" value="97" />
+          <url>file://$PROJECT_DIR$/src/push_swap.c</url>
+          <line>40</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="psv-&gt;stack_a" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[0]" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[1]" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[2]" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[3]" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[4]" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[5]" language="ObjectiveC" />
+        <watch expression="psv-&gt;arr[6]" language="ObjectiveC" />
         <watch expression="psv-&gt;mass[0]" language="ObjectiveC" />
         <watch expression="psv-&gt;mass[1]" language="ObjectiveC" />
         <watch expression="psv-&gt;mass[2]" language="ObjectiveC" />

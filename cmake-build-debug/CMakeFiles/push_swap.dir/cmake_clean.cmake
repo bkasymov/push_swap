@@ -101,6 +101,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/src/parser/error_and_free.c.o"
   "CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o"
   "CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o"
+  "CMakeFiles/push_swap.dir/src/parser/init_array.c.o"
   "CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
   "CMakeFiles/push_swap.dir/src/push_swap.c.o"

@@ -6,6 +6,7 @@ CC = gcc
 FLAGS = -Wall -Wextra -Werror
 
 SRC1 = ./src/push_swap.c \
+		./src/parser/init_array.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \
@@ -21,6 +22,7 @@ SRC1 = ./src/push_swap.c \
 	  ./src/solver/ft_general_solver_ps.c
 
 SRC2 = ./src/checker.c \
+		./src/parser/init_array.c \
 	  ./src/parser/parsing_utils.c \
 	  ./src/parser/parsing_utils2.c \
 	  ./src/parser/ft_check_dupl.c \

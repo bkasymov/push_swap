@@ -106,6 +106,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dpenney/Desktop/push_swap/src/parser/error_and_free.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/error_and_free.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o"
+  "/Users/dpenney/Desktop/push_swap/src/parser/init_array.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/init_array.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o"
   "/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o"
   "/Users/dpenney/Desktop/push_swap/src/push_swap.c" "/Users/dpenney/Desktop/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap.c.o"

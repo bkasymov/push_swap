@@ -90,21 +90,20 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 	int		i;
 	char	**split;
 
-	res = 0;
-	i = 0;
-	if ((res = ft_check_sym(str)) == 1)
+	psv->arr = NULL;
+	if ((ft_check_sym(str)) == 1)
 		return (1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
-	if (!(psv->arr = (int *)malloc(sizeof(int) * res)))
-		return (1);
-	res--;
-	while (res >= i)
+	ft_init_array(psv, res, 0);
+	i = 0;
+	while (res > i)
 	{
 		psv->arr[i] = ft_atoips(psv, split[i]);
 		i++;
 	}
 	psv->qa = i;
+	free(split);
 	ft_init_lists(psv, res + 1);
 	return (0);
 }
@@ -118,19 +117,16 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 int			ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 {
 	int		i;
-	int		res;
-	int		j;
 
-	j = 0;
-	res = 0;
 	i = 1;
+	psv->arr = NULL;
 	while (argc > i)
 		if ((ft_check_sym(argv[i++])) == 1)
 			return (1);
-	if (!(psv->arr = (int *)malloc(sizeof(int) * (argc))))
-		return (1);
+	if (ft_init_array(psv, argc, 1))
+	  return (1);
 	i = 1;
-	while (argc > i)
+        while (argc > i)
 	{
 		psv->arr[i - 1] = ft_atoips(psv, argv[i]);
 		i++;

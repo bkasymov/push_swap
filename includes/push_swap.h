@@ -49,6 +49,7 @@ int                     ft_general_parser(int argc, char **argv, t_vars *psv);
 void	                error_print(t_vars *psv, int a);
 int		                ft_atoips(t_vars *psv, const char *str);
 int		                ft_check_sym(char *str);
+int                     ft_init_array(t_vars *psv, int argc, int a);
 int		                ft_args_in_1_string(char *str, t_vars *psv);
 int                     ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
 

@@ -421,6 +421,9 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/init_array.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c">
 			<Option target="push_swap"/>
 		</Unit>

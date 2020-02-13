@@ -22,7 +22,6 @@ int			ft_partition(int *array, int start, int end)
 	pivot = array[end];
 	i = start - 1;
 	j = start;
-	temp = 0;
 	while (j < end)
 	{
 		if (array[j] <= pivot)
@@ -50,5 +49,6 @@ void		ft_quick_sort(int *array, int start, int end)
 		q = ft_partition(array, start, end);
 		ft_quick_sort(array, start, q - 1);
 		ft_quick_sort(array, q + 1, end);
-	}
+	} else
+	  return ;
 }

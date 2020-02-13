@@ -49,9 +49,16 @@ int			num_word(char const *s, char c)
 static	char		*ft_memword(char const *s, size_t mem)
 {
 	char			*ptr;
+        int                     i;
 
+        i = 0;
 	if (!(ptr = (char *)malloc(sizeof(char) * mem + 1)))
 		return (NULL);
+	while (mem > i)
+        {
+	  ptr[i] = '\0';
+	  i++;
+        }
 	ptr = ft_strncpy(ptr, s, mem);
 	ptr[mem] = '\0';
 	return (ptr);

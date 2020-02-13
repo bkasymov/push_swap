@@ -416,6 +416,12 @@ CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o: ../libft/includes/bbtree_
 CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o: ../libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o: ../src/parser/ft_check_sort.c
 
+CMakeFiles/push_swap.dir/src/parser/init_array.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/src/parser/init_array.c.o: ../libft/ft_printf/printf.h
+CMakeFiles/push_swap.dir/src/parser/init_array.c.o: ../libft/includes/bbtree_utils.h
+CMakeFiles/push_swap.dir/src/parser/init_array.c.o: ../libft/includes/libft.h
+CMakeFiles/push_swap.dir/src/parser/init_array.c.o: ../src/parser/init_array.c
+
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/ft_printf/printf.h
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o: ../libft/includes/bbtree_utils.h

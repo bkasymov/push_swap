@@ -2877,6 +2877,33 @@ src/parser/ft_check_sort.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.s
 .PHONY : src/parser/ft_check_sort.c.s
 
+src/parser/init_array.o: src/parser/init_array.c.o
+
+.PHONY : src/parser/init_array.o
+
+# target to build an object file
+src/parser/init_array.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/init_array.c.o
+.PHONY : src/parser/init_array.c.o
+
+src/parser/init_array.i: src/parser/init_array.c.i
+
+.PHONY : src/parser/init_array.i
+
+# target to preprocess a source file
+src/parser/init_array.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/init_array.c.i
+.PHONY : src/parser/init_array.c.i
+
+src/parser/init_array.s: src/parser/init_array.c.s
+
+.PHONY : src/parser/init_array.s
+
+# target to generate assembly for a file
+src/parser/init_array.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/init_array.c.s
+.PHONY : src/parser/init_array.c.s
+
 src/parser/parsing_utils.o: src/parser/parsing_utils.c.o
 
 .PHONY : src/parser/parsing_utils.o
@@ -3489,6 +3516,9 @@ help:
 	@echo "... src/parser/ft_check_sort.o"
 	@echo "... src/parser/ft_check_sort.i"
 	@echo "... src/parser/ft_check_sort.s"
+	@echo "... src/parser/init_array.o"
+	@echo "... src/parser/init_array.i"
+	@echo "... src/parser/init_array.s"
 	@echo "... src/parser/parsing_utils.o"
 	@echo "... src/parser/parsing_utils.i"
 	@echo "... src/parser/parsing_utils.s"

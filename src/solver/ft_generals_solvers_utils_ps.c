@@ -135,10 +135,7 @@ void		ft_calc_step(t_stack *tmp, int quan)
 
 void		ft_find_bones(t_vars *psv)
 {
-	int		i;
-
-	i = 0;
-	ft_quick_sort(psv->arr, i, psv->qa);
+	ft_quick_sort(psv->arr, 0, psv->qa);
 	psv->mass[0] = psv->arr[1];
 	psv->mass[1] = psv->arr[psv->qa / 2];
 	psv->mass[2] = psv->arr[psv->qa];

@@ -416,6 +416,12 @@ CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o
  /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
  /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
  /Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c
+CMakeFiles/push_swap.dir/src/parser/init_array.c.o
+ /Users/dpenney/Desktop/push_swap/includes/push_swap.h
+ /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /Users/dpenney/Desktop/push_swap/src/parser/init_array.c
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
  /Users/dpenney/Desktop/push_swap/includes/push_swap.h
  /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
