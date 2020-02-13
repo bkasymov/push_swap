@@ -89,6 +89,8 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 	int		res;
 	int		i;
 	char	**split;
+  char	**tmp;
+        char	*sp;
 
 	psv->arr = NULL;
 	if ((ft_check_sym(str)) == 1)
@@ -103,6 +105,11 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 		i++;
 	}
 	psv->qa = i;
+	tmp = split;
+	while ((sp = tmp++[0]) != 0)
+        {
+	  free(sp);
+        }
 	free(split);
 	ft_init_lists(psv, res);
 	return (0);
