@@ -33,6 +33,7 @@ void			ft_pa(t_vars *psv, int ps)
 	psv->stack_b = psv->stack_b->next;
 	tmp->next = psv->stack_a;
 	psv->stack_a = tmp;
+	psv->count += 1;
 	if (ps)
 		write(1, "pa\n", 3);
 }
@@ -54,7 +55,9 @@ void			ft_pb(t_vars *psv, int ps)
 	tmp = psv->stack_a;
 	psv->stack_a = psv->stack_a->next;
 	tmp->next = psv->stack_b;
+	psv->count += 1;
 	psv->stack_b = tmp;
+
 	if (ps)
 		write(1, "pb\n", 3);
 }

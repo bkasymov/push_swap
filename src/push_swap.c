@@ -31,6 +31,7 @@
 int			main(int argc, char **argv)
 {
 	t_vars	psv;
+    psv.count = 0;
 
 	if (argc < 2)
 		return (0);

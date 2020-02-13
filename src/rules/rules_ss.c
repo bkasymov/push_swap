@@ -32,6 +32,7 @@ void		ft_sa(struct variables *psv, int ps)
 	tmp = link->data;
 	link->data = link->next->data;
 	link->next->data = tmp;
+	psv->count += 1;
 	if (ps)
 		write(1, "sa\n", 3);
 }
@@ -47,6 +48,7 @@ void		ft_sb(struct variables *psv, int ps)
 	tmp = link->data;
 	link->data = link->next->data;
 	link->next->data = tmp;
+	psv->count += 1;
 	if (ps)
 		write(1, "sb\n", 3);
 }
@@ -59,6 +61,7 @@ void		ft_ss(t_vars *psv, int ps)
 {
 	ft_sa(psv, 1);
 	ft_sb(psv, 1);
+	psv->count += 1;
 	if (ps)
 		write(1, "ss\n", 3);
 }
