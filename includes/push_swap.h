@@ -10,10 +10,11 @@
 
 typedef		struct      stacks
 {
-	struct stacks	    *next;
-	int				    data;
+	int		    data;
 	int                 step;
 	int                 rotation;
+	struct stacks	    *next;
+
 }					    t_stack;
 
 /*

@@ -13,14 +13,14 @@
 #include "../../includes/push_swap.h"
 
 /*
-** with first digit of stack_b we are looking for
-** position between digits of stack_a.
-** If digit of stack_b bigger than previos digit of stack_a
-** and less than next digit of stack - we found position
-** for this digit;
-** After it the second time we check suitable of founded
-** position;
-** And if it founded - adding +1 to actions;
+** Launching cycle of lists with elements of stack_a;
+** If element of B is more than first element of A and less
+** than next element of A it's mean that we find position
+** for this list;
+** If it's not so we are going on check next element of B;
+** **************
+** When we found position for list of B in A we are launching
+** next function ft_search_small_element;
 */
 
 void		ft_search_position(t_vars *psv, int *tmp, int *actions)
@@ -53,9 +53,11 @@ void		ft_search_position(t_vars *psv, int *tmp, int *actions)
 }
 
 /*
-** Goal of this function at first find position
-** for digit of stack_b in stack_a and return
-** count of actions.
+** At first ft_search_position returning quantity of
+** actions of element of stack_b which should to do
+** than to be in order of stack_a;
+** "tmp" is variable for function ft_search_position
+** We are using it there than to keep number in this variable;
 ** After it checking is it a minimum action via
 ** comparing result of addition of actions and steps of
 ** current number;
@@ -97,31 +99,29 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 }
 
 /*
-** Goal of function to find digit which will take
-** minimum actions to move from stack_b to stack_a;
-** Calc have first value -1, because it's signal, that
-** it's first operation;
-** Than to save heads of stacks - saving head in pointers
-** save_!.
+** Goal of function is to calculate of actions
+** to every list of stack_b;
+** Variable acts saving a count of actions for every list;
+** We are saving links of stacks, beacuse:
+** stack_a will be update because using in ft_search_and_calc_position
+** when searching position in stack_a;
+** stack_b will be update too because giving data of it for comparison.
 */
 
 void		ft_calc_place_for_insertion(t_vars *psv, t_pos *pos)
 {
-	int		calc;
+	int	acts;
 	t_stack	*save_a;
 	t_stack	*save_b;
-	int		tmpqb;
 
-	tmpqb = psv->qb;
-	calc = -1;
+	acts = -1;
 	save_a = psv->stack_a;
 	save_b = psv->stack_b;
-	while (tmpqb)
+	while (psv->qb)
 	{
-		calc = ft__search_and_calc_position(psv, pos, calc);
+		acts = ft__search_and_calc_position(psv, pos, acts);
 		psv->stack_a = save_a;
 		psv->stack_b = psv->stack_b->next;
-		tmpqb--;
 	}
 	psv->stack_b = save_b;
 }
@@ -140,22 +140,19 @@ void		ft_calc_place_for_insertion(t_vars *psv, t_pos *pos)
 
 void		ft_general_sort(t_vars *psv)
 {
-	t_pos	*pos;
+	t_pos	pos;
 
-	if (!(pos = (t_pos *)malloc(sizeof(t_pos))))
-		exit(1);
-	while (psv->qb > 0)
+	while (psv->qb != 0)
 	{
-		pos->a_quantity = -1;
-		pos->b_quantity = -1;
-		pos->a_turn = 0;
-		pos->b_turn = 0;
+	        pos.a_turn = 0;
+	        pos.b_turn = 0;
+		pos.a_quantity = -1;
+		pos.b_quantity = -1;
 		ft_calc_step(psv->stack_a, psv->qa);
 		ft_calc_step(psv->stack_b, psv->qb);
-		ft_calc_place_for_insertion(psv, pos);
-		ft_performance_actions(psv, pos);
+		ft_calc_place_for_insertion(psv, &pos);
+		ft_performance_actions(psv, &pos);
 	}
-	free(pos);
 	ft_align_in_order(psv);
 }
 
