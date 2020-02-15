@@ -13,14 +13,15 @@
 #include "../../includes/push_swap.h"
 
 /*
-** Launching cycle of lists with elements of stack_a;
-** If element of B is more than first element of A and less
-** than next element of A it's mean that we find position
-** for this list;
-** If it's not so we are going on check next element of B;
+** Starting cycle of elements A;
+** tmp saving data of first elem of A than to use it below;
+** **************
+** In variable "actions" counting how many lists missed than to
+** find position for B's element in A;
 ** **************
 ** When we found position for list of B in A we are launching
-** next function ft_search_small_element;
+** next part.
+** ft_search_small_element
 */
 
 void		ft_search_position(t_vars *psv, int *tmp, int *actions)
@@ -31,7 +32,7 @@ void		ft_search_position(t_vars *psv, int *tmp, int *actions)
 		if (psv->stack_a->data < psv->stack_b->data)
 		{
 			*actions = *actions + 1;
-			if (psv->stack_b->data < psv->stack_a->next->data)
+			if (psv->stack_a->next->data > psv->stack_b->data)
 				break ;
 			psv->stack_a = psv->stack_a->next;
 		}
@@ -56,9 +57,10 @@ void		ft_search_position(t_vars *psv, int *tmp, int *actions)
 ** At first ft_search_position returning quantity of
 ** actions of element of stack_b which should to do
 ** than to be in order of stack_a;
-** "tmp" is variable for function ft_search_position
+** "tmp" is variable for function ft_search_position, not using here
 ** We are using it there than to keep number in this variable;
-** After it checking is it a minimum action via
+** not using here.
+** After it checking a minimum action via
 ** comparing result of addition of actions and steps of
 ** current number;
 ** If it's more than minimum (calc variable), it's mean
@@ -66,11 +68,13 @@ void		ft_search_position(t_vars *psv, int *tmp, int *actions)
 ** we are recording results in pos structure of variables
 ** than to perform this instruction in next func.
 ** Recording count of rotate to a_turn for put current digit
-** of stack_b to top position. Digit which less than current number of
+** of stack_b to top position.
+** How it is working?
+** Digit which less than current number of
 ** stack_b will be in down, digit of stack_b at the top and digit bigger than
 ** current digit of stack_b will be next after top position.
-** b_turn counting how much rotation should be than to find current digit
-** at the top of stack_b than to put it to stack_a;
+** b_turn counting how much rotation should be to move necessary element of
+** stack_b to top than to use ft_pa (put top element of stack_b to stack_a;
 ** Else signaling via assigning value of min to rec and returning;
 */
 
@@ -94,7 +98,7 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 		rec = psv->stack_b->step + actions;
 	}
 	else
-		rec = calc;
+		return (calc);
 	return (rec);
 }
 
@@ -102,9 +106,8 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 ** Goal of function is to calculate of actions
 ** to every list of stack_b;
 ** Variable acts saving a count of actions for every list;
-** We are saving links of stacks, beacuse:
-** stack_a will be update because using in ft_search_and_calc_position
-** when searching position in stack_a;
+** We are saving links of stacks, becaus stack_a will be update because
+** using in ft_search_and_calc_position when searching position in stack_a;
 ** stack_b will be update too because giving data of it for comparison.
 */
 

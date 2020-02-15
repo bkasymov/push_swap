@@ -43,9 +43,9 @@ void		ft_align_in_order(t_vars *psv)
 }
 
 /*
-** Goal of function is double checking founded
-** place with other each other places.
-** if have more suitable place - returning 1;
+** ft_search_small_element receiving first data of element in A
+** lists, and digit in data_b which found position in B;
+**
 */
 
 int			ft_search_small_element(t_vars *psv, int *data, int data_b)
