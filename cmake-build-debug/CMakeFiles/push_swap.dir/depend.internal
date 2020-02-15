@@ -4,487 +4,487 @@
 CMakeFiles/push_swap.dir/libft/ft_array_subtract.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_array_subtract.c
+ /home/dpenney/Desktop/push_swap/libft/ft_array_subtract.c
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_atoi.c
+ /home/dpenney/Desktop/push_swap/libft/ft_atoi.c
 CMakeFiles/push_swap.dir/libft/ft_bbtree_utils.c.o
  ../libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/ft_bbtree_utils.c
+ /home/dpenney/Desktop/push_swap/libft/ft_bbtree_utils.c
 CMakeFiles/push_swap.dir/libft/ft_bsort_int.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_bsort_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_bsort_int.c
 CMakeFiles/push_swap.dir/libft/ft_bzero.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_bzero.c
+ /home/dpenney/Desktop/push_swap/libft/ft_bzero.c
 CMakeFiles/push_swap.dir/libft/ft_del.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_del.c
+ /home/dpenney/Desktop/push_swap/libft/ft_del.c
 CMakeFiles/push_swap.dir/libft/ft_isalnum.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_isalnum.c
+ /home/dpenney/Desktop/push_swap/libft/ft_isalnum.c
 CMakeFiles/push_swap.dir/libft/ft_isalpha.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_isalpha.c
+ /home/dpenney/Desktop/push_swap/libft/ft_isalpha.c
 CMakeFiles/push_swap.dir/libft/ft_isascii.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_isascii.c
+ /home/dpenney/Desktop/push_swap/libft/ft_isascii.c
 CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_isdigit.c
+ /home/dpenney/Desktop/push_swap/libft/ft_isdigit.c
 CMakeFiles/push_swap.dir/libft/ft_isprint.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_isprint.c
+ /home/dpenney/Desktop/push_swap/libft/ft_isprint.c
 CMakeFiles/push_swap.dir/libft/ft_itoa.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_itoa.c
+ /home/dpenney/Desktop/push_swap/libft/ft_itoa.c
 CMakeFiles/push_swap.dir/libft/ft_itoa_base.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_itoa_base.c
+ /home/dpenney/Desktop/push_swap/libft/ft_itoa_base.c
 CMakeFiles/push_swap.dir/libft/ft_lstadd.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstadd.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstadd.c
 CMakeFiles/push_swap.dir/libft/ft_lstappend.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstappend.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstappend.c
 CMakeFiles/push_swap.dir/libft/ft_lstdel.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstdel.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstdel.c
 CMakeFiles/push_swap.dir/libft/ft_lstdelone.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstdelone.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstdelone.c
 CMakeFiles/push_swap.dir/libft/ft_lstiter.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstiter.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstiter.c
 CMakeFiles/push_swap.dir/libft/ft_lstmap.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstmap.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstmap.c
 CMakeFiles/push_swap.dir/libft/ft_lstnew.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_lstnew.c
+ /home/dpenney/Desktop/push_swap/libft/ft_lstnew.c
 CMakeFiles/push_swap.dir/libft/ft_max_int.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_max_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_max_int.c
 CMakeFiles/push_swap.dir/libft/ft_maxval_int.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_maxval_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_maxval_int.c
 CMakeFiles/push_swap.dir/libft/ft_memalloc.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memalloc.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memalloc.c
 CMakeFiles/push_swap.dir/libft/ft_memccpy.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_memccpy.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memccpy.c
 CMakeFiles/push_swap.dir/libft/ft_memchr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memchr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memchr.c
 CMakeFiles/push_swap.dir/libft/ft_memcmp.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memcmp.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memcmp.c
 CMakeFiles/push_swap.dir/libft/ft_memcpy.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memcpy.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memcpy.c
 CMakeFiles/push_swap.dir/libft/ft_memdel.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memdel.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memdel.c
 CMakeFiles/push_swap.dir/libft/ft_memdup.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memdup.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memdup.c
 CMakeFiles/push_swap.dir/libft/ft_memmove.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memmove.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memmove.c
 CMakeFiles/push_swap.dir/libft/ft_memset.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_memset.c
+ /home/dpenney/Desktop/push_swap/libft/ft_memset.c
 CMakeFiles/push_swap.dir/libft/ft_min_int.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_min_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_min_int.c
 CMakeFiles/push_swap.dir/libft/ft_minval_int.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_minval_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_minval_int.c
 CMakeFiles/push_swap.dir/libft/ft_print_array.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_print_array.c
+ /home/dpenney/Desktop/push_swap/libft/ft_print_array.c
 CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec2.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec2.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec2.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec3.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec3.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec3.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec4.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec4.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec4.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec5.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec5.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec5.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec6.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec6.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec6.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/arg_extractors.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/arg_extractors.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors2.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/arg_extractors2.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/arg_extractors2.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/conv_int.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_int.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/conv_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/conv_int2.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_int2.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/conv_int2.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/conv_other.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_other.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/conv_other.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_int.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_int.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int2.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_int2.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_int2.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_other.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_other.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_other.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/find_action.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/find_action.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/find_action.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/printf.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/read_spec.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.c
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.c
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_printf/read_spec2.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec2.c
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/read_spec2.c
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/libft/ft_putchar.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putchar.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putchar.c
 CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putchar_fd.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putchar_fd.c
 CMakeFiles/push_swap.dir/libft/ft_putendl.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putendl.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putendl.c
 CMakeFiles/push_swap.dir/libft/ft_putendl_fd.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putendl_fd.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putendl_fd.c
 CMakeFiles/push_swap.dir/libft/ft_putnbr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putnbr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putnbr.c
 CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putnbr_fd.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putnbr_fd.c
 CMakeFiles/push_swap.dir/libft/ft_putstr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putstr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putstr.c
 CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_putstr_fd.c
+ /home/dpenney/Desktop/push_swap/libft/ft_putstr_fd.c
 CMakeFiles/push_swap.dir/libft/ft_strcat.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_strcat.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strcat.c
 CMakeFiles/push_swap.dir/libft/ft_strchr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strchr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strchr.c
 CMakeFiles/push_swap.dir/libft/ft_strclr.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_strclr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strclr.c
 CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strcmp.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strcmp.c
 CMakeFiles/push_swap.dir/libft/ft_strcpy.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strcpy.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strcpy.c
 CMakeFiles/push_swap.dir/libft/ft_strdel.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strdel.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strdel.c
 CMakeFiles/push_swap.dir/libft/ft_strdup.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strdup.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strdup.c
 CMakeFiles/push_swap.dir/libft/ft_strequ.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strequ.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strequ.c
 CMakeFiles/push_swap.dir/libft/ft_striter.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_striter.c
+ /home/dpenney/Desktop/push_swap/libft/ft_striter.c
 CMakeFiles/push_swap.dir/libft/ft_striteri.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_striteri.c
+ /home/dpenney/Desktop/push_swap/libft/ft_striteri.c
 CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strjoin.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strjoin.c
 CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strlcat.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strlcat.c
 CMakeFiles/push_swap.dir/libft/ft_strlen.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strlen.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strlen.c
 CMakeFiles/push_swap.dir/libft/ft_strmap.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strmap.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strmap.c
 CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strmapi.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strmapi.c
 CMakeFiles/push_swap.dir/libft/ft_strncat.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strncat.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strncat.c
 CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strncmp.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strncmp.c
 CMakeFiles/push_swap.dir/libft/ft_strncpy.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strncpy.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strncpy.c
 CMakeFiles/push_swap.dir/libft/ft_strnequ.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strnequ.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strnequ.c
 CMakeFiles/push_swap.dir/libft/ft_strnew.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strnew.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strnew.c
 CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strnstr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strnstr.c
 CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strrchr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strrchr.c
 CMakeFiles/push_swap.dir/libft/ft_strrev.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strrev.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strrev.c
 CMakeFiles/push_swap.dir/libft/ft_strsplit.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strsplit.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strsplit.c
 CMakeFiles/push_swap.dir/libft/ft_strstr.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strstr.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strstr.c
 CMakeFiles/push_swap.dir/libft/ft_strsub.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strsub.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strsub.c
 CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_strtrim.c
+ /home/dpenney/Desktop/push_swap/libft/ft_strtrim.c
 CMakeFiles/push_swap.dir/libft/ft_swap.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_swap.c
+ /home/dpenney/Desktop/push_swap/libft/ft_swap.c
 CMakeFiles/push_swap.dir/libft/ft_swapint.c.o
  ../libft/includes/bbtree_utils.h
  ../libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/libft/ft_swapint.c
+ /home/dpenney/Desktop/push_swap/libft/ft_swapint.c
 CMakeFiles/push_swap.dir/libft/ft_tolower.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_tolower.c
+ /home/dpenney/Desktop/push_swap/libft/ft_tolower.c
 CMakeFiles/push_swap.dir/libft/ft_toupper.c.o
- /Users/dpenney/Desktop/push_swap/libft/ft_toupper.c
+ /home/dpenney/Desktop/push_swap/libft/ft_toupper.c
 CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic.c
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
 CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic2.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic2.c
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic2.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
 CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic3.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic3.c
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic3.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
 CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic4.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic4.c
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic4.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
 CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic5.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic5.c
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic5.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
 CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c
 CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
- /Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h
+ /home/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c
 CMakeFiles/push_swap.dir/libft/get_next_line.c.o
- /Users/dpenney/Desktop/push_swap/libft/get_next_line.c
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/get_next_line.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/libft/get_next_line.c
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/get_next_line.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
 CMakeFiles/push_swap.dir/src/parser/error_and_free.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/parser/error_and_free.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/parser/error_and_free.c
 CMakeFiles/push_swap.dir/src/parser/ft_check_dupl.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/parser/ft_check_dupl.c
 CMakeFiles/push_swap.dir/src/parser/ft_check_sort.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/parser/ft_check_sort.c
 CMakeFiles/push_swap.dir/src/parser/init_array.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/parser/init_array.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/parser/init_array.c
 CMakeFiles/push_swap.dir/src/parser/parsing_utils.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/parser/parsing_utils.c
 CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c
 CMakeFiles/push_swap.dir/src/push_swap.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/push_swap.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/push_swap.c
 CMakeFiles/push_swap.dir/src/rules/rules_pp.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/rules/rules_pp.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_pp.c
 CMakeFiles/push_swap.dir/src/rules/rules_rr.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/rules/rules_rr.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_rr.c
 CMakeFiles/push_swap.dir/src/rules/rules_rrr.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/rules/rules_rrr.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_rrr.c
 CMakeFiles/push_swap.dir/src/rules/rules_ss.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/rules/rules_ss.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/rules/rules_ss.c
 CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c
 CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils_ps.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c
 CMakeFiles/push_swap.dir/src/solver/ft_quick_sort_arr.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/solver/ft_quick_sort_arr.c
 CMakeFiles/push_swap.dir/src/solver/ft_solver_ps.c.o
- /Users/dpenney/Desktop/push_swap/includes/push_swap.h
- /Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
- /Users/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
- /Users/dpenney/Desktop/push_swap/libft/includes/libft.h
- /Users/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c
+ /home/dpenney/Desktop/push_swap/includes/push_swap.h
+ /home/dpenney/Desktop/push_swap/libft/ft_printf/printf.h
+ /home/dpenney/Desktop/push_swap/libft/includes/bbtree_utils.h
+ /home/dpenney/Desktop/push_swap/libft/includes/libft.h
+ /home/dpenney/Desktop/push_swap/src/solver/ft_solver_ps.c

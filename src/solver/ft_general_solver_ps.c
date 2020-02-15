@@ -21,7 +21,12 @@
 ** **************
 ** When we found position for list of B in A we are launching
 ** next part.
-** ft_search_small_element
+** ft_search_small_element checking A for elements which could
+** be between current digits A and B.
+** For example - we would like to ft_pa from B (444) to A (where
+** 555-1000-111). We should check have A element between 444 and 555
+** for instance - 446, or 499; If have, we are incrementing variable
+** actions than to keep this number in top.
 */
 
 void		ft_search_position(t_vars *psv, int *tmp, int *actions)
@@ -54,31 +59,16 @@ void		ft_search_position(t_vars *psv, int *tmp, int *actions)
 }
 
 /*
-** At first ft_search_position returning quantity of
-** actions of element of stack_b which should to do
-** than to be in order of stack_a;
-** "tmp" is variable for function ft_search_position, not using here
-** We are using it there than to keep number in this variable;
-** not using here.
-** After it checking a minimum action via
-** comparing result of addition of actions and steps of
-** current number;
-** If it's more than minimum (calc variable), it's mean
-** that position found.
-** we are recording results in pos structure of variables
-** than to perform this instruction in next func.
-** Recording count of rotate to a_turn for put current digit
-** of stack_b to top position.
-** How it is working?
-** Digit which less than current number of
-** stack_b will be in down, digit of stack_b at the top and digit bigger than
-** current digit of stack_b will be next after top position.
-** b_turn counting how much rotation should be to move necessary element of
-** stack_b to top than to use ft_pa (put top element of stack_b to stack_a;
-** Else signaling via assigning value of min to rec and returning;
+** ft_search_and_calc_position's goal is to find element of B
+** which have minimum operations to move to A;
+** In ft_search_position we are searching position between random
+** number and maximum and count of actions in "actions"
+** "tmp" using in ft_search_position than to econom lines;
+** If actions + steps of B bigger than min_oper (minimum operations),
+** - missing record steps for perform and checking next element of B;
 */
 
-int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
+int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int min_oper)
 {
 	int		tmp;
 	int		actions;
@@ -87,18 +77,18 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 	tmp = 0;
 	actions = 0;
 	ft_search_position(psv, &tmp, &actions);
-	if (psv->stack_a->rotation == -1)
+	if (psv->stack_a->rotation == -1) //????? For what?
 		actions = psv->qa - actions;
-	if (calc == -1 || (psv->stack_b->step + actions) < calc)
+	if (min_oper == -1 || (psv->stack_b->step + actions) < min_oper)
 	{
-		pos->a_turn = psv->stack_a->rotation;
-		pos->b_turn = psv->stack_b->rotation;
-		pos->a_quantity = actions;
-		pos->b_quantity = psv->stack_b->step;
+		pos->a_rote = psv->stack_a->rotation;
+		pos->b_rote = psv->stack_b->rotation;
+		pos->a_shift = actions;
+		pos->b_shift = psv->stack_b->step;
 		rec = psv->stack_b->step + actions;
 	}
 	else
-		return (calc);
+		return (min_oper);
 	return (rec);
 }
 
@@ -106,7 +96,7 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc)
 ** Goal of function is to calculate of actions
 ** to every list of stack_b;
 ** Variable acts saving a count of actions for every list;
-** We are saving links of stacks, becaus stack_a will be update because
+** We are saving links of stacks, because stack_a will be update when
 ** using in ft_search_and_calc_position when searching position in stack_a;
 ** stack_b will be update too because giving data of it for comparison.
 */
@@ -120,7 +110,7 @@ void		ft_calc_place_for_insertion(t_vars *psv, t_pos *pos)
 	acts = -1;
 	save_a = psv->stack_a;
 	save_b = psv->stack_b;
-	while (psv->qb)
+	while (psv->stack_b)
 	{
 		acts = ft__search_and_calc_position(psv, pos, acts);
 		psv->stack_a = save_a;
@@ -147,10 +137,10 @@ void		ft_general_sort(t_vars *psv)
 
 	while (psv->qb != 0)
 	{
-	        pos.a_turn = 0;
-	        pos.b_turn = 0;
-		pos.a_quantity = -1;
-		pos.b_quantity = -1;
+	        pos.a_rote = 0;
+	        pos.b_rote = 0;
+		pos.a_shift = -1;
+		pos.b_shift = -1;
 		ft_calc_step(psv->stack_a, psv->qa);
 		ft_calc_step(psv->stack_b, psv->qb);
 		ft_calc_place_for_insertion(psv, &pos);

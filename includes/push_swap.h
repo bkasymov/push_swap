@@ -25,10 +25,10 @@ typedef		struct      stacks
 
 typedef     struct      pos
 {
-	int     a_quantity;
-	int     b_quantity;
-	int     a_turn;
-	int     b_turn;
+	int     a_shift;
+	int     b_shift;
+	int     a_rote;
+	int     b_rote;
 }                       t_pos;
 
 /*

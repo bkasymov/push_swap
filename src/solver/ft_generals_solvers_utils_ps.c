@@ -75,21 +75,21 @@ int			ft_search_small_element(t_vars *psv, int *data, int data_b)
 
 void		ft_performance_actions(t_vars *psv, t_pos *pos)
 {
-	while (pos->a_quantity)
+	while (pos->a_shift)
 	{
-		if (pos->a_turn)
+		if (pos->a_rote == 1)
 			ft_ra(psv, 1);
 		else
 			ft_rra(psv, 1);
-		pos->a_quantity--;
+		pos->a_shift--;
 	}
-	while (pos->b_quantity)
+	while (pos->b_shift)
 	{
-		if (pos->b_turn)
+		if (pos->b_rote == 1)
 			ft_rb(psv, 1);
 		else
 			ft_rrb(psv, 1);
-		pos->b_quantity--;
+		pos->b_shift--;
 	}
 	ft_pa(psv, 1);
 }
