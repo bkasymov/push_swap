@@ -31,8 +31,6 @@ void		ft_free_list(t_vars *psv, int a)
 			free(tmp);
 		}
 	}
-	if (a)
-		free(psv->arr);
 }
 
 /*
@@ -45,6 +43,7 @@ void		error_print(t_vars *psv, int a)
 {
 	if (a)
 		ft_free_list(psv, 1);
+	free(psv->arr);
 	write(2, "Error\n", 7);
 	exit(1);
 }

@@ -62,7 +62,7 @@ int			main(int argc, char **argv)
 {
 	t_vars	chv;
 
-	if (argc == 2)
+	if (argc >= 2)
 	{
 		if ((ft_general_parser(argc, argv, &chv)) == 1)
 			return (1);
