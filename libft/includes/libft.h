@@ -6,7 +6,7 @@
 /*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/21 18:42:53 by bgian             #+#    #+#             */
-/*   Updated: 2019/10/01 00:24:17 by bgian            ###   ########.fr       */
+/*   Updated: 2020/02/16 17:10:48 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ int					ft_isdigit(int c);
 int					ft_isascii(int c);
 int					ft_isalpha(int c);
 int					ft_isalnum(int c);
+int					ft_num_word(char const *s, char c);
 int					num_word(char const *s, char c);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);

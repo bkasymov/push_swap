@@ -6,20 +6,18 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/16 19:07:20 by dpenney           #+#    #+#             */
-/*   Updated: 2019/12/24 16:45:02 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 17:24:29 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <limits.h>
 
-#include "stdio.h"
-
-int					ft_atoi(const char *str)
+int							ft_atoi(const char *str)
 {
 	size_t					i;
 	int						sym;
-	int	res;
+	int						res;
 
 	i = 0;
 	sym = 1;

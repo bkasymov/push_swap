@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:49:26 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 11:57:18 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:24:52 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,6 @@ void			ft_pb(t_vars *psv, int ps)
 	tmp->next = psv->stack_b;
 	psv->count += 1;
 	psv->stack_b = tmp;
-
 	if (ps)
 		write(1, "pb\n", 3);
 }

@@ -5,8 +5,9 @@
 
 # include "stdlib.h"
 # include "unistd.h"
-# include "../libft/ft_printf/printf.h"
-# include "limits.h"
+
+# define INT_MAX 2147483648
+# define INT_MIN -2147483649
 
 typedef		struct      stacks
 {
@@ -128,6 +129,7 @@ void                    ft_calc_place_for_insertion(t_vars *psv, t_pos *pos);
 int                     ft__search_and_calc_position(t_vars *psv, t_pos *pos, int calc);
 void                    ft_search_position(t_vars *psv, int *tmp, int *actions);
 int                     ft_search_small_element(t_vars *psv, int *data, int data_b);
+void        ft_calculate_small_element(t_vars *psv, int *tmp, int *actions);
 void                    ft_performance_actions(t_vars *psv, t_pos *pos);
 void                    ft_align_in_order(t_vars *psv);
 

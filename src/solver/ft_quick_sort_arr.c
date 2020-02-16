@@ -6,44 +6,23 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:50:54 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 13:30:13 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:19:46 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** ft_quick_sort sending to ft_qs2
+** at first comparing first and last number
+** if first number is less than last - it's OK;
+** if first number is bigger than last - missing.
+** if next number is less than last - saving first number
+** and put by first a number which less than last;
+** so we are moving numbers of start to end.
+*/
+
 #include "../../includes/push_swap.h"
 
-
-//void        ft_quick_sort(int *s_arr, int first, int last)
-//{
-//  int left;
-//  int right;
-//  int middle;
-//  int tmp;
-//
-//  left = first;
-//  right = last - 1;
-//  middle = s_arr[(left + right) / 2];
-//  if (first < last) {
-//    while (s_arr[left] < middle)
-//      left++;
-//    while (s_arr[right] > middle)
-//      right--;
-//    while (left <= right) {
-//      if (left <= right) {
-//        tmp = s_arr[left];
-//        s_arr[left] = s_arr[right];
-//        s_arr[right] = tmp;
-//        left++;
-//        right--;
-//      }
-//      ft_quick_sort(s_arr, first, right);
-//      ft_quick_sort(s_arr, left, last);
-//    }
-//  }
-//}
-
-
-int			ft_partition(int *array, int start, int end)
+int			ft_qs(int *array, int start, int end)
 {
 	int		pivot;
 	int		i;
@@ -77,9 +56,10 @@ void		ft_quick_sort(int *array, int start, int end)
 	q = 0;
 	if (start < end)
 	{
-		q = ft_partition(array, start, end);
+		q = ft_qs(array, start, end);
 		ft_quick_sort(array, start, q - 1);
 		ft_quick_sort(array, q + 1, end);
-	} else
-	  return ;
+	}
+	else
+		return ;
 }

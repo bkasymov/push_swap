@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 12:24:57 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 12:27:13 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:18:25 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,8 +89,8 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 	int		res;
 	int		i;
 	char	**split;
-  char	**tmp;
-        char	*sp;
+	char	**tmp;
+	char	*sp;
 
 	psv->arr = NULL;
 	if ((ft_check_sym(str)) == 1)
@@ -107,7 +107,7 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 	psv->qa = i;
 	tmp = split;
 	while ((sp = tmp++[0]) != 0)
-	  free(sp);
+		free(sp);
 	free(split);
 	ft_init_lists(psv, res);
 	return (0);
@@ -129,9 +129,9 @@ int			ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 		if ((ft_check_sym(argv[i++])) == 1)
 			return (1);
 	if (ft_init_array(psv, argc, 1))
-	  return (1);
+		return (1);
 	i = 1;
-        while (argc > i)
+	while (argc > i)
 	{
 		psv->arr[i - 1] = ft_atoips(psv, argv[i]);
 		i++;

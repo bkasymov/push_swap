@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:49:48 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 12:00:24 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:23:51 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,15 +62,16 @@ void		ft_rrb(t_vars *psv, int ps)
 
 void		ft_rrr(t_vars *psv, int ps)
 {
-    if (ps)
-    {
-        ft_rra(psv, 1);
-        ft_rrb(psv, 1);
-    } else
-    {
-        ft_rra(psv, 0);
-        ft_rrb(psv, 0);
-    }
+	if (ps)
+	{
+		ft_rra(psv, 1);
+		ft_rrb(psv, 1);
+	}
+	else
+	{
+		ft_rra(psv, 0);
+		ft_rrb(psv, 0);
+	}
 	psv->count += 1;
 	if (ps)
 		write(1, "rrr\n", 4);

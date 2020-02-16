@@ -45,8 +45,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dpenney/Desktop/push_swap/includes"/>
-					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ft_printf"/>
-					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ftoa"/>
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -70,8 +68,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dpenney/Desktop/push_swap/includes"/>
-					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ft_printf"/>
-					<Add directory="/Users/dpenney/Desktop/push_swap/libft/ftoa"/>
 					<Add directory="/Users/dpenney/Desktop/push_swap/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
@@ -190,73 +186,10 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_minval_int.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_num_word.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_print_array.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec.h">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec3.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec4.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec5.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/apply_spec6.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/arg_extractors.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/arg_extractors2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_int.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_int2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_other.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_int.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_int2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/conv_wrappers_other.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/find_action.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/fp_type.h">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/printf.h">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec.h">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_printf/read_spec2.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_putchar.c">
@@ -376,30 +309,6 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ft_toupper.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic3.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic4.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/decimal_arithmetic5.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/ft_fp.h">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/ftoa/ftoa2.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/get_next_line.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -410,6 +319,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/libft/includes/libft.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/checker.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/error_and_free.c">
@@ -430,9 +342,6 @@
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/parser/parsing_utils2.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/dpenney/Desktop/push_swap/src/push_swap.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/rules/rules_pp.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -446,6 +355,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_general_solver_ps.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils2_ps.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/dpenney/Desktop/push_swap/src/solver/ft_generals_solvers_utils_ps.c">

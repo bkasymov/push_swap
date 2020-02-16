@@ -19,7 +19,8 @@ SRC1 = ./src/push_swap.c \
 	  ./src/solver/ft_quick_sort_arr.c \
 	  ./src/solver/ft_generals_solvers_utils_ps.c \
 	  ./src/parser/error_and_free.c \
-	  ./src/solver/ft_general_solver_ps.c
+	  ./src/solver/ft_general_solver_ps.c \
+	  ./src/solver/ft_generals_solvers_utils2_ps.c
 
 SRC2 = ./src/checker.c \
 		./src/parser/init_array.c \

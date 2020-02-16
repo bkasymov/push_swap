@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 12:30:03 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 12:31:51 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:28:17 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 void		ft_free_list(t_vars *psv, int a)
 {
 	t_stack	*tmp;
-
 
 	while (psv->stack_a)
 	{

@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:49:56 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 12:01:35 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:20:55 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,14 +59,17 @@ void		ft_sb(struct variables *psv, int ps)
 
 void		ft_ss(t_vars *psv, int ps)
 {
-    if (ps) {
-        ft_sa(psv, 1);
-        ft_sb(psv, 1);
-    } else{
-        ft_sa(psv, 0);
-        ft_sb(psv, 0);
-    }
-    psv->count += 1;
+	if (ps)
+	{
+		ft_sa(psv, 1);
+		ft_sb(psv, 1);
+	}
+	else
+	{
+		ft_sa(psv, 0);
+		ft_sb(psv, 0);
+	}
+	psv->count += 1;
 	if (ps)
 		write(1, "ss\n", 3);
 }

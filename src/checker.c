@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:47:50 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 12:10:33 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:30:21 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,18 @@
 
 void		ft_performing_rules(char *line, t_vars *chv)
 {
-    if (ft_strcmp(line, "ra") == 0)
-        ft_ra(chv, 0);
-    else if (ft_strcmp(line, "rb") == 0)
-        ft_rb(chv, 0);
-    else if (ft_strcmp(line, "rr") == 0)
-        ft_rr(chv, 0);
-    else if (ft_strcmp(line, "rra") == 0)
-        ft_rra(chv, 0);
-    else if (ft_strcmp(line, "rrb") == 0)
-        ft_rrb(chv, 0);
-    else if (ft_strcmp(line, "rrr") == 0)
-        ft_rrr(chv, 0);
+	if (ft_strcmp(line, "ra") == 0)
+		ft_ra(chv, 0);
+	else if (ft_strcmp(line, "rb") == 0)
+		ft_rb(chv, 0);
+	else if (ft_strcmp(line, "rr") == 0)
+		ft_rr(chv, 0);
+	else if (ft_strcmp(line, "rra") == 0)
+		ft_rra(chv, 0);
+	else if (ft_strcmp(line, "rrb") == 0)
+		ft_rrb(chv, 0);
+	else if (ft_strcmp(line, "rrr") == 0)
+		ft_rrr(chv, 0);
 	else if (ft_strcmp(line, "sa") == 0)
 		ft_sa(chv, 0);
 	else if (ft_strcmp(line, "sb") == 0)
@@ -47,8 +47,8 @@ void		ft_read_rules(t_vars *chv)
 	line = NULL;
 	while (get_next_line(0, &line))
 	{
-	    if (ft_strcmp(line, "l") == 0)
-            break ;
+		if (ft_strcmp(line, "l") == 0)
+			break ;
 		ft_performing_rules(line, chv);
 		free(line);
 		line = NULL;

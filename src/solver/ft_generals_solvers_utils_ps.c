@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:50:45 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 13:28:33 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:16:52 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ void		ft_align_in_order(t_vars *psv)
 /*
 ** ft_search_small_element receiving first data of element in A
 ** lists, and digit in data_b which found position in B;
-**
 */
 
 int			ft_search_small_element(t_vars *psv, int *data, int data_b)

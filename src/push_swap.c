@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:40:39 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 13:38:12 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:22:53 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@
 int			main(int argc, char **argv)
 {
 	t_vars	psv;
-    psv.count = 0;
 
+	psv.count = 0;
 	if (argc < 2)
 		return (0);
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
@@ -42,5 +42,6 @@ int			main(int argc, char **argv)
 	ft_check_dupl(&psv);
 	ft_solver_ps(&psv);
 	ft_free_list(&psv, 1);
+	free(psv.arr);
 	return (0);
 }

@@ -3,24 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bgian <marvin@42.fr>                       +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/14 16:47:23 by bgian             #+#    #+#             */
-/*   Updated: 2019/09/21 18:38:00 by bgian            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#include "libft.h"
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/17 14:42:19 by dpenney           #+#    #+#             */
-/*   Updated: 2019/09/18 15:13:09 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 17:23:47 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,19 +14,19 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-    size_t				a;
-    unsigned	char	*temp;
-    unsigned	char	*temp2;
+	size_t				a;
+	unsigned	char	*temp;
+	unsigned	char	*temp2;
 
-    a = 0;
-    temp = (unsigned char *)dst;
-    temp2 = (unsigned char *)src;
-    if (dst == src)
-        return (dst);
-    while (n > a)
-    {
-        temp[a] = temp2[a];
-        a++;
-    }
-    return (dst);
+	a = 0;
+	temp = (unsigned char *)dst;
+	temp2 = (unsigned char *)src;
+	if (dst == src)
+		return (dst);
+	while (n > a)
+	{
+		temp[a] = temp2[a];
+		a++;
+	}
+	return (dst);
 }

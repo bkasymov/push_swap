@@ -4,42 +4,10 @@ project(push_swap C)
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
-include_directories(libft/ft_printf)
-include_directories(libft/ftoa)
 include_directories(libft/includes)
 
 add_executable(push_swap
         includes/push_swap.h
-        libft/ft_printf/apply_spec.c
-        libft/ft_printf/apply_spec.h
-        libft/ft_printf/apply_spec2.c
-        libft/ft_printf/apply_spec3.c
-        libft/ft_printf/apply_spec4.c
-        libft/ft_printf/apply_spec5.c
-        libft/ft_printf/apply_spec6.c
-        libft/ft_printf/arg_extractors.c
-        libft/ft_printf/arg_extractors2.c
-        libft/ft_printf/conv_int.c
-        libft/ft_printf/conv_int2.c
-        libft/ft_printf/conv_other.c
-        libft/ft_printf/conv_wrappers_int.c
-        libft/ft_printf/conv_wrappers_int2.c
-        libft/ft_printf/conv_wrappers_other.c
-        libft/ft_printf/find_action.c
-        libft/ft_printf/fp_type.h
-        libft/ft_printf/printf.c
-        libft/ft_printf/printf.h
-        libft/ft_printf/read_spec.c
-        libft/ft_printf/read_spec.h
-        libft/ft_printf/read_spec2.c
-        libft/ftoa/decimal_arithmetic.c
-        libft/ftoa/decimal_arithmetic2.c
-        libft/ftoa/decimal_arithmetic3.c
-        libft/ftoa/decimal_arithmetic4.c
-        libft/ftoa/decimal_arithmetic5.c
-        libft/ftoa/ft_fp.h
-        libft/ftoa/ftoa.c
-        libft/ftoa/ftoa2.c
         libft/includes/bbtree_utils.h
         libft/includes/get_next_line.h
         libft/includes/libft.h
@@ -76,6 +44,7 @@ add_executable(push_swap
         libft/ft_memset.c
         libft/ft_min_int.c
         libft/ft_minval_int.c
+        libft/ft_num_word.c
         libft/ft_print_array.c
         libft/ft_putchar.c
         libft/ft_putchar_fd.c
@@ -128,7 +97,8 @@ add_executable(push_swap
         src/rules/rules_rrr.c
         src/rules/rules_ss.c
         src/solver/ft_general_solver_ps.c
+        src/solver/ft_generals_solvers_utils2_ps.c
         src/solver/ft_generals_solvers_utils_ps.c
         src/solver/ft_quick_sort_arr.c
         src/solver/ft_solver_ps.c
-        src/push_swap.c)
+        src/checker.c)

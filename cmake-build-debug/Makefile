@@ -1014,6 +1014,33 @@ libft/ft_minval_int.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_minval_int.c.s
 .PHONY : libft/ft_minval_int.c.s
 
+libft/ft_num_word.o: libft/ft_num_word.c.o
+
+.PHONY : libft/ft_num_word.o
+
+# target to build an object file
+libft/ft_num_word.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_num_word.c.o
+.PHONY : libft/ft_num_word.c.o
+
+libft/ft_num_word.i: libft/ft_num_word.c.i
+
+.PHONY : libft/ft_num_word.i
+
+# target to preprocess a source file
+libft/ft_num_word.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_num_word.c.i
+.PHONY : libft/ft_num_word.c.i
+
+libft/ft_num_word.s: libft/ft_num_word.c.s
+
+.PHONY : libft/ft_num_word.s
+
+# target to generate assembly for a file
+libft/ft_num_word.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_num_word.c.s
+.PHONY : libft/ft_num_word.c.s
+
 libft/ft_print_array.o: libft/ft_print_array.c.o
 
 .PHONY : libft/ft_print_array.o
@@ -1040,492 +1067,6 @@ libft/ft_print_array.s: libft/ft_print_array.c.s
 libft/ft_print_array.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_print_array.c.s
 .PHONY : libft/ft_print_array.c.s
-
-libft/ft_printf/apply_spec.o: libft/ft_printf/apply_spec.c.o
-
-.PHONY : libft/ft_printf/apply_spec.o
-
-# target to build an object file
-libft/ft_printf/apply_spec.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec.c.o
-.PHONY : libft/ft_printf/apply_spec.c.o
-
-libft/ft_printf/apply_spec.i: libft/ft_printf/apply_spec.c.i
-
-.PHONY : libft/ft_printf/apply_spec.i
-
-# target to preprocess a source file
-libft/ft_printf/apply_spec.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec.c.i
-.PHONY : libft/ft_printf/apply_spec.c.i
-
-libft/ft_printf/apply_spec.s: libft/ft_printf/apply_spec.c.s
-
-.PHONY : libft/ft_printf/apply_spec.s
-
-# target to generate assembly for a file
-libft/ft_printf/apply_spec.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec.c.s
-.PHONY : libft/ft_printf/apply_spec.c.s
-
-libft/ft_printf/apply_spec2.o: libft/ft_printf/apply_spec2.c.o
-
-.PHONY : libft/ft_printf/apply_spec2.o
-
-# target to build an object file
-libft/ft_printf/apply_spec2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec2.c.o
-.PHONY : libft/ft_printf/apply_spec2.c.o
-
-libft/ft_printf/apply_spec2.i: libft/ft_printf/apply_spec2.c.i
-
-.PHONY : libft/ft_printf/apply_spec2.i
-
-# target to preprocess a source file
-libft/ft_printf/apply_spec2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec2.c.i
-.PHONY : libft/ft_printf/apply_spec2.c.i
-
-libft/ft_printf/apply_spec2.s: libft/ft_printf/apply_spec2.c.s
-
-.PHONY : libft/ft_printf/apply_spec2.s
-
-# target to generate assembly for a file
-libft/ft_printf/apply_spec2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec2.c.s
-.PHONY : libft/ft_printf/apply_spec2.c.s
-
-libft/ft_printf/apply_spec3.o: libft/ft_printf/apply_spec3.c.o
-
-.PHONY : libft/ft_printf/apply_spec3.o
-
-# target to build an object file
-libft/ft_printf/apply_spec3.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec3.c.o
-.PHONY : libft/ft_printf/apply_spec3.c.o
-
-libft/ft_printf/apply_spec3.i: libft/ft_printf/apply_spec3.c.i
-
-.PHONY : libft/ft_printf/apply_spec3.i
-
-# target to preprocess a source file
-libft/ft_printf/apply_spec3.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec3.c.i
-.PHONY : libft/ft_printf/apply_spec3.c.i
-
-libft/ft_printf/apply_spec3.s: libft/ft_printf/apply_spec3.c.s
-
-.PHONY : libft/ft_printf/apply_spec3.s
-
-# target to generate assembly for a file
-libft/ft_printf/apply_spec3.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec3.c.s
-.PHONY : libft/ft_printf/apply_spec3.c.s
-
-libft/ft_printf/apply_spec4.o: libft/ft_printf/apply_spec4.c.o
-
-.PHONY : libft/ft_printf/apply_spec4.o
-
-# target to build an object file
-libft/ft_printf/apply_spec4.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec4.c.o
-.PHONY : libft/ft_printf/apply_spec4.c.o
-
-libft/ft_printf/apply_spec4.i: libft/ft_printf/apply_spec4.c.i
-
-.PHONY : libft/ft_printf/apply_spec4.i
-
-# target to preprocess a source file
-libft/ft_printf/apply_spec4.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec4.c.i
-.PHONY : libft/ft_printf/apply_spec4.c.i
-
-libft/ft_printf/apply_spec4.s: libft/ft_printf/apply_spec4.c.s
-
-.PHONY : libft/ft_printf/apply_spec4.s
-
-# target to generate assembly for a file
-libft/ft_printf/apply_spec4.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec4.c.s
-.PHONY : libft/ft_printf/apply_spec4.c.s
-
-libft/ft_printf/apply_spec5.o: libft/ft_printf/apply_spec5.c.o
-
-.PHONY : libft/ft_printf/apply_spec5.o
-
-# target to build an object file
-libft/ft_printf/apply_spec5.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec5.c.o
-.PHONY : libft/ft_printf/apply_spec5.c.o
-
-libft/ft_printf/apply_spec5.i: libft/ft_printf/apply_spec5.c.i
-
-.PHONY : libft/ft_printf/apply_spec5.i
-
-# target to preprocess a source file
-libft/ft_printf/apply_spec5.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec5.c.i
-.PHONY : libft/ft_printf/apply_spec5.c.i
-
-libft/ft_printf/apply_spec5.s: libft/ft_printf/apply_spec5.c.s
-
-.PHONY : libft/ft_printf/apply_spec5.s
-
-# target to generate assembly for a file
-libft/ft_printf/apply_spec5.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec5.c.s
-.PHONY : libft/ft_printf/apply_spec5.c.s
-
-libft/ft_printf/apply_spec6.o: libft/ft_printf/apply_spec6.c.o
-
-.PHONY : libft/ft_printf/apply_spec6.o
-
-# target to build an object file
-libft/ft_printf/apply_spec6.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec6.c.o
-.PHONY : libft/ft_printf/apply_spec6.c.o
-
-libft/ft_printf/apply_spec6.i: libft/ft_printf/apply_spec6.c.i
-
-.PHONY : libft/ft_printf/apply_spec6.i
-
-# target to preprocess a source file
-libft/ft_printf/apply_spec6.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec6.c.i
-.PHONY : libft/ft_printf/apply_spec6.c.i
-
-libft/ft_printf/apply_spec6.s: libft/ft_printf/apply_spec6.c.s
-
-.PHONY : libft/ft_printf/apply_spec6.s
-
-# target to generate assembly for a file
-libft/ft_printf/apply_spec6.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/apply_spec6.c.s
-.PHONY : libft/ft_printf/apply_spec6.c.s
-
-libft/ft_printf/arg_extractors.o: libft/ft_printf/arg_extractors.c.o
-
-.PHONY : libft/ft_printf/arg_extractors.o
-
-# target to build an object file
-libft/ft_printf/arg_extractors.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors.c.o
-.PHONY : libft/ft_printf/arg_extractors.c.o
-
-libft/ft_printf/arg_extractors.i: libft/ft_printf/arg_extractors.c.i
-
-.PHONY : libft/ft_printf/arg_extractors.i
-
-# target to preprocess a source file
-libft/ft_printf/arg_extractors.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors.c.i
-.PHONY : libft/ft_printf/arg_extractors.c.i
-
-libft/ft_printf/arg_extractors.s: libft/ft_printf/arg_extractors.c.s
-
-.PHONY : libft/ft_printf/arg_extractors.s
-
-# target to generate assembly for a file
-libft/ft_printf/arg_extractors.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors.c.s
-.PHONY : libft/ft_printf/arg_extractors.c.s
-
-libft/ft_printf/arg_extractors2.o: libft/ft_printf/arg_extractors2.c.o
-
-.PHONY : libft/ft_printf/arg_extractors2.o
-
-# target to build an object file
-libft/ft_printf/arg_extractors2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors2.c.o
-.PHONY : libft/ft_printf/arg_extractors2.c.o
-
-libft/ft_printf/arg_extractors2.i: libft/ft_printf/arg_extractors2.c.i
-
-.PHONY : libft/ft_printf/arg_extractors2.i
-
-# target to preprocess a source file
-libft/ft_printf/arg_extractors2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors2.c.i
-.PHONY : libft/ft_printf/arg_extractors2.c.i
-
-libft/ft_printf/arg_extractors2.s: libft/ft_printf/arg_extractors2.c.s
-
-.PHONY : libft/ft_printf/arg_extractors2.s
-
-# target to generate assembly for a file
-libft/ft_printf/arg_extractors2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/arg_extractors2.c.s
-.PHONY : libft/ft_printf/arg_extractors2.c.s
-
-libft/ft_printf/conv_int.o: libft/ft_printf/conv_int.c.o
-
-.PHONY : libft/ft_printf/conv_int.o
-
-# target to build an object file
-libft/ft_printf/conv_int.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_int.c.o
-.PHONY : libft/ft_printf/conv_int.c.o
-
-libft/ft_printf/conv_int.i: libft/ft_printf/conv_int.c.i
-
-.PHONY : libft/ft_printf/conv_int.i
-
-# target to preprocess a source file
-libft/ft_printf/conv_int.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_int.c.i
-.PHONY : libft/ft_printf/conv_int.c.i
-
-libft/ft_printf/conv_int.s: libft/ft_printf/conv_int.c.s
-
-.PHONY : libft/ft_printf/conv_int.s
-
-# target to generate assembly for a file
-libft/ft_printf/conv_int.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_int.c.s
-.PHONY : libft/ft_printf/conv_int.c.s
-
-libft/ft_printf/conv_int2.o: libft/ft_printf/conv_int2.c.o
-
-.PHONY : libft/ft_printf/conv_int2.o
-
-# target to build an object file
-libft/ft_printf/conv_int2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_int2.c.o
-.PHONY : libft/ft_printf/conv_int2.c.o
-
-libft/ft_printf/conv_int2.i: libft/ft_printf/conv_int2.c.i
-
-.PHONY : libft/ft_printf/conv_int2.i
-
-# target to preprocess a source file
-libft/ft_printf/conv_int2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_int2.c.i
-.PHONY : libft/ft_printf/conv_int2.c.i
-
-libft/ft_printf/conv_int2.s: libft/ft_printf/conv_int2.c.s
-
-.PHONY : libft/ft_printf/conv_int2.s
-
-# target to generate assembly for a file
-libft/ft_printf/conv_int2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_int2.c.s
-.PHONY : libft/ft_printf/conv_int2.c.s
-
-libft/ft_printf/conv_other.o: libft/ft_printf/conv_other.c.o
-
-.PHONY : libft/ft_printf/conv_other.o
-
-# target to build an object file
-libft/ft_printf/conv_other.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_other.c.o
-.PHONY : libft/ft_printf/conv_other.c.o
-
-libft/ft_printf/conv_other.i: libft/ft_printf/conv_other.c.i
-
-.PHONY : libft/ft_printf/conv_other.i
-
-# target to preprocess a source file
-libft/ft_printf/conv_other.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_other.c.i
-.PHONY : libft/ft_printf/conv_other.c.i
-
-libft/ft_printf/conv_other.s: libft/ft_printf/conv_other.c.s
-
-.PHONY : libft/ft_printf/conv_other.s
-
-# target to generate assembly for a file
-libft/ft_printf/conv_other.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_other.c.s
-.PHONY : libft/ft_printf/conv_other.c.s
-
-libft/ft_printf/conv_wrappers_int.o: libft/ft_printf/conv_wrappers_int.c.o
-
-.PHONY : libft/ft_printf/conv_wrappers_int.o
-
-# target to build an object file
-libft/ft_printf/conv_wrappers_int.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int.c.o
-.PHONY : libft/ft_printf/conv_wrappers_int.c.o
-
-libft/ft_printf/conv_wrappers_int.i: libft/ft_printf/conv_wrappers_int.c.i
-
-.PHONY : libft/ft_printf/conv_wrappers_int.i
-
-# target to preprocess a source file
-libft/ft_printf/conv_wrappers_int.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int.c.i
-.PHONY : libft/ft_printf/conv_wrappers_int.c.i
-
-libft/ft_printf/conv_wrappers_int.s: libft/ft_printf/conv_wrappers_int.c.s
-
-.PHONY : libft/ft_printf/conv_wrappers_int.s
-
-# target to generate assembly for a file
-libft/ft_printf/conv_wrappers_int.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int.c.s
-.PHONY : libft/ft_printf/conv_wrappers_int.c.s
-
-libft/ft_printf/conv_wrappers_int2.o: libft/ft_printf/conv_wrappers_int2.c.o
-
-.PHONY : libft/ft_printf/conv_wrappers_int2.o
-
-# target to build an object file
-libft/ft_printf/conv_wrappers_int2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int2.c.o
-.PHONY : libft/ft_printf/conv_wrappers_int2.c.o
-
-libft/ft_printf/conv_wrappers_int2.i: libft/ft_printf/conv_wrappers_int2.c.i
-
-.PHONY : libft/ft_printf/conv_wrappers_int2.i
-
-# target to preprocess a source file
-libft/ft_printf/conv_wrappers_int2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int2.c.i
-.PHONY : libft/ft_printf/conv_wrappers_int2.c.i
-
-libft/ft_printf/conv_wrappers_int2.s: libft/ft_printf/conv_wrappers_int2.c.s
-
-.PHONY : libft/ft_printf/conv_wrappers_int2.s
-
-# target to generate assembly for a file
-libft/ft_printf/conv_wrappers_int2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_int2.c.s
-.PHONY : libft/ft_printf/conv_wrappers_int2.c.s
-
-libft/ft_printf/conv_wrappers_other.o: libft/ft_printf/conv_wrappers_other.c.o
-
-.PHONY : libft/ft_printf/conv_wrappers_other.o
-
-# target to build an object file
-libft/ft_printf/conv_wrappers_other.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_other.c.o
-.PHONY : libft/ft_printf/conv_wrappers_other.c.o
-
-libft/ft_printf/conv_wrappers_other.i: libft/ft_printf/conv_wrappers_other.c.i
-
-.PHONY : libft/ft_printf/conv_wrappers_other.i
-
-# target to preprocess a source file
-libft/ft_printf/conv_wrappers_other.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_other.c.i
-.PHONY : libft/ft_printf/conv_wrappers_other.c.i
-
-libft/ft_printf/conv_wrappers_other.s: libft/ft_printf/conv_wrappers_other.c.s
-
-.PHONY : libft/ft_printf/conv_wrappers_other.s
-
-# target to generate assembly for a file
-libft/ft_printf/conv_wrappers_other.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/conv_wrappers_other.c.s
-.PHONY : libft/ft_printf/conv_wrappers_other.c.s
-
-libft/ft_printf/find_action.o: libft/ft_printf/find_action.c.o
-
-.PHONY : libft/ft_printf/find_action.o
-
-# target to build an object file
-libft/ft_printf/find_action.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/find_action.c.o
-.PHONY : libft/ft_printf/find_action.c.o
-
-libft/ft_printf/find_action.i: libft/ft_printf/find_action.c.i
-
-.PHONY : libft/ft_printf/find_action.i
-
-# target to preprocess a source file
-libft/ft_printf/find_action.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/find_action.c.i
-.PHONY : libft/ft_printf/find_action.c.i
-
-libft/ft_printf/find_action.s: libft/ft_printf/find_action.c.s
-
-.PHONY : libft/ft_printf/find_action.s
-
-# target to generate assembly for a file
-libft/ft_printf/find_action.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/find_action.c.s
-.PHONY : libft/ft_printf/find_action.c.s
-
-libft/ft_printf/printf.o: libft/ft_printf/printf.c.o
-
-.PHONY : libft/ft_printf/printf.o
-
-# target to build an object file
-libft/ft_printf/printf.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/printf.c.o
-.PHONY : libft/ft_printf/printf.c.o
-
-libft/ft_printf/printf.i: libft/ft_printf/printf.c.i
-
-.PHONY : libft/ft_printf/printf.i
-
-# target to preprocess a source file
-libft/ft_printf/printf.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/printf.c.i
-.PHONY : libft/ft_printf/printf.c.i
-
-libft/ft_printf/printf.s: libft/ft_printf/printf.c.s
-
-.PHONY : libft/ft_printf/printf.s
-
-# target to generate assembly for a file
-libft/ft_printf/printf.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/printf.c.s
-.PHONY : libft/ft_printf/printf.c.s
-
-libft/ft_printf/read_spec.o: libft/ft_printf/read_spec.c.o
-
-.PHONY : libft/ft_printf/read_spec.o
-
-# target to build an object file
-libft/ft_printf/read_spec.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/read_spec.c.o
-.PHONY : libft/ft_printf/read_spec.c.o
-
-libft/ft_printf/read_spec.i: libft/ft_printf/read_spec.c.i
-
-.PHONY : libft/ft_printf/read_spec.i
-
-# target to preprocess a source file
-libft/ft_printf/read_spec.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/read_spec.c.i
-.PHONY : libft/ft_printf/read_spec.c.i
-
-libft/ft_printf/read_spec.s: libft/ft_printf/read_spec.c.s
-
-.PHONY : libft/ft_printf/read_spec.s
-
-# target to generate assembly for a file
-libft/ft_printf/read_spec.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/read_spec.c.s
-.PHONY : libft/ft_printf/read_spec.c.s
-
-libft/ft_printf/read_spec2.o: libft/ft_printf/read_spec2.c.o
-
-.PHONY : libft/ft_printf/read_spec2.o
-
-# target to build an object file
-libft/ft_printf/read_spec2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/read_spec2.c.o
-.PHONY : libft/ft_printf/read_spec2.c.o
-
-libft/ft_printf/read_spec2.i: libft/ft_printf/read_spec2.c.i
-
-.PHONY : libft/ft_printf/read_spec2.i
-
-# target to preprocess a source file
-libft/ft_printf/read_spec2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/read_spec2.c.i
-.PHONY : libft/ft_printf/read_spec2.c.i
-
-libft/ft_printf/read_spec2.s: libft/ft_printf/read_spec2.c.s
-
-.PHONY : libft/ft_printf/read_spec2.s
-
-# target to generate assembly for a file
-libft/ft_printf/read_spec2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_printf/read_spec2.c.s
-.PHONY : libft/ft_printf/read_spec2.c.s
 
 libft/ft_putchar.o: libft/ft_putchar.c.o
 
@@ -2580,195 +2121,6 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-libft/ftoa/decimal_arithmetic.o: libft/ftoa/decimal_arithmetic.c.o
-
-.PHONY : libft/ftoa/decimal_arithmetic.o
-
-# target to build an object file
-libft/ftoa/decimal_arithmetic.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic.c.o
-.PHONY : libft/ftoa/decimal_arithmetic.c.o
-
-libft/ftoa/decimal_arithmetic.i: libft/ftoa/decimal_arithmetic.c.i
-
-.PHONY : libft/ftoa/decimal_arithmetic.i
-
-# target to preprocess a source file
-libft/ftoa/decimal_arithmetic.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic.c.i
-.PHONY : libft/ftoa/decimal_arithmetic.c.i
-
-libft/ftoa/decimal_arithmetic.s: libft/ftoa/decimal_arithmetic.c.s
-
-.PHONY : libft/ftoa/decimal_arithmetic.s
-
-# target to generate assembly for a file
-libft/ftoa/decimal_arithmetic.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic.c.s
-.PHONY : libft/ftoa/decimal_arithmetic.c.s
-
-libft/ftoa/decimal_arithmetic2.o: libft/ftoa/decimal_arithmetic2.c.o
-
-.PHONY : libft/ftoa/decimal_arithmetic2.o
-
-# target to build an object file
-libft/ftoa/decimal_arithmetic2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic2.c.o
-.PHONY : libft/ftoa/decimal_arithmetic2.c.o
-
-libft/ftoa/decimal_arithmetic2.i: libft/ftoa/decimal_arithmetic2.c.i
-
-.PHONY : libft/ftoa/decimal_arithmetic2.i
-
-# target to preprocess a source file
-libft/ftoa/decimal_arithmetic2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic2.c.i
-.PHONY : libft/ftoa/decimal_arithmetic2.c.i
-
-libft/ftoa/decimal_arithmetic2.s: libft/ftoa/decimal_arithmetic2.c.s
-
-.PHONY : libft/ftoa/decimal_arithmetic2.s
-
-# target to generate assembly for a file
-libft/ftoa/decimal_arithmetic2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic2.c.s
-.PHONY : libft/ftoa/decimal_arithmetic2.c.s
-
-libft/ftoa/decimal_arithmetic3.o: libft/ftoa/decimal_arithmetic3.c.o
-
-.PHONY : libft/ftoa/decimal_arithmetic3.o
-
-# target to build an object file
-libft/ftoa/decimal_arithmetic3.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic3.c.o
-.PHONY : libft/ftoa/decimal_arithmetic3.c.o
-
-libft/ftoa/decimal_arithmetic3.i: libft/ftoa/decimal_arithmetic3.c.i
-
-.PHONY : libft/ftoa/decimal_arithmetic3.i
-
-# target to preprocess a source file
-libft/ftoa/decimal_arithmetic3.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic3.c.i
-.PHONY : libft/ftoa/decimal_arithmetic3.c.i
-
-libft/ftoa/decimal_arithmetic3.s: libft/ftoa/decimal_arithmetic3.c.s
-
-.PHONY : libft/ftoa/decimal_arithmetic3.s
-
-# target to generate assembly for a file
-libft/ftoa/decimal_arithmetic3.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic3.c.s
-.PHONY : libft/ftoa/decimal_arithmetic3.c.s
-
-libft/ftoa/decimal_arithmetic4.o: libft/ftoa/decimal_arithmetic4.c.o
-
-.PHONY : libft/ftoa/decimal_arithmetic4.o
-
-# target to build an object file
-libft/ftoa/decimal_arithmetic4.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic4.c.o
-.PHONY : libft/ftoa/decimal_arithmetic4.c.o
-
-libft/ftoa/decimal_arithmetic4.i: libft/ftoa/decimal_arithmetic4.c.i
-
-.PHONY : libft/ftoa/decimal_arithmetic4.i
-
-# target to preprocess a source file
-libft/ftoa/decimal_arithmetic4.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic4.c.i
-.PHONY : libft/ftoa/decimal_arithmetic4.c.i
-
-libft/ftoa/decimal_arithmetic4.s: libft/ftoa/decimal_arithmetic4.c.s
-
-.PHONY : libft/ftoa/decimal_arithmetic4.s
-
-# target to generate assembly for a file
-libft/ftoa/decimal_arithmetic4.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic4.c.s
-.PHONY : libft/ftoa/decimal_arithmetic4.c.s
-
-libft/ftoa/decimal_arithmetic5.o: libft/ftoa/decimal_arithmetic5.c.o
-
-.PHONY : libft/ftoa/decimal_arithmetic5.o
-
-# target to build an object file
-libft/ftoa/decimal_arithmetic5.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic5.c.o
-.PHONY : libft/ftoa/decimal_arithmetic5.c.o
-
-libft/ftoa/decimal_arithmetic5.i: libft/ftoa/decimal_arithmetic5.c.i
-
-.PHONY : libft/ftoa/decimal_arithmetic5.i
-
-# target to preprocess a source file
-libft/ftoa/decimal_arithmetic5.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic5.c.i
-.PHONY : libft/ftoa/decimal_arithmetic5.c.i
-
-libft/ftoa/decimal_arithmetic5.s: libft/ftoa/decimal_arithmetic5.c.s
-
-.PHONY : libft/ftoa/decimal_arithmetic5.s
-
-# target to generate assembly for a file
-libft/ftoa/decimal_arithmetic5.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/decimal_arithmetic5.c.s
-.PHONY : libft/ftoa/decimal_arithmetic5.c.s
-
-libft/ftoa/ftoa.o: libft/ftoa/ftoa.c.o
-
-.PHONY : libft/ftoa/ftoa.o
-
-# target to build an object file
-libft/ftoa/ftoa.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.o
-.PHONY : libft/ftoa/ftoa.c.o
-
-libft/ftoa/ftoa.i: libft/ftoa/ftoa.c.i
-
-.PHONY : libft/ftoa/ftoa.i
-
-# target to preprocess a source file
-libft/ftoa/ftoa.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.i
-.PHONY : libft/ftoa/ftoa.c.i
-
-libft/ftoa/ftoa.s: libft/ftoa/ftoa.c.s
-
-.PHONY : libft/ftoa/ftoa.s
-
-# target to generate assembly for a file
-libft/ftoa/ftoa.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/ftoa.c.s
-.PHONY : libft/ftoa/ftoa.c.s
-
-libft/ftoa/ftoa2.o: libft/ftoa/ftoa2.c.o
-
-.PHONY : libft/ftoa/ftoa2.o
-
-# target to build an object file
-libft/ftoa/ftoa2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.o
-.PHONY : libft/ftoa/ftoa2.c.o
-
-libft/ftoa/ftoa2.i: libft/ftoa/ftoa2.c.i
-
-.PHONY : libft/ftoa/ftoa2.i
-
-# target to preprocess a source file
-libft/ftoa/ftoa2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.i
-.PHONY : libft/ftoa/ftoa2.c.i
-
-libft/ftoa/ftoa2.s: libft/ftoa/ftoa2.c.s
-
-.PHONY : libft/ftoa/ftoa2.s
-
-# target to generate assembly for a file
-libft/ftoa/ftoa2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ftoa/ftoa2.c.s
-.PHONY : libft/ftoa/ftoa2.c.s
-
 libft/get_next_line.o: libft/get_next_line.c.o
 
 .PHONY : libft/get_next_line.o
@@ -2795,6 +2147,33 @@ libft/get_next_line.s: libft/get_next_line.c.s
 libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
+
+src/checker.o: src/checker.c.o
+
+.PHONY : src/checker.o
+
+# target to build an object file
+src/checker.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.o
+.PHONY : src/checker.c.o
+
+src/checker.i: src/checker.c.i
+
+.PHONY : src/checker.i
+
+# target to preprocess a source file
+src/checker.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.i
+.PHONY : src/checker.c.i
+
+src/checker.s: src/checker.c.s
+
+.PHONY : src/checker.s
+
+# target to generate assembly for a file
+src/checker.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker.c.s
+.PHONY : src/checker.c.s
 
 src/parser/error_and_free.o: src/parser/error_and_free.c.o
 
@@ -2958,33 +2337,6 @@ src/parser/parsing_utils2.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/parser/parsing_utils2.c.s
 .PHONY : src/parser/parsing_utils2.c.s
 
-src/push_swap.o: src/push_swap.c.o
-
-.PHONY : src/push_swap.o
-
-# target to build an object file
-src/push_swap.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.o
-.PHONY : src/push_swap.c.o
-
-src/push_swap.i: src/push_swap.c.i
-
-.PHONY : src/push_swap.i
-
-# target to preprocess a source file
-src/push_swap.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.i
-.PHONY : src/push_swap.c.i
-
-src/push_swap.s: src/push_swap.c.s
-
-.PHONY : src/push_swap.s
-
-# target to generate assembly for a file
-src/push_swap.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap.c.s
-.PHONY : src/push_swap.c.s
-
 src/rules/rules_pp.o: src/rules/rules_pp.c.o
 
 .PHONY : src/rules/rules_pp.o
@@ -3119,6 +2471,33 @@ src/solver/ft_general_solver_ps.s: src/solver/ft_general_solver_ps.c.s
 src/solver/ft_general_solver_ps.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_general_solver_ps.c.s
 .PHONY : src/solver/ft_general_solver_ps.c.s
+
+src/solver/ft_generals_solvers_utils2_ps.o: src/solver/ft_generals_solvers_utils2_ps.c.o
+
+.PHONY : src/solver/ft_generals_solvers_utils2_ps.o
+
+# target to build an object file
+src/solver/ft_generals_solvers_utils2_ps.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils2_ps.c.o
+.PHONY : src/solver/ft_generals_solvers_utils2_ps.c.o
+
+src/solver/ft_generals_solvers_utils2_ps.i: src/solver/ft_generals_solvers_utils2_ps.c.i
+
+.PHONY : src/solver/ft_generals_solvers_utils2_ps.i
+
+# target to preprocess a source file
+src/solver/ft_generals_solvers_utils2_ps.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils2_ps.c.i
+.PHONY : src/solver/ft_generals_solvers_utils2_ps.c.i
+
+src/solver/ft_generals_solvers_utils2_ps.s: src/solver/ft_generals_solvers_utils2_ps.c.s
+
+.PHONY : src/solver/ft_generals_solvers_utils2_ps.s
+
+# target to generate assembly for a file
+src/solver/ft_generals_solvers_utils2_ps.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/solver/ft_generals_solvers_utils2_ps.c.s
+.PHONY : src/solver/ft_generals_solvers_utils2_ps.c.s
 
 src/solver/ft_generals_solvers_utils_ps.o: src/solver/ft_generals_solvers_utils_ps.c.o
 
@@ -3309,63 +2688,12 @@ help:
 	@echo "... libft/ft_minval_int.o"
 	@echo "... libft/ft_minval_int.i"
 	@echo "... libft/ft_minval_int.s"
+	@echo "... libft/ft_num_word.o"
+	@echo "... libft/ft_num_word.i"
+	@echo "... libft/ft_num_word.s"
 	@echo "... libft/ft_print_array.o"
 	@echo "... libft/ft_print_array.i"
 	@echo "... libft/ft_print_array.s"
-	@echo "... libft/ft_printf/apply_spec.o"
-	@echo "... libft/ft_printf/apply_spec.i"
-	@echo "... libft/ft_printf/apply_spec.s"
-	@echo "... libft/ft_printf/apply_spec2.o"
-	@echo "... libft/ft_printf/apply_spec2.i"
-	@echo "... libft/ft_printf/apply_spec2.s"
-	@echo "... libft/ft_printf/apply_spec3.o"
-	@echo "... libft/ft_printf/apply_spec3.i"
-	@echo "... libft/ft_printf/apply_spec3.s"
-	@echo "... libft/ft_printf/apply_spec4.o"
-	@echo "... libft/ft_printf/apply_spec4.i"
-	@echo "... libft/ft_printf/apply_spec4.s"
-	@echo "... libft/ft_printf/apply_spec5.o"
-	@echo "... libft/ft_printf/apply_spec5.i"
-	@echo "... libft/ft_printf/apply_spec5.s"
-	@echo "... libft/ft_printf/apply_spec6.o"
-	@echo "... libft/ft_printf/apply_spec6.i"
-	@echo "... libft/ft_printf/apply_spec6.s"
-	@echo "... libft/ft_printf/arg_extractors.o"
-	@echo "... libft/ft_printf/arg_extractors.i"
-	@echo "... libft/ft_printf/arg_extractors.s"
-	@echo "... libft/ft_printf/arg_extractors2.o"
-	@echo "... libft/ft_printf/arg_extractors2.i"
-	@echo "... libft/ft_printf/arg_extractors2.s"
-	@echo "... libft/ft_printf/conv_int.o"
-	@echo "... libft/ft_printf/conv_int.i"
-	@echo "... libft/ft_printf/conv_int.s"
-	@echo "... libft/ft_printf/conv_int2.o"
-	@echo "... libft/ft_printf/conv_int2.i"
-	@echo "... libft/ft_printf/conv_int2.s"
-	@echo "... libft/ft_printf/conv_other.o"
-	@echo "... libft/ft_printf/conv_other.i"
-	@echo "... libft/ft_printf/conv_other.s"
-	@echo "... libft/ft_printf/conv_wrappers_int.o"
-	@echo "... libft/ft_printf/conv_wrappers_int.i"
-	@echo "... libft/ft_printf/conv_wrappers_int.s"
-	@echo "... libft/ft_printf/conv_wrappers_int2.o"
-	@echo "... libft/ft_printf/conv_wrappers_int2.i"
-	@echo "... libft/ft_printf/conv_wrappers_int2.s"
-	@echo "... libft/ft_printf/conv_wrappers_other.o"
-	@echo "... libft/ft_printf/conv_wrappers_other.i"
-	@echo "... libft/ft_printf/conv_wrappers_other.s"
-	@echo "... libft/ft_printf/find_action.o"
-	@echo "... libft/ft_printf/find_action.i"
-	@echo "... libft/ft_printf/find_action.s"
-	@echo "... libft/ft_printf/printf.o"
-	@echo "... libft/ft_printf/printf.i"
-	@echo "... libft/ft_printf/printf.s"
-	@echo "... libft/ft_printf/read_spec.o"
-	@echo "... libft/ft_printf/read_spec.i"
-	@echo "... libft/ft_printf/read_spec.s"
-	@echo "... libft/ft_printf/read_spec2.o"
-	@echo "... libft/ft_printf/read_spec2.i"
-	@echo "... libft/ft_printf/read_spec2.s"
 	@echo "... libft/ft_putchar.o"
 	@echo "... libft/ft_putchar.i"
 	@echo "... libft/ft_putchar.s"
@@ -3483,30 +2811,12 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... libft/ftoa/decimal_arithmetic.o"
-	@echo "... libft/ftoa/decimal_arithmetic.i"
-	@echo "... libft/ftoa/decimal_arithmetic.s"
-	@echo "... libft/ftoa/decimal_arithmetic2.o"
-	@echo "... libft/ftoa/decimal_arithmetic2.i"
-	@echo "... libft/ftoa/decimal_arithmetic2.s"
-	@echo "... libft/ftoa/decimal_arithmetic3.o"
-	@echo "... libft/ftoa/decimal_arithmetic3.i"
-	@echo "... libft/ftoa/decimal_arithmetic3.s"
-	@echo "... libft/ftoa/decimal_arithmetic4.o"
-	@echo "... libft/ftoa/decimal_arithmetic4.i"
-	@echo "... libft/ftoa/decimal_arithmetic4.s"
-	@echo "... libft/ftoa/decimal_arithmetic5.o"
-	@echo "... libft/ftoa/decimal_arithmetic5.i"
-	@echo "... libft/ftoa/decimal_arithmetic5.s"
-	@echo "... libft/ftoa/ftoa.o"
-	@echo "... libft/ftoa/ftoa.i"
-	@echo "... libft/ftoa/ftoa.s"
-	@echo "... libft/ftoa/ftoa2.o"
-	@echo "... libft/ftoa/ftoa2.i"
-	@echo "... libft/ftoa/ftoa2.s"
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
+	@echo "... src/checker.o"
+	@echo "... src/checker.i"
+	@echo "... src/checker.s"
 	@echo "... src/parser/error_and_free.o"
 	@echo "... src/parser/error_and_free.i"
 	@echo "... src/parser/error_and_free.s"
@@ -3525,9 +2835,6 @@ help:
 	@echo "... src/parser/parsing_utils2.o"
 	@echo "... src/parser/parsing_utils2.i"
 	@echo "... src/parser/parsing_utils2.s"
-	@echo "... src/push_swap.o"
-	@echo "... src/push_swap.i"
-	@echo "... src/push_swap.s"
 	@echo "... src/rules/rules_pp.o"
 	@echo "... src/rules/rules_pp.i"
 	@echo "... src/rules/rules_pp.s"
@@ -3543,6 +2850,9 @@ help:
 	@echo "... src/solver/ft_general_solver_ps.o"
 	@echo "... src/solver/ft_general_solver_ps.i"
 	@echo "... src/solver/ft_general_solver_ps.s"
+	@echo "... src/solver/ft_generals_solvers_utils2_ps.o"
+	@echo "... src/solver/ft_generals_solvers_utils2_ps.i"
+	@echo "... src/solver/ft_generals_solvers_utils2_ps.s"
 	@echo "... src/solver/ft_generals_solvers_utils_ps.o"
 	@echo "... src/solver/ft_generals_solvers_utils_ps.i"
 	@echo "... src/solver/ft_generals_solvers_utils_ps.s"

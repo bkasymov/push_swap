@@ -13,16 +13,11 @@ ft_isascii.c	ft_memalloc.c	ft_putendl.c	ft_strcpy.c	ft_strmapi.c	ft_strsub.c \
 ft_isdigit.c	ft_memccpy.c	ft_putendl_fd.c	ft_strdel.c	ft_strncat.c	ft_strtrim.c \
 ft_isprint.c	ft_memchr.c	ft_putnbr.c	ft_strdup.c	ft_strncmp.c	ft_tolower.c \
 ft_itoa.c	ft_memcmp.c	ft_putnbr_fd.c	ft_strequ.c	ft_strncpy.c	ft_toupper.c \
-ft_lstadd.c	ft_memcpy.c	ft_putstr.c	ft_striter.c	ft_strnequ.c \
+ft_lstadd.c	ft_memcpy.c	ft_putstr.c	ft_striter.c	ft_strnequ.c ft_num_word.c \
 ft_lstdel.c	ft_memdel.c	ft_putstr_fd.c	ft_striteri.c	ft_strnew.c ft_memdup.c\
 ft_lstappend.c ft_del.c ft_swap.c ft_swapint.c ft_minval_int.c ft_maxval_int.c \
 ft_bsort_int.c ft_min_int.c ft_max_int.c ft_print_array.c ft_array_subtract.c \
-ft_bbtree_utils.c get_next_line.c ft_itoa_base.c ft_strrev.c $(D_PR)/apply_spec.c \
-$(D_PR)/apply_spec2.c $(D_PR)/apply_spec3.c $(D_PR)/apply_spec4.c $(D_PR)/apply_spec5.c $(D_PR)/apply_spec6.c \
-$(D_PR)/arg_extractors.c $(D_PR)/arg_extractors2.c $(D_PR)/conv_int.c $(D_PR)/conv_int2.c $(D_PR)/conv_other.c \
-$(D_PR)/conv_wrappers_int.c $(D_PR)/conv_wrappers_int2.c $(D_PR)/conv_wrappers_other.c $(D_PR)/find_action.c \
-$(D_PR)/printf.c $(D_PR)/read_spec.c $(D_PR)/read_spec2.c $(D_FT)/decimal_arithmetic.c $(D_FT)/decimal_arithmetic2.c \
-$(D_FT)/decimal_arithmetic3.c $(D_FT)/decimal_arithmetic4.c $(D_FT)/decimal_arithmetic5.c $(D_FT)/ftoa.c $(D_FT)/ftoa2.c 
+ft_bbtree_utils.c get_next_line.c ft_itoa_base.c ft_strrev.c 
 endef
 
 OBJ = $(SRC:.c=.o)

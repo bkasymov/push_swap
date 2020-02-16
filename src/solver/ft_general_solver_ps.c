@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:50:29 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 13:20:47 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 18:47:49 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,17 +45,7 @@ void		ft_search_position(t_vars *psv, int *tmp, int *actions)
 			break ;
 	}
 	if (ft_search_small_element(psv, tmp, psv->stack_b->data))
-	{
-		while (psv->stack_a)
-		{
-			if (psv->stack_a->data < *tmp && \
-				psv->stack_a->data > psv->stack_b->data)
-				break ;
-			else
-				*actions = *actions + 1;
-			psv->stack_a = psv->stack_a->next;
-		}
-	}
+		ft_calculate_small_element(psv, tmp, actions);
 }
 
 /*
@@ -77,7 +67,7 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int min_oper)
 	tmp = 0;
 	actions = 0;
 	ft_search_position(psv, &tmp, &actions);
-	if (psv->stack_a->rotation == -1) //????? For what?
+	if (psv->stack_a->rotation == -1)
 		actions = psv->qa - actions;
 	if (min_oper == -1 || (psv->stack_b->step + actions) < min_oper)
 	{
@@ -103,7 +93,7 @@ int			ft__search_and_calc_position(t_vars *psv, t_pos *pos, int min_oper)
 
 void		ft_calc_place_for_insertion(t_vars *psv, t_pos *pos)
 {
-	int	acts;
+	int		acts;
 	t_stack	*save_a;
 	t_stack	*save_b;
 
@@ -137,8 +127,8 @@ void		ft_general_sort(t_vars *psv)
 
 	while (psv->qb != 0)
 	{
-	        pos.a_rote = 0;
-	        pos.b_rote = 0;
+		pos.a_rote = 0;
+		pos.b_rote = 0;
 		pos.a_shift = -1;
 		pos.b_shift = -1;
 		ft_calc_step(psv->stack_a, psv->qa);

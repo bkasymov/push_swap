@@ -25,7 +25,16 @@ int			ft_check_sym(char *str)
 	while (str[i] != '\0')
 	{
 		if ((ft_isdigit(str[i])) == 1 || (str[i] == ' ') || (str[i] == '-'))
-			i++;
+        {
+		    if (str[i] == '-')
+            {
+		        if (str[i] >= '0' && str[i] <= '9')
+		            i++;
+                else
+                    return (1);
+            }
+		    i++;
+        }
 		else
 			return (1);
 	}
@@ -41,13 +50,15 @@ int			ft_check_sym(char *str)
 
 int			ft_atoips(t_vars *psv, const char *str)
 {
-	size_t			i;
+	int			    i;
+	int             dec;
 	int				sym;
-	int				res;
+	long			res;
 
 	i = 0;
 	sym = 1;
 	res = 0;
+	dec = 0;
 	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\t'
 			|| str[i] == '\r' || str[i] == '\f' || str[i] == '\v')
 		i++;
@@ -58,8 +69,9 @@ int			ft_atoips(t_vars *psv, const char *str)
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		res = res * 10 + (str[i] - 48);
+		dec++;
 		i++;
-		if (i > 10 || (res * sym) < INT_MIN || (res * sym) > INT_MAX)
+		if (dec > 10 || (res * sym) < -2147483648 || (res * sym) > 2147483647)
 			error_print(psv, 0);
 	}
 	return (res * sym);
