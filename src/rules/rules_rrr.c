@@ -45,6 +45,8 @@ void		ft_rrb(t_vars *psv, int ps)
 	t_stack	*tmp;
 	t_stack	*last;
 
+	if (!psv->stack_b || psv->stack_b->next == NULL)
+		return ;
 	first = psv->stack_b;
 	last = psv->stack_b;
 	while (last->next->next != NULL)
@@ -60,8 +62,15 @@ void		ft_rrb(t_vars *psv, int ps)
 
 void		ft_rrr(t_vars *psv, int ps)
 {
-	ft_rra(psv, 1);
-	ft_rrb(psv, 1);
+    if (ps)
+    {
+        ft_rra(psv, 1);
+        ft_rrb(psv, 1);
+    } else
+    {
+        ft_rra(psv, 0);
+        ft_rrb(psv, 0);
+    }
 	psv->count += 1;
 	if (ps)
 		write(1, "rrr\n", 4);

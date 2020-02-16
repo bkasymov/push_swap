@@ -59,9 +59,14 @@ void		ft_sb(struct variables *psv, int ps)
 
 void		ft_ss(t_vars *psv, int ps)
 {
-	ft_sa(psv, 1);
-	ft_sb(psv, 1);
-	psv->count += 1;
+    if (ps) {
+        ft_sa(psv, 1);
+        ft_sb(psv, 1);
+    } else{
+        ft_sa(psv, 0);
+        ft_sb(psv, 0);
+    }
+    psv->count += 1;
 	if (ps)
 		write(1, "ss\n", 3);
 }

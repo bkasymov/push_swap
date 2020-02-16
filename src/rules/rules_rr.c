@@ -68,9 +68,17 @@ void		ft_rb(t_vars *psv, int ps)
 
 void		ft_rr(t_vars *psv, int ps)
 {
-	ft_ra(psv, 1);
-	ft_rb(psv, 1);
-	psv->count += 1;
+    if (ps)
+    {
+        ft_ra(psv, 1);
+        ft_rb(psv, 1);
+    }
+    else {
+
+        ft_ra(psv, 0);
+        ft_rb(psv, 0);
+    }
+    psv->count += 1;
 	if (ps)
 		write(1, "rr\n", 3);
 }

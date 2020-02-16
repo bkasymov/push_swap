@@ -120,6 +120,7 @@ add_executable(push_swap
         src/parser/error_and_free.c
         src/parser/ft_check_dupl.c
         src/parser/ft_check_sort.c
+        src/parser/init_array.c
         src/parser/parsing_utils.c
         src/parser/parsing_utils2.c
         src/rules/rules_pp.c
@@ -130,4 +131,4 @@ add_executable(push_swap
         src/solver/ft_generals_solvers_utils_ps.c
         src/solver/ft_quick_sort_arr.c
         src/solver/ft_solver_ps.c
-        src/push_swap.c src/parser/init_array.c)
+        src/push_swap.c)

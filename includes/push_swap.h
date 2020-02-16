@@ -67,6 +67,7 @@ void		            ft_check_dupl(t_vars *psv);
 void                    ft_init_lists(t_vars *psv, int mem);
 t_stack                 *ft_malloc_list(t_vars *psv, int mem);
 void                    ft_free_list(t_vars *psv, int a);
+int                     ft_check_sort_ch(t_vars *psv);
 int                     ft_check_sort(t_vars *psv);
 
 /*

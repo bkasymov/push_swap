@@ -23,21 +23,38 @@
 
 int			ft_check_sort(t_vars *psv)
 {
-	int		i;
-	int		j;
+    int		i;
+    int		j;
 
-	i = 0;
-	j = 0;
-	while (i < psv->qa - 1)
+    i = 0;
+    j = 0;
+    while (i < psv->qa - 1)
+    {
+        if (psv->arr[i] < psv->arr[i + 1])
+            j++;
+        i++;
+    }
+    if (i == j)
+    {
+        ft_free_list(psv, 1);
+        return (1);
+    }
+    return (0);
+}
+
+int			ft_check_sort_ch(t_vars *psv)
+{
+	t_stack *buff;
+	t_stack *first;
+
+	first = psv->stack_a;
+	buff = first;
+	while (buff->next != NULL)
 	{
-		if (psv->arr[i] < psv->arr[i + 1])
-			j++;
-		i++;
-	}
-	if (i == j)
-	{
-		ft_free_list(psv, 1);
-		return (1);
-	}
-	return (0);
+        if (buff->data < buff->next->data)
+            buff = buff->next;
+        else
+            return (0);
+    }
+	return (1);
 }

@@ -16,6 +16,7 @@ void		ft_free_list(t_vars *psv, int a)
 {
 	t_stack	*tmp;
 
+
 	while (psv->stack_a)
 	{
 		tmp = psv->stack_a;
@@ -44,6 +45,6 @@ void		error_print(t_vars *psv, int a)
 	if (a)
 		ft_free_list(psv, 1);
 	free(psv->arr);
-	write(2, "Error\n", 7);
+	write(1, "Error\n", 7);
 	exit(1);
 }
