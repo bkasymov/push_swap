@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/12 11:49:56 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/16 18:20:55 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 22:54:35 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 ** Rule ss do ft_sa and ft_sb in one time;
 */
 
-void		ft_sa(struct variables *psv, int ps)
+void		ft_sa(t_vars *psv, int ps)
 {
 	int		tmp;
 	t_stack	*link;
@@ -37,7 +37,7 @@ void		ft_sa(struct variables *psv, int ps)
 		write(1, "sa\n", 3);
 }
 
-void		ft_sb(struct variables *psv, int ps)
+void		ft_sb(t_vars *psv, int ps)
 {
 	int		tmp;
 	t_stack	*link;

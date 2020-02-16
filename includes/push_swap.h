@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/16 22:26:21 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/16 22:45:28 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 22:53:10 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ typedef struct			s_stacks
 	int					data;
 	int					step;
 	int					rotation;
-	struct stacks		*next;
+	struct s_stacks		*next;
 }						t_stack;
 
 /*
