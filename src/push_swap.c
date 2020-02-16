@@ -41,7 +41,7 @@ int			main(int argc, char **argv)
 		return (0);
 	ft_check_dupl(&psv);
 	ft_solver_ps(&psv);
-	ft_free_list(&psv, 1);
+	ft_free_list(&psv);
 	free(psv.arr);
 	return (0);
 }

@@ -74,7 +74,7 @@ int			main(int argc, char **argv)
 			write(1, "OK\n", 3);
 		else
 			write(1, "KO\n", 3);
-		ft_free_list(&chv, 0);
+		ft_free_list(&chv);
 		free(chv.arr);
 	}
 	return (0);

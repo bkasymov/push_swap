@@ -97,7 +97,7 @@ int			ft_args_in_1_string(char *str, t_vars *psv)
 		return (1);
 	split = ft_strsplit(str, ' ');
 	res = num_word(str, ' ');
-	ft_init_array(psv, res + 1, 0);
+	ft_init_array(psv, res + 1);
 	i = 0;
 	while (res > i)
 	{
@@ -128,7 +128,7 @@ int			ft_args_in_other_strings(char **argv, int argc, t_vars *psv)
 	while (argc > i)
 		if ((ft_check_sym(argv[i++])) == 1)
 			return (1);
-	if (ft_init_array(psv, argc, 1))
+	if (ft_init_array(psv, argc))
 		return (1);
 	i = 1;
 	while (argc > i)

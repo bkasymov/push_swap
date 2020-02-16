@@ -36,7 +36,7 @@ int			ft_check_sort(t_vars *psv)
 	}
 	if (i == j)
 	{
-		ft_free_list(psv, 1);
+		ft_free_list(psv);
 		return (1);
 	}
 	return (0);

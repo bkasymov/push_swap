@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/08 23:17:24 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/12 12:34:37 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 20:19:23 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,16 +25,16 @@ int			ft_check_sym(char *str)
 	while (str[i] != '\0')
 	{
 		if ((ft_isdigit(str[i])) == 1 || (str[i] == ' ') || (str[i] == '-'))
-        {
-		    if (str[i] == '-')
-            {
-		        if (str[i] >= '0' && str[i] <= '9')
-		            i++;
-                else
-                    return (1);
-            }
-		    i++;
-        }
+		{
+			if (str[i] == '-')
+			{
+				if (str[i] >= '0' && str[i] <= '9')
+					i++;
+				else
+					return (1);
+			}
+			i++;
+		}
 		else
 			return (1);
 	}
@@ -50,8 +50,8 @@ int			ft_check_sym(char *str)
 
 int			ft_atoips(t_vars *psv, const char *str)
 {
-	int			    i;
-	int             dec;
+	int				i;
+	int				dec;
 	int				sym;
 	long			res;
 

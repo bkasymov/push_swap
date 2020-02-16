@@ -1,5 +1,5 @@
-NAME1 = push_swap
-NAME2 = checker
+NAMEPS = push_swap
+NAMECH = checker
 
 CC = gcc
 
@@ -45,24 +45,24 @@ LIBFT = ./libft/libft.a
 $(LIBFT):
 	make -C libft
 
-all: $(LIBFT) $(NAME1) $(NAME2)
-
-$(NAME1): $(OBJS1) $(LIBFT)
-	$(CC) $(FLAGS) $(OBJS1) $(LIBFT_BIN) -o $@
-
-$(NAME2): $(OBJS2) $(LIBFT)
-	$(CC) $(FLAGS) $(OBJS2) $(LIBFT_BIN) -o $@
+all: $(LIBFT) $(NAMEPS) $(NAMECH)
 
 %.o: %.c
-	@$(CC) $(CFLAGS) $(HDR) $(LIBFT_HDR) -c $< -o $@
+	gcc $(FLAGS) $(HEAD) $(LIBFT_HEAD) -c $< -o $@
+
+$(NAMEPS): $(OBJS1) $(LIBFT)
+	gcc $(FLAGS) $(OBJS1) $(LIBFT_BIN) -o $@
+
+$(NAMECH): $(OBJS2) $(LIBFT)
+	gcc $(FLAGS) $(OBJS2) $(LIBFT_BIN) -o $@
 
 clean:
-	rm -f $(OBJS1) $(OBJS2)
+	/bin/rm -f $(OBJS1) $(OBJS2)
 	make -C ./libft fclean
 
 fclean: clean
-	rm -f $(NAME1)
-	rm -f $(NAME2)
+	/bin/rm -f $(NAMEPS)
+	/bin/rm -f $(NAMECH)
 
 re: fclean all
 

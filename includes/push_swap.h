@@ -2,12 +2,8 @@
 # define PUSH_SWAP
 
 # include "../libft/includes/libft.h"
-
 # include "stdlib.h"
 # include "unistd.h"
-
-# define INT_MAX 2147483648
-# define INT_MIN -2147483649
 
 typedef		struct      stacks
 {
@@ -51,7 +47,7 @@ int                     ft_general_parser(int argc, char **argv, t_vars *psv);
 void	                error_print(t_vars *psv, int a);
 int		                ft_atoips(t_vars *psv, const char *str);
 int		                ft_check_sym(char *str);
-int                     ft_init_array(t_vars *psv, int argc, int a);
+int                     ft_init_array(t_vars *psv, int argc);
 int		                ft_args_in_1_string(char *str, t_vars *psv);
 int                     ft_args_in_other_strings(char **argv, int argc, t_vars *psv);
 
@@ -67,7 +63,7 @@ void		            ft_check_dupl(t_vars *psv);
 
 void                    ft_init_lists(t_vars *psv, int mem);
 t_stack                 *ft_malloc_list(t_vars *psv, int mem);
-void                    ft_free_list(t_vars *psv, int a);
+void                    ft_free_list(t_vars *psv);
 int                     ft_check_sort_ch(t_vars *psv);
 int                     ft_check_sort(t_vars *psv);
 
@@ -132,12 +128,5 @@ int                     ft_search_small_element(t_vars *psv, int *data, int data
 void        ft_calculate_small_element(t_vars *psv, int *tmp, int *actions);
 void                    ft_performance_actions(t_vars *psv, t_pos *pos);
 void                    ft_align_in_order(t_vars *psv);
-
-
-/*
-** Checker funcions;
-*/
-
-
 
 #endif
