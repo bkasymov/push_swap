@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 15:40:39 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/16 18:22:53 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/16 21:42:55 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int			main(int argc, char **argv)
 	t_vars	psv;
 
 	psv.count = 0;
-	if (argc < 2)
+	if (argc < 3)
 		return (0);
 	if (((ft_general_parser(argc, argv, &psv)) == 1))
 		return (1);
