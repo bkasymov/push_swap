@@ -42,18 +42,22 @@ LIBFT_HEAD = -I ./libft/includes/libft.h
 LIBFT_BIN = -L./libft -lft
 LIBFT = ./libft/libft.a
 
-$(LIBFT):
-	make -C libft
+all: $(LIBFT) ./libft/libft.a  $(NAMEPS) $(NAMECH)
 
-all: $(LIBFT) $(NAMEPS) $(NAMECH)
+FORCE:		;
+
+LIBFT		= ./libft/libft.a
+
+$(LIBFT):		FORCE
+	@make -C libft
 
 %.o: %.c
 	gcc $(FLAGS) $(HEAD) $(LIBFT_HEAD) -c $< -o $@
 
-$(NAMEPS): $(OBJS1) $(LIBFT)
+$(NAMEPS): $(OBJS1) $(LIBFT) ./includes/push_swap.h
 	gcc $(FLAGS) $(OBJS1) $(LIBFT_BIN) -o $@
 
-$(NAMECH): $(OBJS2) $(LIBFT)
+$(NAMECH): $(OBJS2) $(LIBFT) ./includes/push_swap.h
 	gcc $(FLAGS) $(OBJS2) $(LIBFT_BIN) -o $@
 
 clean:
