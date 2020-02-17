@@ -54,6 +54,7 @@ int					ft_isdigit(int c);
 int					ft_isascii(int c);
 int					ft_isalpha(int c);
 int					ft_isalnum(int c);
+void				avoid_leaks(char **res, int nlinks);
 int					ft_num_word(char const *s, char c);
 int					num_word(char const *s, char c);
 void				*ft_memalloc(size_t size);

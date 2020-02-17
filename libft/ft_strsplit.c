@@ -6,7 +6,7 @@
 /*   By: dpenney <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/19 00:51:13 by dpenney           #+#    #+#             */
-/*   Updated: 2020/02/16 17:10:06 by dpenney          ###   ########.fr       */
+/*   Updated: 2020/02/17 16:36:50 by dpenney          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ static size_t			len_of_next(const char *src, char sep)
 	return (len);
 }
 
-static void				avoid_leaks(char **res, int nlinks)
+void					avoid_leaks(char **res, int nlinks)
 {
 	while (nlinks > 0)
 		free(res[nlinks--]);
