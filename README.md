@@ -1,16 +1,17 @@
-
+# Project Push_Swap
+## Goal
 The goal of this project is to sort numbers on a stack using one auxillary
 stack with a limited set of instructions. Numbers given as arguments get loaded
 to the first stack.
 
 As a result, the first stack must be sorted and the second stack must be empty.
 
-### push_swap program
+## push_swap program
 
 Push_swap takes a list of numbers as arguments and prints out a list of
 instructions.
 
-#### Instructions
+## Instructions
 
 | Code | Name             | Description                                       |
 |------|------------------|---------------------------------------------------|
@@ -26,7 +27,7 @@ instructions.
 | pa   | push to A        | Push top element of stack B to the top of stack A |
 | pb   | push to B        | Push top element of stack A to the top of stack B |
 
-#### Example
+## Example
 ```
 $> ./push_swap 3 4 2 1 5
 rra
@@ -40,12 +41,12 @@ pa
 ra
 ```
 
-### checker program
+## checker program
 Checker takes a list of number as argument and reads instructions from stdin.
 It prints out OK if the instructions are correct (the first stack is sorted and
 the second stack is empty) or KO otherwise.
 
-#### Example
+## Example
 ```
 $> ./push_swap 3 4 2 1 5 | ./checker 3 4 2 1 5
 OK
@@ -57,5 +58,5 @@ pb
 KO
 ```
 
-### Alrorithm
+## Alrorithm
 The stack is being sorted using insertion sort algorithm.
